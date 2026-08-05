@@ -60,10 +60,6 @@ worth telling you.
 Serial bedtime stories, remembered chapter to chapter, illustrated, read aloud in
 a voice that slows to a whisper by the end.
 
-### The whole house can have her
-She learns who's speaking and answers each of you as yourself, with sensible
-limits for children.
-
 ### She can go and concentrate
 Ask her to work through forty files and she sends *a hand* to do the reading and
 comes back with the answer. It has no name and never talks to you — only EMMA
@@ -73,13 +69,24 @@ speaks.
 *"Tell me when that changes."* She checks quietly in the background and only
 comes back when it actually has.
 
-### Your other tools can ask her
-Editors and coding assistants on your machine can ask *your* EMMA who you are,
-and the answer never leaves your disk.
+---
 
-### Skills you can pass on
-Teach her how you do something, then send it to a friend as a file. Their EMMA
-learns it too.
+## 🔬 Built, but you can't reach it yet
+
+I'd rather list these here than quietly leave them in the shipped section — they
+were in it until I checked, and that was wrong of me.
+
+Three things are finished underneath and have no way in from the app yet. The
+work that's left on each is a screen, not the feature:
+
+| | |
+|---|---|
+| **Voice recognition** | She can tell who's speaking, but there's no way to enrol your voice yet, and the speech model it needs isn't published for download. |
+| **Passing skills to a friend** | Teaching her how you do something works today, in conversation. Saving that out as a file and handing it to someone else doesn't — it exists, but nothing in the app calls it. |
+| **Letting your other tools ask her** | Your editor or coding assistant being able to ask your EMMA who you are is built and switched off by default, with no switch to turn it on. |
+
+If you bought her for one of these, tell me and it jumps the queue. Nobody should
+be paying for something they can't get to.
 
 ---
 
@@ -91,6 +98,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Buying her** | Payments aren't switched on yet — she's free to use meanwhile. |
+| **A way in to the three above** | The features are done; they need somewhere to live in the app. This is the top of my list. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered
