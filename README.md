@@ -148,8 +148,11 @@ system's own keychain.
 **She never updates herself.** She'll tell you there's a new version; nothing is
 downloaded or replaced until you press the button.
 
-There's exactly one exception, and she asks first: voice recognition needs some
-extra software, so she offers to fetch it and tells you how big it is.
+The one thing she'd ever download is the speech model for voice recognition —
+about a gigabyte, which is why it isn't inside the installer. **It isn't
+published yet**, so today there's nothing for her to fetch and voice recognition
+can't be switched on at all. When it is, she'll ask first and tell you the size
+before anything starts.
 
 ## What you'd actually own
 
