@@ -76,14 +76,15 @@ comes back when it actually has.
 I'd rather list these here than quietly leave them in the shipped section — they
 were in it until I checked, and that was wrong of me.
 
-Three things are finished underneath and have no way in from the app yet. The
-work that's left on each is a screen, not the feature:
+Three things are finished underneath and have no way in from the app **in the
+version you can download today**. The screens are built now and go out in the
+next release; voice recognition needs one more thing on top, noted below.
 
 | | |
 |---|---|
-| **Voice recognition** | She can tell who's speaking, but there's no way to enrol your voice yet, and the speech model it needs isn't published for download. |
-| **Passing skills to a friend** | Teaching her how you do something works today, in conversation. Saving that out as a file and handing it to someone else doesn't — it exists, but nothing in the app calls it. |
-| **Letting your other tools ask her** | Your editor or coding assistant being able to ask your EMMA who you are is built and switched off by default, with no switch to turn it on. |
+| **Voice recognition** | The enrolment screen is built. Still waiting on the speech model itself being published — until that's up it can't work, screen or no screen. |
+| **Passing skills to a friend** | Teaching her works today, in conversation. Saving one out as a file and handing it over is built and lands in the next release — export on each skill, and an import that only ever *adds*, so nothing you wrote is overwritten. |
+| **Letting your other tools ask her** | Built, and it has a switch now — plus the config to paste into your editor. Next release. |
 
 If you bought her for one of these, tell me and it jumps the queue. Nobody should
 be paying for something they can't get to.
@@ -98,7 +99,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Buying her** | Payments aren't switched on yet — she's free to use meanwhile. |
-| **A way in to the three above** | The features are done; they need somewhere to live in the app. This is the top of my list. |
+| **The voice model** | The one thing still blocking voice recognition outright. It has to be built and published per platform before anyone can use it, and that's on me. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered
