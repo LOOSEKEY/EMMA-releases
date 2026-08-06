@@ -139,8 +139,12 @@ machine and nowhere else. Unplug the network and she carries on.
 you can read yourself. There's a dial for how much she may do on her own, folders
 she can never touch no matter what you ask, an undo, and a panic key.
 
-**Her memory is encrypted** where it sits, with the key in your operating
-system's own keychain.
+**Her memory can be encrypted** where it sits — AES-256, with the key in your
+operating system's own keychain, so a stolen copy of the database is unreadable.
+It's one switch in Settings. *In the version you can download today it starts
+**off**, which I'd been describing as though it were on; from the next release a
+new install encrypts itself from the first moment, and an existing one is left
+alone unless you turn it on.*
 
 **She's yours to take back.** Make her forget a subject, or export her whole brain
 — every memory, her identity, all of it — as one file you keep.
