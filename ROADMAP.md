@@ -76,9 +76,9 @@ comes back when it actually has.
 I'd rather list these here than quietly leave them in the shipped section — they
 were in it until I checked, and that was wrong of me.
 
-Three things are finished underneath and have no way in from the app **in the
-version you can download today**. The screens are built now and go out in the
-next release; voice recognition needs one more thing on top, noted below.
+These are finished underneath and have no way in from the app **in the version
+you can download today**. The screens are built now and go out in the next
+release; voice recognition needs one more thing on top, noted below.
 
 | | |
 |---|---|
@@ -86,7 +86,29 @@ next release; voice recognition needs one more thing on top, noted below.
 | **Passing skills to a friend** | Teaching her works today, in conversation. Saving one out as a file and handing it over is built and lands in the next release — export on each skill, and an import that only ever *adds*, so nothing you wrote is overwritten. |
 | **Letting your other tools ask her** | Built, and it has a switch now — plus the config to paste into your editor. Next release. |
 
-If you bought her for one of these, tell me and it jumps the queue. Nobody should
+**And then I went looking properly, and found ten more.** Same problem, further
+down: finished, tested, written about — and with no switch anywhere in the app, so
+they were off for everybody and always would have been. That's worse than the
+three above, because at least I knew about those.
+
+They all have switches in the next release. Every one is **off until you turn it
+on**, and half of them are cameras, microphones or the open internet, so none of
+them will start doing anything because you updated.
+
+| | |
+|---|---|
+| **The air in the room** | With a USB CO₂ monitor, *"why do I feel foggy at 3pm?"* gets a real answer. No sensor, no guessing. |
+| **The posture nudge** | An occasional webcam glance. No picture is ever written down — she keeps a verdict, not an image. |
+| **Who's home** | From devices you register by hand. Everything else on the network is counted, never identified. |
+| **Research while you sleep** | Reading the web overnight, unattended. Deliberately a different switch from *"search when I ask"*. |
+| **Noticing you've changed your mind** | Years apart you'll say two opposite things. She'll ask about it once, and never deletes either version. |
+| **A second, smaller brain** | Letting her hand a narrow job to a model that's better at it. Every route recorded, so what's answering you is never a mystery. |
+| **Growing to fit you** | Overnight training on *your corrections* — not your chat, which would only teach her to imitate you. Needs a real GPU. |
+| **Keeping meeting audio** | Normally the recording is destroyed the moment it's transcribed. This keeps it, if you'd rather. |
+| **Your calendar folders** | She already checks the usual places; this points her somewhere specific. Local files only — she'll refuse a web address. |
+| **A picture generator** | Point her at AUTOMATIC1111, SD.Next or Forge if you run one. Nothing is bundled or installed for you. |
+
+If you bought her for any of these, tell me and it jumps the queue. Nobody should
 be paying for something they can't get to.
 
 ---
@@ -99,7 +121,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Buying her** | Payments aren't switched on yet — she's free to use meanwhile. |
-| **The voice model** | The one thing still blocking voice recognition outright. It has to be built and published per platform before anyone can use it, and that's on me. |
+| **The voice model** | The one thing still blocking voice recognition outright. It's ~1GB of speech libraries, which is why it isn't inside the installer — she fetches it once, only if you ask, and checks it against a fingerprint built into the app. It has to be published per platform first, and that's on me. It used to need four different computers and me not making a mistake on any of them; it's now one automated build, which is the only reason I'm confident about it. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered

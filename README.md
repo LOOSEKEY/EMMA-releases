@@ -75,8 +75,9 @@ wakes with something to tell you.
 📖 **She tells stories** — serial bedtime stories she remembers chapter to
 chapter, illustrated, in a sleepy voice.
 
-👨‍👩‍👧 **The whole house can have her** — she knows who's speaking and answers
-each of you as yourself.
+👨‍👩‍👧 **The whole house can have her** — kid mode with a bedtime and a PIN, study
+mode, flashcards, and stories the children actually ask for. *(Telling voices
+apart is built but not switched on yet — see the [roadmap](ROADMAP.md).)*
 
 ## Get her
 
