@@ -108,9 +108,9 @@ Being straight with you, because I'd want the same:
 
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
-- **You can't buy her yet.** I'm part-way through switching banks, so payments
-  aren't switched on. It'll be **£149 once, yours forever.** Until then she's free
-  to use, and I'd rather people had her than sat on a list.
+- **You can't buy her yet.** Payments aren't switched on — the last few steps are
+  in progress. It'll be **£149 once, yours forever.** Until then she's free to use,
+  and I'd rather people had her than sat on a list.
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
