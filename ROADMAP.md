@@ -69,20 +69,31 @@ speaks.
 *"Tell me when that changes."* She checks quietly in the background and only
 comes back when it actually has.
 
+### Her memory is locked, and you hold the key
+As of 0.6.5 a new install encrypts her brain on disk from the first moment —
+AES-256, key in your operating system's keychain — instead of waiting for you to
+find a switch. Settings shows you a **recovery key** and keeps asking until you
+confirm you've saved it somewhere off the machine. That nag is deliberate: your
+keychain holds the only other copy, and her daily backups are encrypted with it
+too, so if the keychain is ever reset that written-down key is the way back to
+all of it. An existing brain is never touched unless you turn encryption on
+yourself.
+
 ---
 
-## 🔬 Built, but you can't reach it yet
+## ✅ The ones that had no way in — all reachable now
 
 I'd rather list these here than quietly leave them in the shipped section — they
 were in it until I checked, and that was wrong of me.
 
-These are finished underneath and have no way in from the app **in the version
-you can download today**. The screens are built now and go out in the next
-release; voice recognition needs one more thing on top, noted below.
+**Everything in this section is now in the app you can download.** It was the
+low point of this project: finished, tested features with no button anywhere,
+which for anyone actually using EMMA is the same as not existing. They're all
+reachable, and every one is **off until you turn it on**.
 
 | | |
 |---|---|
-| **Voice recognition** | The enrolment screen is built. Still waiting on the speech model itself being published — until that's up it can't work, screen or no screen. |
+| **Voice recognition** | Working as of 0.6.6. Say hello and she knows it's you — everyone in the house gets their own EMMA rather than one assistant treating the room as one person. She keeps a mathematical fingerprint of a voice, never a recording, and nobody is recognised until they enrol on purpose. The speech libraries are a separate ~250MB download she asks about first and checks against a fingerprint built into the app. **Windows, Linux and Apple Silicon Macs.** Not Intel Macs — see below. |
 | **Passing skills to a friend** | Teaching her works today, in conversation. Saving one out as a file and handing it over is built and lands in the next release — export on each skill, and an import that only ever *adds*, so nothing you wrote is overwritten. |
 | **Letting your other tools ask her** | Built, and it has a switch now — plus the config to paste into your editor. Next release. |
 
@@ -91,9 +102,9 @@ down: finished, tested, written about — and with no switch anywhere in the app
 they were off for everybody and always would have been. That's worse than the
 three above, because at least I knew about those.
 
-They all have switches in the next release. Every one is **off until you turn it
-on**, and half of them are cameras, microphones or the open internet, so none of
-them will start doing anything because you updated.
+They all have switches now. Every one is **off until you turn it on**, and half
+of them are cameras, microphones or the open internet, so none of them started
+doing anything because you updated.
 
 | | |
 |---|---|
@@ -121,7 +132,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Buying her** | Payments aren't switched on yet — she's free to use meanwhile. |
-| **The voice model** | The one thing still blocking voice recognition outright. It's ~1GB of speech libraries, which is why it isn't inside the installer — she fetches it once, only if you ask, and checks it against a fingerprint built into the app. It's now built automatically rather than by hand on four machines, and it's been built and tested successfully for **Windows, Linux and Apple Silicon Macs** — publishing it is the last step and that's on me. **Intel Macs are the exception and I don't think that will change:** one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so I can't make a package that would work. Everything else in EMMA works on those machines exactly as before. |
+| **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered
