@@ -139,12 +139,18 @@ machine and nowhere else. Unplug the network and she carries on.
 you can read yourself. There's a dial for how much she may do on her own, folders
 she can never touch no matter what you ask, an undo, and a panic key.
 
-**Her memory can be encrypted** where it sits — AES-256, with the key in your
+**Her memory is encrypted** where it sits — AES-256, with the key in your
 operating system's own keychain, so a stolen copy of the database is unreadable.
-It's one switch in Settings. *In the version you can download today it starts
-**off**, which I'd been describing as though it were on; from the next release a
-new install encrypts itself from the first moment, and an existing one is left
-alone unless you turn it on.*
+A new install does this from the first moment. An existing one is left exactly as
+it is unless you turn it on yourself.
+
+**Write your recovery key down.** When encryption is on, Settings shows you a key
+and keeps asking until you confirm you've saved it somewhere that isn't this
+computer — a photo on your phone, paper in a drawer. Your keychain holds the only
+other copy, so if it's ever reset or replaced, that written key is the way back
+into her memory. Her daily backups stay encrypted too, so they need it as well.
+Everything else here is built so you can't lose her; this one is genuinely on
+you, and it takes thirty seconds.
 
 **She's yours to take back.** Make her forget a subject, or export her whole brain
 — every memory, her identity, all of it — as one file you keep.
@@ -153,10 +159,12 @@ alone unless you turn it on.*
 downloaded or replaced until you press the button.
 
 The one thing she'd ever download is the speech model for voice recognition —
-about a gigabyte, which is why it isn't inside the installer. **It isn't
-published yet**, so today there's nothing for her to fetch and voice recognition
-can't be switched on at all. When it is, she'll ask first and tell you the size
-before anything starts.
+about a quarter of a gigabyte, which is why it isn't inside the installer. She
+asks first, tells you the size before anything starts, and checks what arrives
+against a fingerprint built into the app before she'll use it. **Windows, Linux
+and Apple Silicon Macs.** On an Intel Mac she'll tell you it isn't available and
+leave the button alone — one of the libraries underneath it no longer builds for
+those machines. Everything else in EMMA works there exactly as it does anywhere.
 
 ## What you'd actually own
 
