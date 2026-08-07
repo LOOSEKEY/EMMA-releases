@@ -94,8 +94,8 @@ reachable, and every one is **off until you turn it on**.
 | | |
 |---|---|
 | **Voice recognition** | Working as of 0.6.6. Say hello and she knows it's you — everyone in the house gets their own EMMA rather than one assistant treating the room as one person. She keeps a mathematical fingerprint of a voice, never a recording, and nobody is recognised until they enrol on purpose. The speech libraries are a separate ~250MB download she asks about first and checks against a fingerprint built into the app. **Windows, Linux and Apple Silicon Macs.** Not Intel Macs — see below. |
-| **Passing skills to a friend** | Teaching her works today, in conversation. Saving one out as a file and handing it over is built and lands in the next release — export on each skill, and an import that only ever *adds*, so nothing you wrote is overwritten. |
-| **Letting your other tools ask her** | Built, and it has a switch now — plus the config to paste into your editor. Next release. |
+| **Passing skills to a friend** | Working as of 0.6.5. Teach her how you do something, then export that skill as a file and send it to a friend — their EMMA learns it too. Import only ever *adds*, so nothing you taught her yourself is overwritten. |
+| **Letting your other tools ask her** | Working as of 0.6.5. Point Claude Code, Cursor or Zed at your EMMA and they can ask *her* who you are and what you decided, without any of it leaving your machine. Read-only — nothing on the other end can change her memory or act on your computer. Off until you turn it on, and there's a switch plus the config to paste into your editor. |
 
 **And then I went looking properly, and found ten more.** Same problem, further
 down: finished, tested, written about — and with no switch anywhere in the app, so
