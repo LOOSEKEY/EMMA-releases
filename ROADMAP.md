@@ -47,6 +47,12 @@ Files, folders, apps, commands, the browser. She says what she's about to do
 mouse. There's a dial for how much she's allowed to do on her own, folders she
 can never touch no matter what you ask her, an undo, and a panic key.
 
+*On **ASK FIRST**, the dial means what it says as of 0.6.8: she asks before
+anything that puts something on your disk. Before that, creating a folder
+slipped through unasked — an empty folder harms nothing, so it had been
+classed as not worth interrupting you for. That was the wrong call: the dial is
+about consent, not harm. Her own activity log is what caught it.*
+
 ### She talks
 Several voices. Hands-free conversation, interrupt her mid-sentence like you
 would a person, and a quieter voice after midnight.
