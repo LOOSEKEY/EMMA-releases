@@ -23,6 +23,9 @@ will quietly turn out to be a bad idea. If you're deciding whether to buy EMMA,
 **buy her for what she does today** — everything in *Shipped* is in your hands
 right now.
 
+*(Buying opened on 10 August 2026 — £149 once, at [ownemma.com](https://ownemma.com).
+The 60-day trial hasn't changed, so nothing here needs deciding in a hurry.)*
+
 **And it's one person.** Me. That's the whole team. It means I can build a
 feature the week you ask for it; it also means I can only build one thing at a
 time. I'd rather you knew which of those you were dealing with.
@@ -131,7 +134,6 @@ Short list on purpose. These are the things I think are most likely to matter.
 | | |
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
-| **Buying her** | Payments aren't switched on yet — she's free to use meanwhile. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 

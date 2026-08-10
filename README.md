@@ -77,7 +77,9 @@ chapter, illustrated, in a sleepy voice.
 
 👨‍👩‍👧 **The whole house can have her** — kid mode with a bedtime and a PIN, study
 mode, flashcards, and stories the children actually ask for. *(Telling voices
-apart is built but not switched on yet — see the [roadmap](ROADMAP.md).)*
+apart works as of 0.6.6 — everyone in the house gets their own EMMA rather than
+one assistant treating the room as one person. Not on Intel Macs; see the
+[roadmap](ROADMAP.md).)*
 
 ## Get her
 
@@ -102,15 +104,19 @@ Free for **60 days**, everything unlocked, no account and no card. If the trial
 runs out before you've decided, she doesn't vanish or hold anything hostage — she
 keeps talking, keeps remembering, and you can export every last thing she knows.
 
+Made your mind up? **[Buy her once for £149](https://ownemma.com)** — yours
+forever, and buying later picks up exactly where your trial left off.
+
 ## Where the project is right now
 
 Being straight with you, because I'd want the same:
 
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
-- **You can't buy her yet.** Payments aren't switched on — the last few steps are
-  in progress. It'll be **£149 once, yours forever.** Until then she's free to use,
-  and I'd rather people had her than sat on a list.
+- **You can buy her** — **£149 once, yours forever**, at
+  [ownemma.com](https://ownemma.com). No subscription and no account. The 60-day
+  trial is still there and still everything unlocked, so there's no reason to
+  decide before you've lived with her.
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
@@ -168,7 +174,7 @@ those machines. Everything else in EMMA works there exactly as it does anywhere.
 
 ## What you'd actually own
 
-£149 once, when buying opens. Not a subscription — I'm not renting you an AI.
+**[£149 once](https://ownemma.com).** Not a subscription — I'm not renting you an AI.
 
 - **EMMA 1.x is yours forever**, every 1.x update included.
 - **Security fixes for at least two years** beyond any future major version.
