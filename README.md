@@ -8,6 +8,7 @@
   <a href="https://ownemma.com"><b>ownemma.com</b></a> ·
   <a href="../../releases/latest"><b>⬇️ Download</b></a> ·
   <a href="https://discord.gg/NEuWujf45u"><b>Discord</b></a> ·
+  <a href="MANUAL.md"><b>Manual</b></a> ·
   <a href="https://ownemma.com/help"><b>Help</b></a> ·
   <a href="ROADMAP.md"><b>Roadmap</b></a>
 </p>
