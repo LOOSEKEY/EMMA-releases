@@ -198,8 +198,8 @@ Everything under the ☰ menu, in menu order:
 | **Letters** | A time capsule to your future self, and her yearly letter to you |
 | **Skills** | What she's learned to do. Export one as a file and a friend's EMMA learns it too. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
-| **Activity insights** | Patterns in what she's been doing |
-| **Manage models** | Install, remove and switch models |
+| **Insights** | Patterns in what she's been doing |
+| **Models** | Install, remove and switch models |
 | **Settings** | See §7 |
 | **MCP connections** | See §11 |
 
