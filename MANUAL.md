@@ -114,11 +114,26 @@ of it, edit it, and delete it.
 
 | Section | What's in it |
 |---|---|
+| **Things I want to check** | Memories that may have stopped being true. Appears only when she has a question. |
 | **Conversations** | Everything ever said, searchable |
 | **What EMMA knows about you** | The facts she's gathered. Add your own, delete any. |
 | **Who EMMA is becoming** | Her notes on herself |
 | **Soul File** | Her entire brain as one file — export or import |
 | **Forget** | Two ways to make her forget, below |
+
+### Things I want to check
+
+A memory that's years old has one failure mode nothing else does: it remembers
+things that **stopped being true**. You moved. You quit. You changed your mind.
+
+So she reads back over what she knows while you sleep, and when two things
+collide she raises it — *"you told me you were vegetarian last year, still
+true?"* — with both versions shown side by side. **She asks; she never edits.**
+She can't know which one is right, so she doesn't guess.
+
+Three answers, and *"both are true"* is a real one — people genuinely do contain
+multitudes. Answering is the only place in EMMA where a fact is forgotten
+because *you* said so.
 
 ### Making her forget
 
@@ -195,8 +210,9 @@ Everything under the ☰ menu, in menu order:
 | **Podcast** | A two-voice audio overview she makes of anything |
 | **Photos** | Find a picture by describing it |
 | **Video** | Drop a video and ask her about it |
-| **Letters** | A time capsule to your future self, and her yearly letter to you |
-| **Skills** | What she's learned to do. The **⤓** on a row exports that one as a file, and a friend's EMMA can import it. People swap them in Discord `#skills`. |
+| **Letters** | A time capsule to your future self, her yearly letter to you, and the almanac — predictions for the year, sealed until next January |
+| **Rehearsal room** | Practise the hard conversation — she plays the other person, then steps out of it and tells you honestly how you did. Or "argue me out of this", and she takes the other side properly. Nothing said in here is remembered. |
+| **Skills** | What she's learned to do. The **⤓** on a row exports that one as a file, and a friend's EMMA can import it. People swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
 | **Insights** | Patterns in what she's been doing |
 | **Models** | Install, remove and switch models |
