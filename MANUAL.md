@@ -196,7 +196,7 @@ Everything under the ☰ menu, in menu order:
 | **Photos** | Find a picture by describing it |
 | **Video** | Drop a video and ask her about it |
 | **Letters** | A time capsule to your future self, and her yearly letter to you |
-| **Skills** | What she's learned to do. Export one as a file and a friend's EMMA learns it too. |
+| **Skills** | What she's learned to do. The **⤓** on a row exports that one as a file, and a friend's EMMA can import it. People swap them in Discord `#skills`. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
 | **Insights** | Patterns in what she's been doing |
 | **Models** | Install, remove and switch models |
@@ -384,8 +384,8 @@ She will never update herself behind your back.
 Both of these reach the person who built her:
 
 - **[The EMMA Discord](https://discord.gg/NEuWujf45u)** — install help in
-  `#install`, everything else in `#chat`. Fastest, and someone else may have hit
-  the same thing.
+  `#install`, skills people are passing around in `#skills`, everything else in
+  `#chat`. Fastest, and someone else may have hit the same thing.
 - **loosekeyz84@proton.me** — anything at all, including "this is broken".
 
 Security problems: **Gregorymoores@proton.me**, and please not a public issue.
