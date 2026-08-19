@@ -76,6 +76,11 @@ wakes with something to tell you.
 📖 **She tells stories** — serial bedtime stories she remembers chapter to
 chapter, illustrated, in a sleepy voice.
 
+📧 **She handles your inbox** — reads your email straight from your machine
+(Proton via Bridge, or Gmail with an app password), folds what's waiting into the
+morning briefing, and drafts replies in your voice. Reading and sending are
+separate switches, and sending is off.
+
 👨‍👩‍👧 **The whole house can have her** — kid mode with a bedtime and a PIN, study
 mode, flashcards, and stories the children actually ask for. *(Telling voices
 apart works as of 0.6.6 — everyone in the house gets their own EMMA rather than

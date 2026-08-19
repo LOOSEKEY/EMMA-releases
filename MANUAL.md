@@ -52,6 +52,8 @@ Left to right:
 
 | Control | What it does |
 |---|---|
+| **Chats** | Your conversation threads — pick one up again, or browse back |
+| **Clear chat** | Starts a fresh thread. Your **memory is untouched** — this clears the screen, not what she knows |
 | **Memory** | What she knows about you — see §4 |
 | **Notifications** | What she did while you were away |
 | **Dreams** | Overnight thinking — see §8 |
@@ -115,11 +117,13 @@ of it, edit it, and delete it.
 | Section | What's in it |
 |---|---|
 | **Things I want to check** | Memories that may have stopped being true. Appears only when she has a question. |
-| **Conversations** | Everything ever said, searchable |
 | **What EMMA knows about you** | The facts she's gathered. Add your own, delete any. |
 | **Who EMMA is becoming** | Her notes on herself |
-| **Soul File** | Her entire brain as one file — export or import |
+| **Soul File** | Her entire brain as one file — **Export brain** or **Import…**. She also keeps a quiet daily copy of the whole thing (the last 7), and **Back up now** takes one on the spot. |
 | **Forget** | Two ways to make her forget, below |
+
+*Looking for everything ever said? That's two other places: **Chats** in the top
+bar for your threads, and **Her world → Search** to search across years.*
 
 ### Things I want to check
 
@@ -180,7 +184,7 @@ Two things sit **above** the dial and apply even on Full:
 And two ways back:
 
 - **Stop** — halts her mid-task.
-- **Undo** — reverses file changes she made. In the memory panel, under
+- **Undo** — reverses file changes she made. In **Her world → Activity**, under
   *Reversible changes*.
 
 **Watch me (computer use)** in Settings lets her see and drive the screen. She
@@ -223,17 +227,29 @@ Everything under the ☰ menu, in menu order:
 
 ## 7. Settings
 
-**Her world → Settings.** Everything below is off unless you turn it on.
+**Her world → Settings.** Everything below is off unless you turn it on, and
+this is the order you'll meet them in on screen.
 
-### Appearance and voice
+### The top of the panel
 
 - **How she looks** — dark or light, and the colour she's drawn in.
 - **Her voice** — which voice she speaks in.
 - **Family voices** — a voice per person. Consent is required and recorded.
+- **Kid mode** — a restricted EMMA with a bedtime. See §9.
+- **Encrypt memory at rest** — AES-256, and your recovery key. See §4.
+- **Let her remember the screen** — she can see what's on it.
+- **Let her hear the room** — ambient listening, with a *Forget what she's
+  holding* button.
+- **Check for updates** — see §14.
+- **License** — your key, and what's left of your trial. See §14.
+- **Watch me (computer use)** — lets her see and drive the screen. She says what
+  she's about to do before she does it, and hands control straight back the
+  moment you touch the mouse.
 - **Knowing who's speaking** — she recognises enrolled voices and greets each
   person as themselves. Needs a one-time voice-model download (about a quarter of
   a gigabyte, checksummed, and only fetched when you click). Not available on
   Intel Macs.
+- **Let your other tools ask her** — see §11.
 
 ### Her senses
 
@@ -244,9 +260,6 @@ Everything under the ☰ menu, in menu order:
 - **Who's home** — from devices you registered by hand. Everything else on the
   network is counted, never identified. Optionally goes discreet when a guest
   arrives.
-- **Let her remember the screen** — she can see what's on it.
-- **Let her hear the room** — ambient listening, with a *Forget what she's
-  holding* button.
 
 ### What she may do without asking
 
@@ -267,15 +280,15 @@ Everything under the ☰ menu, in menu order:
 - **Picture generator** — point her at AUTOMATIC1111, SD.Next or Forge if you run
   one.
 
+### Your email
+
+- **Let her read your email** and **Let her send email as you** — two separate
+  switches, and sending is off. See §10.
+
 ### Protected paths
 
 Folders she may never touch, at any dial position. Credentials and key stores are
 in there already. Add your own.
-
-### Also in here
-
-**Kid mode** and bedtime · **Encrypt memory at rest** and your recovery key ·
-**Watch me (computer use)** · **Check for updates** · **Licence**.
 
 ---
 
@@ -285,7 +298,24 @@ Turn it on before bed. Overnight she goes back over what you've talked about,
 joins up things you said months apart, and has something worth saying in the
 morning.
 
-The **Dreams** panel in the top bar holds:
+Everything is in the **Dreams** panel in the top bar. The switches, in order:
+
+- **Dream Mode** — the master switch. She sleeps on the day when you open her in
+  the morning.
+- **Dream journal** — she also writes a short, surreal entry. She's allowed to be
+  weird in here.
+- **Mood** — she gently senses the emotional tenor of your days. Private, and
+  never shown to anyone.
+- **Rituals** — a morning stand-up and an evening wind-down card, bookending your
+  day.
+- **Dream automatically overnight, around ‹hour›** — so she's already dreamt
+  when you wake, rather than dreaming while you wait. This runs while EMMA is up;
+  to dream with the window closed, install the background service
+  (`desktop/install.sh --service`).
+- **Whisper after dark** — softens her spoken replies between the hours you set.
+- **Sleep on it now** — don't wait for tonight.
+
+And what she leaves you:
 
 - **On this day** — what was happening a year ago
 - **Sleep on a problem** — hand her something before bed, get her thinking on it
@@ -390,8 +420,11 @@ Your licence is checked on your own machine, with no server involved. **14-day
 no-questions refund.**
 
 **Updates never happen on their own.** Settings → *Check for updates* → **Check
-now**. If there's one, pressing Update downloads and runs the installer for you.
-She will never update herself behind your back.
+now**. If there's one, pressing **Update** downloads the installer, checks it
+against the checksum published in the release notes, and starts it. On Windows
+and the Linux AppImage she closes and comes back on the new version; a `.deb` or
+a Mac `.dmg` opens in your own system's installer for you to finish. She will
+never update herself behind your back.
 
 ---
 

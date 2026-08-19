@@ -78,6 +78,14 @@ speaks.
 *"Tell me when that changes."* She checks quietly in the background and only
 comes back when it actually has.
 
+### She handles your inbox
+Straight from your machine — Proton through Bridge, or Gmail with an app
+password; no third-party service in the middle. She folds what's waiting into the
+morning briefing and drafts replies **in your voice**, learned from your own Sent
+folder and left in Drafts for you to send. Reading and sending are separate
+switches, sending is off until you turn it on, and she has no way to delete
+anything.
+
 ### Her memory is locked, and you hold the key
 As of 0.6.5 a new install encrypts her brain on disk from the first moment —
 AES-256, key in your operating system's keychain — instead of waiting for you to
