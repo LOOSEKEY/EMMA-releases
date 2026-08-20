@@ -78,6 +78,20 @@ speaks.
 *"Tell me when that changes."* She checks quietly in the background and only
 comes back when it actually has.
 
+### She'll look after the things you run
+New in 0.6.9. Point her at a folder and the apps you run — a website, a home
+server, a side project — can drop a small note of what needs a person. She reads
+it into the morning stand-up, worst first, in plain English: *"the certificate
+expires in six days"*, *"two repositories are failing their integrity check"*.
+If nothing is wrong she stays quiet, and you can ask *"how are my apps doing?"*
+whenever you want a straight answer.
+
+What keeps it safe is the shape of the note rather than any filtering: it holds
+counts and flags and **has no space for a message at all**, so an app that gets
+compromised has nothing it can say to her. She never reaches out to a service,
+holds no password for one, and doesn't touch the network for this. Empty and
+dormant until you point her at a folder yourself.
+
 ### She handles your inbox
 Straight from your machine — Proton through Bridge, or Gmail with an app
 password; no third-party service in the middle. She folds what's waiting into the
