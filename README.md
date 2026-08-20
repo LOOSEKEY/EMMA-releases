@@ -81,6 +81,14 @@ chapter, illustrated, in a sleepy voice.
 morning briefing, and drafts replies in your voice. Reading and sending are
 separate switches, and sending is off.
 
+🛠️ **She'll look after the things you run** — point her at a folder and the apps
+you run (a site, a home server, a side project) can drop a small note of what
+needs a person. She reads it in the morning, worst first, in plain English, and
+answers when you ask *"how are my apps doing?"*. Counts, never content — the
+format has no space for a message, so a service that gets compromised has
+nothing it can say to her. Dormant until you point her at a folder. *(New in
+0.6.9.)*
+
 👨‍👩‍👧 **The whole house can have her** — kid mode with a bedtime and a PIN, study
 mode, flashcards, and stories the children actually ask for. *(Telling voices
 apart works as of 0.6.6 — everyone in the house gets their own EMMA rather than
@@ -98,6 +106,20 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 | **macOS** — Intel | `EMMA-*-x86_64.dmg` | Open, drag to Applications |
 | **Linux** — most people | `emma_*_amd64.deb` | `sudo apt install ./emma_*.deb` |
 | **Linux** — portable | `EMMA-*.AppImage` | `chmod +x` and run |
+
+> ### 🍎 On a Mac? Read this first
+>
+> **The newest release (0.6.9) has no Mac build in it** — it was built on a
+> Linux machine, and a Mac installer can't be made on one. There's nothing wrong
+> with your download; the `.dmg` simply isn't in that release.
+>
+> **Mac users want [the 0.6.8 release](../../releases/tag/v0.6.8)**, which is
+> complete and supported and has both `.dmg` files in it:
+> [Apple Silicon](../../releases/download/v0.6.8/EMMA-0.6.8-arm64.dmg) ·
+> [Intel](../../releases/download/v0.6.8/EMMA-0.6.8-x86_64.dmg).
+>
+> If EMMA offers you the 0.6.9 update, pressing Update will bring you to the
+> release page and install nothing. 0.6.9 reaches macOS in the next build.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
 > means Apple Silicon; "Processor: Intel" means Intel.
