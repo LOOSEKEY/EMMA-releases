@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v0.6.8.*
+*Everything she does, and where to find it. For v0.6.9.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -279,6 +279,15 @@ this is the order you'll meet them in on screen.
   finally knows your real day. A web address is refused, not quietly ignored.
 - **Picture generator** — point her at AUTOMATIC1111, SD.Next or Forge if you run
   one.
+
+### Services that report in
+
+- **Morning dispatch folders** — point her at a folder where a service you run drops
+  a small digest of what needs a person (counts, never content), and it joins the
+  morning stand-up. Ask *"how are my apps doing?"* any time for the same on demand.
+  Empty by default and dormant until you point her at a folder; a web address is
+  refused. *What she already understands about systems* below lists the general
+  admin knowledge she ships with — it holds no data about any system of yours.
 
 ### Your email
 
