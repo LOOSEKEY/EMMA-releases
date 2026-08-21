@@ -102,8 +102,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 | Platform | File | Install |
 |---|---|---|
 | **Windows** | `EMMA-Setup-*.exe` | Run it |
-| **macOS** — Apple Silicon | `EMMA-*-arm64.dmg` | Open, drag to Applications |
-| **macOS** — Intel | `EMMA-*-x86_64.dmg` | Open, drag to Applications |
+| **macOS** — Apple Silicon | `EMMA-0.6.8-arm64.dmg` 🍎 | Open, drag to Applications |
+| **macOS** — Intel | `EMMA-0.6.8-x86_64.dmg` 🍎 | Open, drag to Applications |
 | **Linux** — most people | `emma_*_amd64.deb` | `sudo apt install ./emma_*.deb` |
 | **Linux** — portable | `EMMA-*.AppImage` | `chmod +x` and run |
 
@@ -148,6 +148,9 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
+- **macOS is one release behind.** 0.6.9 is Windows and Linux; Macs stay on
+  v0.6.8, which is complete and supported. It's owed rather than dropped — the
+  🍎 note above says why, and what to download in the meantime.
 - **Intel Mac support is brand new** — as of 0.6.3. Before that the site handed
   every Mac the Apple Silicon file, which simply wouldn't run on an Intel one. If
   that was you: sorry, and it's fixed.

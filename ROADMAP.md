@@ -163,6 +163,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
+| **A Mac build of 0.6.9** | Macs are on **v0.6.8** — complete and supported, but a release behind. 0.6.9's installers were built on a Linux machine and a Mac installer can't be made on one, so that release has no `.dmg` in it. It's owed, not dropped: 0.6.9 reaches macOS with the next build. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered
