@@ -155,7 +155,8 @@ Being straight with you, because I'd want the same:
   every Mac the Apple Silicon file, which simply wouldn't run on an Intel one. If
   that was you: sorry, and it's fixed.
 - **It's one person.** Me. Support is a real human and usually quick, but I'm not
-  a company and I'm not going to pretend to be one.
+  a company and I'm not going to pretend to be one. If you want to know who
+  you're buying from and what else I'm building: **[the Greg-Verse](BIO.md)**.
 
 ### About that unsigned warning
 
