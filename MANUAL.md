@@ -44,6 +44,29 @@ She runs entirely on your machine. The model doing the thinking is
 account and no server — which is also why **she is exactly as capable as your
 hardware lets her be**. That's the trade.
 
+### 🐧 On Linux, her window is a browser window
+
+On Windows and macOS EMMA opens as an ordinary application window. **On Linux
+she doesn't**, and this is expected rather than something broken:
+
+- If you have Chrome, Chromium, Brave or Edge installed, she opens in a
+  **separate, frameless window of her own** — no tabs, no address bar, her own
+  icon in the taskbar, and a private profile that never touches your browsing
+  session. It looks and behaves much like an app window.
+- If you don't, she opens as a **tab in your default browser** instead.
+
+Either way she is running locally exactly as she does everywhere else — nothing
+is going over the internet, and every feature works. The native Linux window
+needs a system library that isn't in the installer yet; it's a known gap and
+it's on the roadmap.
+
+**Closing that window does not stop her**, which is the one practical
+difference. On Windows and macOS closing EMMA's window quits her; on Linux she
+carries on running in the background — which is also what lets her dream
+overnight. To stop her completely, either stop the background service
+(`systemctl --user stop emma.service`) if you installed it, or quit the `emma`
+process from your system monitor.
+
 ---
 
 ## 2. The top bar
@@ -430,10 +453,17 @@ no-questions refund.**
 
 **Updates never happen on their own.** Settings → *Check for updates* → **Check
 now**. If there's one, pressing **Update** downloads the installer, checks it
-against the checksum published in the release notes, and starts it. On Windows
-and the Linux AppImage she closes and comes back on the new version; a `.deb` or
-a Mac `.dmg` opens in your own system's installer for you to finish. She will
-never update herself behind your back.
+against the checksum published in the release notes, and starts it. What happens
+next depends on how she was installed:
+
+| Installed as | What happens when you press Update |
+|---|---|
+| **Linux AppImage** | The only fully automatic one — she replaces herself and comes back on the new version. |
+| **Windows** | She closes and the installer opens. Click through it; *Launch EMMA now* is ticked at the end. |
+| **Linux `.deb`** | Handed to your desktop's own package installer, which asks for your password. She never invents her own `sudo` prompt. |
+| **macOS `.dmg`** | Mounts and shows the drag-to-Applications window, the same as a fresh install. |
+
+She will never update herself behind your back.
 
 ---
 
