@@ -1,4 +1,4 @@
-# THE GREG-VERSE
+# THE WORKS
 ### The world, the work, and the working theory behind what I'm building
 
 ---
@@ -12,8 +12,8 @@ and their own data.
 Across a growing family of products — a personal AI companion, a professional
 collaboration platform, a sovereign field-AI appliance, and a dozen more in build
 — one principle holds throughout: **you own it outright, and it works with the
-internet unplugged.** I call the whole of it, half in jest and half in earnest,
-the **Greg-Verse**.
+internet unplugged.** I call the whole of it **The Works** — a works is a place
+where things get built, and *the works* is all of it.
 
 ---
 
@@ -48,7 +48,7 @@ ready and waiting, with the ecosystem already built.
 ### ◆ EMMA — *ownemma.com*
 *A friend who lives on your computer, remembers your life, and never tells anyone.*
 
-EMMA is the heart of the Greg-Verse: a genuinely personal AI that lives on your
+EMMA is the heart of The Works: a genuinely personal AI that lives on your
 own machine. She remembers you — properly, for years, across whatever model she
 happens to be thinking with — and she can actually *do* things on your computer
 when you ask. She reads your day out to you in the morning in her own voice, tells

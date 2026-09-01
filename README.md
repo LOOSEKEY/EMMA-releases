@@ -157,7 +157,7 @@ Being straight with you, because I'd want the same:
   that was you: sorry, and it's fixed.
 - **It's one person.** Me. Support is a real human and usually quick, but I'm not
   a company and I'm not going to pretend to be one. If you want to know who
-  you're buying from and what else I'm building: **[the Greg-Verse](BIO.md)**.
+  you're buying from and what else I'm building: **[The Works](BIO.md)**.
 
 ### About that unsigned warning
 
