@@ -47,18 +47,42 @@ outside your machine.
 
 **Especially interesting**, because they're where untrusted data meets EMMA:
 
-- Anything that makes her **talk to the network** when she shouldn't. Nothing
-  should leave your machine except the model you chose and an update check you
-  can switch off.
+- Anything that makes her **talk to the network** when she shouldn't. The
+  complete list of what *may* leave your machine, and every one of these is off
+  or inert until the owner turns it on:
+  **live mode** (web search, page fetches, and the browser tools, which are only
+  available while it's on) · **the update check**, one anonymous request, off by
+  default · **a spoken voice** you choose, downloaded once · **the voice-
+  recognition model**, a one-time ~250MB download · **your email**, spoken
+  directly to your own mail server if you connect it · **a non-default model
+  engine**, if you configure one. The model itself is local by default.
+  **Anything outbound that isn't on that list is a finding**, and so is anything
+  on it that fires without the owner having enabled it.
 - Anything that gets **past the confirmation layer** on the agentic actions —
   files, apps, commands.
 - Anything reachable from an **email or an attachment** she reads (IMAP, since
   0.6.5), or a **document** you hand her. That's the one input a stranger can
   put in front of her without you choosing it.
 - Anything that lets a **web page you visit** reach the local API. This is the
-  classic one for a localhost app and it's specifically defended — she refuses
-  browser-borne cross-origin requests and validates the `Host` header — so a
-  bypass is a real finding.
+  classic one for a localhost app, and it is **partly** defended — read this
+  carefully, because the gap is deliberate and it is where the real findings
+  are:
+  - **Defended:** a request carrying an `Origin` whose host isn't loopback is
+    refused `403`, which covers every `fetch`/XHR and every form POST — that is,
+    every cross-site *state-changing* call. The `Host` header must be loopback
+    too, which closes DNS rebinding. **A bypass of either is a real finding.**
+  - **Not defended:** a cross-site **plain GET**. A `<img src="http://127.0.0.1:8000/…">`,
+    `<script>` or `<link>` on any page sends **no `Origin` header at all**, and
+    requests with no Origin are allowed on purpose, because that is also what
+    `curl` and legitimate local clients look like. **So anything reachable by GET
+    alone is genuinely interesting**, including a flaw in the web framework
+    underneath EMMA's own handlers rather than in her code.
+  - This is not hypothetical: it is exactly how a `starlette` advisory
+    (PYSEC-2026-2281) was reachable on Windows until **1.0.1**. *Listening only
+    on loopback is not a defence against a page in your own browser.*
+  - The candidate fix — refusing no-Origin requests that carry
+    `Sec-Fetch-Site: cross-site`, which browsers send and `curl` does not — is
+    known and not yet implemented.
 - Anything that **mints or forges a licence**, or lets one machine's licence
   work where it shouldn't.
 
@@ -76,6 +100,28 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   0.6.5 onward, and there's a recovery key you're asked to write down. If your
   keychain is ever reset, that written-down key is the only way back in — please
   actually save it.
+- **A Windows credential-leak path, fixed in 1.0.1.** The web framework EMMA
+  serves her own interface with had an advisory where, on **Windows only**, a
+  crafted request could start an outbound connection before being rejected —
+  enough to leak your Windows account credentials in a form that can be attacked
+  offline. Reaching it needed a malicious page open in your browser while EMMA
+  was running, and the cross-origin guard did not stop it (see the GET note
+  above). **Update to 1.0.1 or later.** macOS and Linux were never affected.
+
+## What I do on my side
+
+- **A deep security scan every 60 days, without fail** — a standing rule since
+  18 July 2026, not "when I get to it". Every runtime dependency audited, the
+  full git history swept for committed secrets, and a reachability pass on
+  every finding rather than a wall of CVE numbers.
+- **The most recent was 2026-09-01**, run early and off-cadence the morning
+  after 1.0.0 shipped. It found the Windows advisory above, and separately that
+  **web search had never actually worked in a shipped build** — the library was
+  missing from the installer and the failure looked exactly like the internet
+  being down. Both fixed and published the same day as **1.0.1**. No secret has
+  ever been committed, across the whole history.
+- **Anything that matters ships as a release**, with SHA-256 checksums in the
+  notes, rather than waiting for a convenient moment.
 
 ## Where the source is
 
