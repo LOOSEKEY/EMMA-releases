@@ -13,7 +13,8 @@ Across a growing family of products — a personal AI companion, a professional
 collaboration platform, a sovereign field-AI appliance, and a dozen more in build
 — one principle holds throughout: **you own it outright, and it works with the
 internet unplugged.** I call the whole of it **The Works** — a works is a place
-where things get built, and *the works* is all of it.
+where things get built, and *the works* is all of it. It was the *Greg-Verse* for
+a while; that was a joke, and it was starting to look like it wasn't.
 
 ---
 
