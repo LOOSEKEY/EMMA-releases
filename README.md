@@ -102,24 +102,17 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 | Platform | File | Install |
 |---|---|---|
 | **Windows** | `EMMA-Setup-*.exe` | Run it |
-| **macOS** — Apple Silicon | `EMMA-0.6.8-arm64.dmg` 🍎 | Open, drag to Applications |
-| **macOS** — Intel | `EMMA-0.6.8-x86_64.dmg` 🍎 | Open, drag to Applications |
+| **macOS** — Apple Silicon | `EMMA-*-arm64.dmg` | Open, drag to Applications |
+| **macOS** — Intel | `EMMA-*-x86_64.dmg` | Open, drag to Applications |
 | **Linux** — most people | `emma_*_amd64.deb` | `sudo apt install ./emma_*.deb` |
 | **Linux** — portable | `EMMA-*.AppImage` | `chmod +x` and run |
 
-> ### 🍎 On a Mac? Read this first
+> ### 🍎 On a Mac?
 >
-> **The newest release (0.6.9) has no Mac build in it** — it was built on a
-> Linux machine, and a Mac installer can't be made on one. There's nothing wrong
-> with your download; the `.dmg` simply isn't in that release.
->
-> **Mac users want [the 0.6.8 release](../../releases/tag/v0.6.8)**, which is
-> complete and supported and has both `.dmg` files in it:
-> [Apple Silicon](../../releases/download/v0.6.8/EMMA-0.6.8-arm64.dmg) ·
-> [Intel](../../releases/download/v0.6.8/EMMA-0.6.8-x86_64.dmg).
->
-> If EMMA offers you the 0.6.9 update, pressing Update will bring you to the
-> release page and install nothing. 0.6.9 reaches macOS in the next build.
+> **Apple Silicon and Intel are different files**, and your Mac can't be
+> identified from a browser — Apple Silicon still reports itself as "Intel Mac
+> OS X" — so pick the one that matches your machine rather than trusting a
+> download button to guess.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
 > means Apple Silicon; "Processor: Intel" means Intel.
@@ -148,9 +141,17 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is one release behind.** 0.6.9 is Windows and Linux; Macs stay on
-  v0.6.8, which is complete and supported. It's owed rather than dropped — the
-  🍎 note above says why, and what to download in the meantime.
+- **Every platform is on the same version.** Windows, macOS (Apple Silicon and
+  Intel) and Linux all ship in the current release. Macs spent 0.6.9 a release
+  behind — a Mac installer can only be built on a Mac, and the build machines
+  were unavailable — and that gap closed in **1.0.0**.
+- **On Linux she opens in a browser window, not her own app window.** If you
+  have Chrome, Chromium, Brave or Edge she gets a separate frameless window with
+  its own taskbar icon and a private profile, which looks much like an app; with
+  none of those she opens as a tab. She's still running entirely on your machine
+  and every feature works — the native Linux window needs a system library that
+  isn't in the installer yet. Worth knowing: on Linux, closing that window
+  doesn't stop her, she keeps running in the background.
 - **Intel Mac support is brand new** — as of 0.6.3. Before that the site handed
   every Mac the Apple Silicon file, which simply wouldn't run on an Intel one. If
   that was you: sorry, and it's fixed.
