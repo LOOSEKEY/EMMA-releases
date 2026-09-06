@@ -143,6 +143,13 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   published the same day as **1.0.1**.
 - **Anything that matters ships as a release**, with SHA-256 checksums in the
   notes, rather than waiting for a convenient moment.
+- **Notices go up in `#security` on the [Discord](https://discord.gg/NEuWujf45u)**
+  — what was found, what shipped, what to update. It's read-only: I post, nobody
+  else can, so it can't become a place where a live vulnerability gets published
+  before there's a fix. **Reports still go to email**, not to that channel.
+  Findings are normally posted **after** the fix ships, which is the right way
+  round; if something is ever urgent enough to say first, it will be said there
+  first.
 
 ## Where the source is
 
