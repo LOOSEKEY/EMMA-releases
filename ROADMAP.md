@@ -54,8 +54,14 @@ classed as not worth interrupting you for. That was the wrong call: the dial is
 about consent, not harm. Her own activity log is what caught it.*
 
 ### She talks
-Several voices. Hands-free conversation, interrupt her mid-sentence like you
-would a person, and a quieter voice after midnight.
+Several voices, reading her answers aloud, and a quieter one after midnight.
+Press *replay* to hear anything again — the morning briefing especially, which
+tends to arrive while you are still half asleep.
+
+*New in 1.1.0, and it is a correction as much as a feature: the speech engine
+was not in the installer before, so no downloaded copy could speak at all. It is
+in now. Talking back to her out loud needs speech recognition, which still
+isn't — the microphone stays hidden until it is.*
 
 ### She starts and ends your day
 A spoken morning briefing that knows what's on and what was weighing on you last

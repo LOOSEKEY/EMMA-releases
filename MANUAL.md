@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.0.1.*
+*Everything she does, and where to find it. For v1.1.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -103,9 +103,19 @@ Click to cycle. This is tone, not capability:
 **Type** in the box and press Enter. **Stop** appears while she's working — press
 it and she stops mid-sentence.
 
-**Voice.** Turn it on in Settings → *Her voice*. You can talk hands-free and
-interrupt her mid-sentence, like you would a person. She has several voices, and
-she'll drop to a whisper late at night.
+**Voice.** Go to Settings → *Her voice*, pick one, and she fetches it once —
+about a minute. Then press the speaker and she reads her answers aloud. She has
+several voices, and she'll drop to a whisper late at night.
+
+**Missed what she said?** Press *replay* under her answer, or the speaker button
+on the morning card and the overnight briefing, and she'll read it out again —
+press it again to stop her. It is there whenever she has a voice installed, even
+with the speaker off, so you can have the briefing read to you without turning
+her voice on for everything else.
+
+**Talking back to her out loud** — the microphone, and hands-free conversation —
+needs speech *recognition*, which is not in this build. The mic button stays
+hidden until it is, so if you can't see it, that is why.
 
 **Files.** Drag a document, image, audio or video file into the conversation and
 ask about it.

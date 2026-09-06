@@ -67,8 +67,12 @@ matters, what you said back in March.
 She says what she's about to do before she does it, and hands control straight
 back the moment you touch the mouse.
 
-🗣️ **She has a voice** — several. Talk hands-free, interrupt her mid-sentence
-like you would a person, and she'll whisper after midnight.
+🗣️ **She has a voice** — several, actually. She reads her answers aloud, tells a
+bedtime story in character, and whispers after midnight. *(New in 1.1.0: the
+speech engine now ships with her. Before that it was left out of the installer,
+so no downloaded copy could speak a word — if you tried her voice and got
+nothing, that was why, and it works now.)* Talking back to her out loud needs
+speech recognition, which isn't in the build yet — the mic stays hidden.
 
 💤 **She dreams** — overnight she joins up things you've said months apart, and
 wakes with something to tell you.
@@ -107,7 +111,19 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 | **Linux** — most people | `emma_*_amd64.deb` | `sudo apt install ./emma_*.deb` |
 | **Linux** — portable | `EMMA-*.AppImage` | `chmod +x` and run |
 
-> ### 🍎 On a Mac?
+> ### 🍎 On a Mac? Read this first
+>
+> **The current release (1.1.0) has no Mac build.** Windows and Linux are on
+> 1.1.0; macOS is on **1.0.1**, which is a complete release with both Mac files
+> in it. A Mac installer can only be built on a Mac, and the build machines are
+> unavailable this month.
+>
+> Download the Mac files from **[v1.0.1](../../releases/tag/v1.0.1)** rather than
+> from the latest release, or use the buttons on
+> [ownemma.com](https://ownemma.com), which already point Mac visitors there.
+>
+> EMMA may offer you the 1.1.0 update and then tell you there is no installer
+> for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
@@ -141,10 +157,12 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **Every platform is on the same version.** Windows, macOS (Apple Silicon and
-  Intel) and Linux all ship in the current release. Macs spent 0.6.9 a release
-  behind — a Mac installer can only be built on a Mac, and the build machines
-  were unavailable — and that gap closed in **1.0.0**.
+- **macOS is one release behind, again.** Windows and Linux are on **1.1.0**;
+  macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
+  build machines are unavailable this month. The same thing happened at 0.6.9
+  and closed in 1.0.0; this one will close the same way. Nothing is wrong with
+  1.0.1 — it is a complete release, and it is what the Mac buttons on the site
+  hand you.
 - **On Linux she opens in a browser window, not her own app window.** If you
   have Chrome, Chromium, Brave or Edge she gets a separate frameless window with
   its own taskbar icon and a private profile, which looks much like an app; with
