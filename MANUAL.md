@@ -267,7 +267,8 @@ this is the order you'll meet them in on screen.
 
 - **How she looks** — dark or light, and the colour she's drawn in.
 - **Her voice** — which voice she speaks in.
-- **Family voices** — a voice per person. Consent is required and recorded.
+- **Family voices** — record a voice per person, with consent required and
+  recorded. She cannot yet read *in* that voice; see *Her world* below.
 - **Kid mode** — a restricted EMMA with a bedtime. See §9.
 - **Encrypt memory at rest** — AES-256, and your recovery key. See §4.
 - **Let her remember the screen** — she can see what's on it.
@@ -374,11 +375,17 @@ It's the strangest thing she does and the thing most people end up liking most.
 
 EMMA is one being with many relationships — not one shared account.
 
-- **Family voices + voice recognition** — say hello and she knows who you are, and
-  greets you like it. Everyone gets their own memories, not one shared assistant
-  treating the room as a single person. Nobody is recognised until they've
-  enrolled themselves on purpose; she keeps a mathematical fingerprint of a voice
-  and never a recording.
+- **Voice recognition** — say hello and she knows who you are, and greets you
+  like it. Everyone gets their own memories, not one shared assistant treating
+  the room as a single person. Nobody is recognised until they've enrolled
+  themselves on purpose; she keeps a mathematical fingerprint of a voice and
+  never a recording. It needs a one-time model download **and `ffmpeg` on your
+  machine**, which the installer doesn't carry — without it, enrolling can't
+  work.
+- **Family voices** — you can record a household voice, with consent captured
+  and kept, always labelled a recreation, and deletable in one click. **She
+  cannot yet read in that voice**: the recreation itself isn't built, and she
+  tells you so rather than pretending. What ships is everything around it.
 - **Kid mode** — a restricted EMMA with a bedtime. Restriction is the resting
   state: she starts restricted and stays that way until an adult says otherwise.
 - **Sanctuary mode** (`Alt+Shift+S`) — for lending someone your laptop. Everything
