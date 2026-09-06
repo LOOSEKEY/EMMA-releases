@@ -114,12 +114,33 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-09-01**, run early and off-cadence the morning
-  after 1.0.0 shipped. It found the Windows advisory above, and separately that
-  **web search had never actually worked in a shipped build** — the library was
-  missing from the installer and the failure looked exactly like the internet
-  being down. Both fixed and published the same day as **1.0.1**. No secret has
-  ever been committed, across the whole history.
+- **The most recent was 2026-09-06**, run the day 1.1.0 shipped, because that
+  release put three new libraries inside the installer for the first time — the
+  speech engine and the runtime underneath it. Two things came out of it:
+
+  - **`pypdf` shipped with a known flaw, and one of its three advisories is
+    reachable.** A crafted PDF can make her chew CPU and memory while extracting
+    text from it. It is a hang, not a breach — nothing runs, nothing leaks — and
+    **nobody can post one in**: she lists the *names* of email attachments and
+    never opens them, so it takes a PDF you hand her yourself. Fixed and going
+    out with the next release.
+  - **The voice files she downloads aren't checked against a fingerprint.** The
+    speaker-recognition model is (a pinned address plus a hash built into the
+    app, so a compromised server can't make anything run). The spoken voices are
+    not, and as of 1.1.0 those files are read by a much larger piece of
+    machinery than before. Nobody can exploit that without taking over
+    HuggingFace or breaking TLS, and it needs you to have chosen a voice — but
+    it's a gap against the standard set everywhere else, and it's being closed.
+
+  **No secret has ever been committed, across the whole history** — 445 commits,
+  every branch — and the key that signs licences has never been in the
+  repository at all.
+
+- **The one before was 2026-09-01**, the morning after 1.0.0. It found the
+  Windows advisory above, and separately that **web search had never actually
+  worked in a shipped build** — the library was missing from the installer and
+  the failure looked exactly like the internet being down. Both fixed and
+  published the same day as **1.0.1**.
 - **Anything that matters ships as a release**, with SHA-256 checksums in the
   notes, rather than waiting for a convenient moment.
 
