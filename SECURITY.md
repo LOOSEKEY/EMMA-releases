@@ -118,12 +118,15 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   release put three new libraries inside the installer for the first time — the
   speech engine and the runtime underneath it. Two things came out of it:
 
-  - **`pypdf` shipped with a known flaw, and one of its three advisories is
-    reachable.** A crafted PDF can make her chew CPU and memory while extracting
-    text from it. It is a hang, not a breach — nothing runs, nothing leaks — and
-    **nobody can post one in**: she lists the *names* of email attachments and
-    never opens them, so it takes a PDF you hand her yourself. Fixed and going
-    out with the next release.
+  - **`pypdf` shipped with a known flaw, and one of its three advisories was
+    reachable.** A crafted PDF could make her chew CPU and memory while
+    extracting text from it. It is a hang, not a breach — nothing runs, nothing
+    leaks — and **nobody can post one in**: she lists the *names* of email
+    attachments and never opens them, so it takes a PDF you hand her yourself.
+    ✅ **Fixed in [1.1.1](https://github.com/LOOSEKEY/EMMA-releases/releases/tag/v1.1.1)**,
+    published the same day it was found rather than held for a convenient
+    moment. The other two advisories are not reachable from EMMA: one needs a
+    document's outlines and one needs a *writing* path, and she does neither.
   - **The voice files she downloads aren't checked against a fingerprint.** The
     speaker-recognition model is (a pinned address plus a hash built into the
     app, so a compromised server can't make anything run). The spoken voices are
