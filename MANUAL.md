@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.2.2.*
+*Everything she does, and where to find it. For v1.2.3.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -254,7 +254,7 @@ Everything under the ☰ menu, in menu order:
 | **Video** | Drop a video and ask her about it |
 | **Letters** | A time capsule to your future self, her yearly letter to you, and the almanac — predictions for the year, sealed until next January |
 | **Rehearsal room** | Practise the hard conversation — she plays the other person, then steps out of it and tells you honestly how you did. Or "argue me out of this", and she takes the other side properly. Nothing said in here is remembered. |
-| **Skills** | What she's learned to do. The **⤓** on a row exports that one as a file, and a friend's EMMA can import it. People swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
+| **Skills** | Procedures she can follow. **Teach her one yourself** with the box at the top: narrate how you do something in your own words and she writes it down as steps — that one outranks anything she works out on her own, and she won't add steps you didn't say. The **⤓** on a row exports that skill as a file a friend's EMMA can import; people swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
 | **Insights** | Patterns in what she's been doing |
 | **Models** | Install, remove and switch models |
