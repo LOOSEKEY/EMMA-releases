@@ -73,7 +73,8 @@ speech engine now ships with her. Before that it was left out of the installer,
 so no downloaded copy could speak a word — if you tried her voice and got
 nothing, that was why, and it works now.)* Talking back to her out loud needs
 speech recognition, which isn't in the build yet — the mic stays hidden.
-**Reading aloud is being worked on this week** — see below.
+*(1.2.0: if her voice ever fails, she now tells you why instead of going
+quiet.)*
 
 💤 **She dreams** — overnight she joins up things you've said months apart, and
 wakes with something to tell you.
@@ -114,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.1.1) has no Mac build.** Windows and Linux are on
-> 1.1.1; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.2.0) has no Mac build.** Windows and Linux are on
+> 1.2.0; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable this month.
 >
@@ -123,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.1.1 update and then tell you there is no installer
+> EMMA may offer you the 1.2.0 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -149,15 +150,14 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
-- **Her reading voice is being worked on, 9–16 September.** Speaking aloud only
-  reached shipped builds in **1.1.0**, and one fault went with it — a second
-  reply starting over the top of the first, which was measured and fixed in that
-  same release. It still isn't right for everyone, so I'm spending the next seven
-  days on it rather than on anything new. Everything else works as it always did;
-  it's the reading-aloud that's rough. If it plays up for you, tell me in
-  **[#papercuts](https://discord.gg/NEuWujf45u)** — what you'd asked her, which
-  voice you're on and what it actually did is worth far more to me than a
-  recording.
+- **The reading-voice work is done, and it wasn't the speech engine.** Shipped
+  in **1.2.0** on 9 September. When speaking aloud failed — no voice installed,
+  the engine missing, any synthesis error — she simply didn't speak, and nothing
+  said why. That is what "her voice comes and goes" was. She now says what went
+  wrong, and the speaker button turns itself off rather than staying lit while
+  no sound comes out. If your reading is still off after 1.2.0 it's a different
+  fault, and I'd like to hear about it in
+  **[#papercuts](https://discord.gg/NEuWujf45u)**.
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
 - **You can buy her** — **£149 once, yours forever**, at
@@ -167,7 +167,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.1.1**;
+- **macOS is behind, again.** Windows and Linux are on **1.2.0**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable this month. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with
