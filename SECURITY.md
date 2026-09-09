@@ -123,7 +123,7 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
     extracting text from it. It is a hang, not a breach — nothing runs, nothing
     leaks — and **nobody can post one in**: she lists the *names* of email
     attachments and never opens them, so it takes a PDF you hand her yourself.
-    ✅ **Fixed in [1.1.1](https://github.com/LOOSEKEY/EMMA-releases/releases/tag/v1.1.1)**,
+    ✅ **Fixed in 1.1.1**,
     published the same day it was found rather than held for a convenient
     moment. The other two advisories are not reachable from EMMA: one needs a
     document's outlines and one needs a *writing* path, and she does neither.

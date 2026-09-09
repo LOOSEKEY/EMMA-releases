@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.1.1.*
+*Everything she does, and where to find it. For v1.2.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -106,6 +106,11 @@ it and she stops mid-sentence.
 **Voice.** Go to Settings → *Her voice*, pick one, and she fetches it once —
 about a minute. Then press the speaker and she reads her answers aloud. She has
 several voices, and she'll drop to a whisper late at night.
+
+**If her voice stops working, the speaker button turns itself off** and hovering
+over it tells you why — usually that no voice is installed yet. It used to fail
+silently, which looked like her voice coming and going for no reason. A lit
+speaker now means sound really is coming out.
 
 **Missed what she said?** Press *replay* under her answer, or the speaker button
 on the morning card and the overnight briefing, and she'll read it out again —
