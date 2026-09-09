@@ -73,6 +73,7 @@ speech engine now ships with her. Before that it was left out of the installer,
 so no downloaded copy could speak a word — if you tried her voice and got
 nothing, that was why, and it works now.)* Talking back to her out loud needs
 speech recognition, which isn't in the build yet — the mic stays hidden.
+**Reading aloud is being worked on this week** — see below.
 
 💤 **She dreams** — overnight she joins up things you've said months apart, and
 wakes with something to tell you.
@@ -148,6 +149,15 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **Her reading voice is being worked on, 9–16 September.** Speaking aloud only
+  reached shipped builds in **1.1.0**, and one fault went with it — a second
+  reply starting over the top of the first, which was measured and fixed in that
+  same release. It still isn't right for everyone, so I'm spending the next seven
+  days on it rather than on anything new. Everything else works as it always did;
+  it's the reading-aloud that's rough. If it plays up for you, tell me in
+  **[#papercuts](https://discord.gg/NEuWujf45u)** — what you'd asked her, which
+  voice you're on and what it actually did is worth far more to me than a
+  recording.
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
 - **You can buy her** — **£149 once, yours forever**, at
