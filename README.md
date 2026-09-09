@@ -225,13 +225,18 @@ you, and it takes thirty seconds.
 **She never updates herself.** She'll tell you there's a new version; nothing is
 downloaded or replaced until you press the button.
 
-The one thing she'd ever download is the speech model for voice recognition —
-about a quarter of a gigabyte, which is why it isn't inside the installer. She
-asks first, tells you the size before anything starts, and checks what arrives
-against a fingerprint built into the app before she'll use it. **Windows, Linux
-and Apple Silicon Macs.** On an Intel Mac she'll tell you it isn't available and
-leave the button alone — one of the libraries underneath it no longer builds for
-those machines. Everything else in EMMA works there exactly as it does anywhere.
+Two things she'd ever download, and she asks before both. The **speech model for
+voice recognition** — about a quarter of a gigabyte, which is why it isn't inside
+the installer. She tells you the size before anything starts, and checks what
+arrives against a fingerprint built into the app before she'll use it. **Windows,
+Linux and Apple Silicon Macs.** On an Intel Mac she'll tell you it isn't available
+and leave the button alone — one of the libraries underneath it no longer builds
+for those machines. Everything else in EMMA works there exactly as it does
+anywhere.
+
+And **a different speaking voice**, if you pick one from the library. She ships
+with a voice that works from the first launch, so this only happens if you go
+looking for another one.
 
 ## What you'd actually own
 

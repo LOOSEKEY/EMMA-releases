@@ -41,6 +41,14 @@ Years of you, not a chat log — what you decided, who matters to you, what you'
 working towards, what you said back in March. It survives closing the app,
 restarting the machine, and swapping the model she thinks with.
 
+*Corrected in 1.2.0, and you should know about it: before that she could write
+down things you had never said — inventing a pet from a one-word greeting, or
+filing a bedtime story's characters as people in your life. She now can't record
+anything that doesn't trace back to words you actually typed. **If you were using
+her before 1.2.0, it's worth checking Settings → What EMMA knows about you and
+deleting anything that isn't true.** Updating doesn't touch what's already
+there — that's yours.*
+
 ### She can use your computer
 Files, folders, apps, commands, the browser. She says what she's about to do
 *before* she does it, and hands control straight back the moment you touch the
@@ -61,7 +69,9 @@ tends to arrive while you are still half asleep.
 *New in 1.1.0, and it is a correction as much as a feature: the speech engine
 was not in the installer before, so no downloaded copy could speak at all. It is
 in now. Talking back to her out loud needs speech recognition, which still
-isn't — the microphone stays hidden until it is.*
+isn't — the microphone stays hidden until it is. And as of 1.2.0, if speaking
+aloud ever fails she says why instead of going quiet: the speaker button turns
+itself off and tells you what went wrong.*
 
 ### She starts and ends your day
 A spoken morning briefing that knows what's on and what was weighing on you last
@@ -130,7 +140,7 @@ reachable, and every one is **off until you turn it on**.
 
 | | |
 |---|---|
-| **Voice recognition** | Working as of 0.6.6. Say hello and she knows it's you — everyone in the house gets their own EMMA rather than one assistant treating the room as one person. She keeps a mathematical fingerprint of a voice, never a recording, and nobody is recognised until they enrol on purpose. The speech libraries are a separate ~250MB download she asks about first and checks against a fingerprint built into the app. **Windows, Linux and Apple Silicon Macs.** Not Intel Macs — see below. 🔴 **It also needs `ffmpeg` on your machine**, which the installer does not carry — it is what turns what your microphone captured into sound she can read. Without it enrolment cannot work — and in **1.1.0 and earlier** it says so badly, reporting that it received none of the clips you just recorded. A clearer message is written and ships in the next release. |
+| **Voice recognition** | Working as of 0.6.6. Say hello and she knows it's you — everyone in the house gets their own EMMA rather than one assistant treating the room as one person. She keeps a mathematical fingerprint of a voice, never a recording, and nobody is recognised until they enrol on purpose. The speech libraries are a separate ~250MB download she asks about first and checks against a fingerprint built into the app. **Windows, Linux and Apple Silicon Macs.** Not Intel Macs — see below. 🔴 **It also needs `ffmpeg` on your machine**, which the installer does not carry — it is what turns what your microphone captured into sound she can read. Without it enrolment cannot work — and in **1.1.0 and earlier** it said so badly, reporting that it had received none of the clips you had just recorded. **Fixed in 1.1.1**: she now names the real cause. |
 | **Passing skills to a friend** | Working as of 0.6.5. Teach her how you do something, then export that skill as a file and send it to a friend — their EMMA learns it too. Import only ever *adds*, so nothing you taught her yourself is overwritten. |
 | **Letting your other tools ask her** | Working as of 0.6.5. Point Claude Code, Cursor or Zed at your EMMA and they can ask *her* who you are and what you decided, without any of it leaving your machine. Read-only — nothing on the other end can change her memory or act on your computer. Off until you turn it on, and there's a switch plus the config to paste into your editor. |
 
