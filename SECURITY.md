@@ -133,7 +133,12 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
     not, and as of 1.1.0 those files are read by a much larger piece of
     machinery than before. Nobody can exploit that without taking over
     HuggingFace or breaking TLS, and it needs you to have chosen a voice — but
-    it's a gap against the standard set everywhere else, and it's being closed.
+    it's a gap against the standard set everywhere else.
+    ✅ **Closed on 9 September**: every voice in the list now carries a
+    fingerprint that ships inside EMMA, both halves of it are checked before
+    anything is installed, and a voice that doesn't match is thrown away rather
+    than used. ⚠️ **This is not in 1.2.0** — it lands in the next release, and
+    this line will say so when it does.
 
   **No secret has ever been committed, across the whole history** — 445 commits,
   every branch — and the key that signs licences has never been in the
