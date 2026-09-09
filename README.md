@@ -150,14 +150,16 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
-- **The reading-voice work is done, and it wasn't the speech engine.** Shipped
-  in **1.2.0** on 9 September. When speaking aloud failed — no voice installed,
-  the engine missing, any synthesis error — she simply didn't speak, and nothing
-  said why. That is what "her voice comes and goes" was. She now says what went
-  wrong, and the speaker button turns itself off rather than staying lit while
-  no sound comes out. If your reading is still off after 1.2.0 it's a different
-  fault, and I'd like to hear about it in
-  **[#papercuts](https://discord.gg/NEuWujf45u)**.
+- **The reading voice: found it.** If she ever read your answers back with the
+  sound crashing in and out — static, then words, then static — that was real,
+  and it's fixed. The silence she puts between sentences was being written in a
+  way that knocked the audio after it out of alignment, so every other sentence
+  came out as noise. **It depended on your particular install**: about half had
+  it on every long reply and half never did, which is why it was so hard to pin
+  down. Reported on 5 September, cause found on the 9th. Two other real voice
+  faults were fixed along the way — one where two replies spoke over each other,
+  and one where a failure to speak said nothing at all — but this was the one
+  people could hear. **Shipping in the next release; it isn't in 1.2.1.**
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
 - **You can buy her** — **£149 once, yours forever**, at
