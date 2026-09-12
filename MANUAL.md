@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.2.4.*
+*Everything she does, and where to find it. For v1.2.5.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -38,6 +38,12 @@ Three things, and that's the whole app:
 
 Nothing is hidden in a right-click menu. If you can't find something, it's in
 **Her world**.
+
+In the bottom-left corner there's **a lamp beside an armchair**, with a coffee
+going cold on the side table. It flickers on when she opens and stays lit — it's
+decoration, and clicking it does nothing. If your computer is set to reduce
+motion it is simply on, and on a very narrow window it steps aside to give the
+conversation the room.
 
 She runs entirely on your machine. The model doing the thinking is
 [Ollama](https://ollama.com), installed separately, running locally. There is no
@@ -83,7 +89,7 @@ Left to right:
 | **Careful mode** | She double-checks her answers before replying. Slower, better on anything that matters. |
 | **Safety dial** | How much she may do to your computer without asking — see §5 |
 | **Spine dial** | How much she pushes back — see below |
-| **Live mode** | Off by default. On, she may search the web and read pages. |
+| **Live mode** | Off by default. On, she may search the web, read pages and show you pictures. |
 | **Sanctuary mode** | Hides everything, instantly, when you lend someone your machine. `Alt+Shift+S` |
 | **Model picker** | The model she's thinking with. Warns you honestly when one is too big for your hardware. |
 | **☰ Her world** | Everything else — see §6 |

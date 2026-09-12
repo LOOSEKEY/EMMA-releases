@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.2.4) has no Mac build.** Windows and Linux are on
-> 1.2.4; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.2.5) has no Mac build.** Windows and Linux are on
+> 1.2.5; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable this month.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.2.4 update and then tell you there is no installer
+> EMMA may offer you the 1.2.5 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -160,6 +160,12 @@ Being straight with you, because I'd want the same:
   faults were fixed along the way — one where two replies spoke over each other,
   and one where a failure to speak said nothing at all — but this was the one
   people could hear. ✅ **Fixed in 1.2.2.**
+- **"I can't display images": that was real too.** If she's told you she
+  can't show pictures — or quietly stopped searching the web or reading
+  files — her own nightly notes about herself had grown until they crowded
+  her tools out of each message. It built up over weeks, which is why it
+  appeared out of nowhere. She keeps the newest notes in mind now, and none
+  were deleted. ✅ **Fixed in 1.2.5.**
 - **She works.** Not a demo, not a waitlist. Download her and she runs — memory,
   acting on your machine, Dream Mode, the family features, all of it.
 - **You can buy her** — **£149 once, yours forever**, at
@@ -169,7 +175,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.2.4**;
+- **macOS is behind, again.** Windows and Linux are on **1.2.5**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable this month. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with
