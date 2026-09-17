@@ -114,36 +114,57 @@ The one that started everything, now finished and in real use: a local-first AI
 platform built for professional work rather than the kitchen table. Same
 uncompromising stance — no cloud dependency, no telemetry, your data never
 leaving your control — aimed at the desk, the team, and the kind of work that
-can't be handed to somebody else's servers.
+can't be handed to somebody else's servers. **Live, sold, and in active use — it
+has been selling for months.**
 
 ### 🛰️ CLANK
 A sovereign, offline-first AI appliance for remote and extreme environments: a
 council of specialist agents that argue a problem out between them over a
 licensed, dated field library, running on your own hardware and carrying on
 thinking with the network completely unplugged. Built for exactly the places the
-cloud can't reach. Released and downloadable.
+cloud can't reach. **Complete — waiting on a launch date.**
 
 ### And behind those
 
 Each one standalone, each one local-first, many of them quietly running the same
-EMMA core dropped in like a brick:
+EMMA core dropped in like a brick. Most of what follows is *finished* — what's
+left is a launch date. It's grouped by where each thing actually is, not by how
+much I'd like to talk about it.
 
-- **Build Emma** — a private, offline coding platform, with EMMA resident in the
-  editor.
-- **CAROUSAL** — a dating and social platform. One of the few things here that
-  genuinely has to live on a server, which is why it's going on mine.
-- **CODE-STORE** — self-hosted code storage: what a cloud code host gives you,
-  kept on your own machine.
-- **CORA** — a local-first video editor that can take raw footage and cut the
-  finished edit for you.
-- **ECHO** — a local-first trading platform, run by EMMA and a team of market
-  agents.
-- **EVERGREEN** — an encrypted family memory vault, and a letterbox that works
-  across time.
-- **NORTHLIGHT** — an open-world survival game, built to find out what local AI
-  does for characters that actually remember you.
-- **THE BASEMENT** — a creator-first live-streaming platform, built the way it
-  should have been.
+**Featured, and finished**
+
+- **Build Emma** *(live next month)* — a private, offline coding platform with
+  EMMA resident in the editor. In agent mode she takes a task and works the
+  workspace in steps, and nothing lands until you approve the diff.
+
+**Finished — waiting on a launch date**
+
+- **CODE-STORE** *(ready to launch)* — self-hosted code storage: what a cloud
+  code host gives you, kept on your own machine.
+- **CAROUSAL** *(live in ~2 months)* — a social meeting and dating app, where
+  people find each other without an algorithm quietly deciding who they get to
+  see. One of the two hosted end to end from home.
+- **EVERGREEN** *(complete)* — an encrypted family memory vault, and a letterbox
+  that works across time.
+
+**In build**
+
+- **THE BASEMENT** *(the big one)* — a creator-first live-streaming platform,
+  built the way it should have been, and aimed squarely at out-doing Twitch. The
+  biggest build in The Works, and the second of the two hosted from home.
+- **LOST BOOKS** *(80% finished)* — reading for younger children, built for
+  schools: local-first, so a classroom's data stays in the classroom.
+
+**Long-horizon**
+
+- **NORTHLIGHT** *(long-horizon R&D)* — an open-world survival game across a
+  50×50km landscape, and the testbed for the boldest question here: what a local
+  AI does for characters that actually remember you.
+
+**Parked**
+
+- **ECHO** *(on hold)* — a local-first trading platform, run by EMMA and a team
+  of market agents.
 
 The through-line is deliberate. **EMMA is the connective tissue** — one being,
 reused across standalone apps, each staying whole on its own, each keeping its
@@ -165,9 +186,9 @@ put a number on it: thousands, and years behind them.
 
 **Self-funded** means my own savings, plus private penetration-testing work for
 clients on the side. It pays, it keeps me sharp, and it's a good part of the
-reason I'm building a security platform at all — that work is where you find out
-what a real audit trail is worth. It also means I've met a lot of interesting
-people and seen the inside of places most people never will.
+reason I'm building the security tools I am — that work is where you find out
+what a real audit trail is worth. It also means I've met a lot of
+interesting people and seen the inside of places most people never will.
 
 I've got my own way of getting to the end of a thing, and two rules underneath it
 that I actually hold to:
