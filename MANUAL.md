@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.2.5.*
+*Everything she does, and where to find it. For v1.2.6.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -130,6 +130,11 @@ hidden until it is, so if you can't see it, that is why.
 
 **Files.** Drag a document, image, audio or video file into the conversation and
 ask about it.
+
+**Links in her answers** are clickable titles, with the website's name beside
+each one — so a link can't pretend to go somewhere it doesn't. Hover to see the
+full address; clicking opens it in your browser. *Copy* still copies her answer
+as she wrote it, addresses included.
 
 ### The two commands worth knowing
 
