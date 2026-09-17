@@ -154,6 +154,9 @@ much I'd like to talk about it.
   biggest build in The Works, and the second of the two hosted from home.
 - **LOST BOOKS** *(80% finished)* — reading for younger children, built for
   schools: local-first, so a classroom's data stays in the classroom.
+- **CORA** *(in build)* — a local-first video editor that can take raw footage
+  and cut the finished edit for you. The editor and the assistant aren't two
+  things bolted together; the AI *is* the editor.
 
 **Long-horizon**
 
