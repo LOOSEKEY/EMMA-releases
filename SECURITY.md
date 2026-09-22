@@ -18,7 +18,7 @@ Useful things to include, roughly in order of how much they help:
 
 - **What an attacker gets**, and what they'd need to start — local user? another
   process on the machine? a page the user visits? a file or email they open?
-- **The version** — Settings → About, or the `version` field of
+- **The version** — **Her world → Check-up** (the `version` line near the top), or the `version` field of
   `http://127.0.0.1:8000/api/health`.
 - **OS and how you installed her** — Windows `.exe`, macOS `.dmg`, Linux `.deb`
   or AppImage.
@@ -41,9 +41,10 @@ ready. There's no paid bounty programme. If that ever changes it'll say so here.
 ## What's in scope
 
 Anything in a released build: the app, the local API on `127.0.0.1:8000`,
-**the phone door** (since 1.3.0: a second, TLS-only listener on your home network,
-port `8443`, **off until you switch it on** in Settings → Your phone; only paired
-phones get past it, and they can chat but not administer), the licence check, encryption at rest, the agentic "hands" and their confirmation
+**the phone door** (since 1.3.0: a second, TLS-only listener on your home
+network, port `8443`, **off until you switch it on** in Settings → Your phone;
+only paired phones get past it, and they can chat but not administer), the
+licence check, encryption at rest, the agentic "hands" and their confirmation
 layer, Dream Mode, and the email and document features that take input from
 outside your machine.
 
@@ -57,13 +58,13 @@ outside your machine.
   default · **a spoken voice** you choose, downloaded once · **the voice-
   recognition model**, a one-time ~250MB download · **your email**, spoken
   directly to your own mail server if you connect it · **a non-default model
-  engine**, if you configure one · **offline Wikipedia**, a one-time download from
-Kiwix that you choose the size of (1.3.0). The model itself is local by default.
-The phone door is not outbound, but it is the one listener that isn't on
-loopback, so **a way past its pairing, or a way for a paired phone to do more
-than chat, is exactly the kind of finding I want.**
-  **Anything outbound that isn't on that list is a finding**, and so is anything
-  on it that fires without the owner having enabled it.
+  engine**, if you configure one · **offline Wikipedia**, a one-time download
+  from Kiwix that you choose the size of (1.3.0). The model itself is local by
+  default. **Anything outbound that isn't on that list is a finding**, and so is
+  anything on it that fires without the owner having enabled it.
+- The **phone door** is not outbound, but it is the one listener that isn't on
+  loopback, so **a way past its pairing, or a way for a paired phone to do more
+  than chat, is exactly the kind of finding I want.**
 - Anything that gets **past the confirmation layer** on the agentic actions —
   files, apps, commands.
 - Anything reachable from an **email or an attachment** she reads (IMAP, since
@@ -140,7 +141,7 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
     machinery than before. Nobody can exploit that without taking over
     HuggingFace or breaking TLS, and it needs you to have chosen a voice — but
     it's a gap against the standard set everywhere else.
-    ✅ **Fixed and shipped in [1.2.1](../../releases/latest)** on 9 September:
+    ✅ **Fixed and shipped in 1.2.1** on 9 September:
     every voice in the list now carries a fingerprint that ships inside EMMA,
     both halves of it are checked before anything is installed, and a voice that
     doesn't match is thrown away rather than used. Nobody was ever at risk from

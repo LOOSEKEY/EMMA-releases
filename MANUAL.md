@@ -262,8 +262,11 @@ nothing is sent anywhere.
 - **Forget everything about…** — name a topic, and she shows you *exactly* what
   would go before anything is deleted. Nothing disappears before you've seen the
   list.
-- **Forget the last hour** — for when you said something you'd rather she didn't
-  keep.
+- **Wipe all memory…** — the whole lot, after a clear warning. A backup is taken
+  first.
+- About to say something you'd rather she didn't keep? Turn on **off the
+  record** (the eye beside the message box) first — nothing from that
+  conversation is kept.
 
 ### Encryption
 

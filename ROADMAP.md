@@ -35,6 +35,9 @@ time. I'd rather you knew which of those you were dealing with.
 ## ✅ Shipped — this is what you get today
 
 Everything here is in the current release. Not previews, not betas.
+*(On a Mac, the current build is **1.0.1**: everything from 1.1.0 onwards —
+including her voice, below — reaches Macs with the next Mac build, planned for
+1 October.)*
 
 ### New in 1.3.1
 - **A calendar you both write in** — a drop-down at the top of the app. Add
@@ -62,7 +65,7 @@ restarting the machine, and swapping the model she thinks with.
 down things you had never said — inventing a pet from a one-word greeting, or
 filing a bedtime story's characters as people in your life. She now can't record
 anything that doesn't trace back to words you actually typed. **If you were using
-her before 1.2.0, it's worth checking Settings → What EMMA knows about you and
+her before 1.2.0, it's worth opening the **memory** panel (top bar) and
 deleting anything that isn't true.** Updating doesn't touch what's already
 there — that's yours.*
 

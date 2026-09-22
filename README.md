@@ -204,9 +204,6 @@ Being straight with you, because I'd want the same:
   and every feature works — the native Linux window needs a system library that
   isn't in the installer yet. Worth knowing: on Linux, closing that window
   doesn't stop her, she keeps running in the background.
-- **Intel Mac support is brand new** — as of 0.6.3. Before that the site handed
-  every Mac the Apple Silicon file, which simply wouldn't run on an Intel one. If
-  that was you: sorry, and it's fixed.
 - **It's one person.** Me. Support is a real human and usually quick, but I'm not
   a company and I'm not going to pretend to be one. If you want to know who
   you're buying from and what else I'm building: **[The Works](BIO.md)**.
@@ -249,7 +246,7 @@ you, and it takes thirty seconds.
 **She never updates herself.** She'll tell you there's a new version; nothing is
 downloaded or replaced until you press the button.
 
-Two things she'd ever download, and she asks before both. The **speech model for
+Three things she'd ever download, and she asks before each. The **speech model for
 voice recognition** — about a quarter of a gigabyte, which is why it isn't inside
 the installer. She tells you the size before anything starts, and checks what
 arrives against a fingerprint built into the app before she'll use it. **Windows,
@@ -258,9 +255,16 @@ and leave the button alone — one of the libraries underneath it no longer buil
 for those machines. Everything else in EMMA works there exactly as it does
 anywhere.
 
-And **a different speaking voice**, if you pick one from the library. She ships
+**A different speaking voice**, if you pick one from the library. She ships
 with a voice that works from the first launch, so this only happens if you go
 looking for another one.
+
+And **offline Wikipedia**, if you want it — a one-time download in the size you
+choose, checked against the checksum Wikipedia's offline project publishes.
+
+*(Separately: live mode, the update check and your email each reach the
+internet only when you switch them on. The full list is in
+[SECURITY.md](SECURITY.md).)*
 
 ## What you'd actually own
 
