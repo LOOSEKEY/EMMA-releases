@@ -39,6 +39,9 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.3.2
+- **The update check waits to be asked** — the first-run box starts unticked.
+
 ### New in 1.3.1
 - **A calendar you both write in** — a drop-down at the top of the app. Add
   things yourself, or ask her to; she reads it when you ask what's on, warns
