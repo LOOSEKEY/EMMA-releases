@@ -40,8 +40,10 @@ ready. There's no paid bounty programme. If that ever changes it'll say so here.
 
 ## What's in scope
 
-Anything in a released build: the app, the local API on `127.0.0.1:8000`, the
-licence check, encryption at rest, the agentic "hands" and their confirmation
+Anything in a released build: the app, the local API on `127.0.0.1:8000`,
+**the phone door** (since 1.3.0: a second, TLS-only listener on your home network,
+port `8443`, **off until you switch it on** in Settings → Your phone; only paired
+phones get past it, and they can chat but not administer), the licence check, encryption at rest, the agentic "hands" and their confirmation
 layer, Dream Mode, and the email and document features that take input from
 outside your machine.
 
@@ -55,7 +57,11 @@ outside your machine.
   default · **a spoken voice** you choose, downloaded once · **the voice-
   recognition model**, a one-time ~250MB download · **your email**, spoken
   directly to your own mail server if you connect it · **a non-default model
-  engine**, if you configure one. The model itself is local by default.
+  engine**, if you configure one · **offline Wikipedia**, a one-time download from
+Kiwix that you choose the size of (1.3.0). The model itself is local by default.
+The phone door is not outbound, but it is the one listener that isn't on
+loopback, so **a way past its pairing, or a way for a paired phone to do more
+than chat, is exactly the kind of finding I want.**
   **Anything outbound that isn't on that list is a finding**, and so is anything
   on it that fires without the owner having enabled it.
 - Anything that gets **past the confirmation layer** on the agentic actions —

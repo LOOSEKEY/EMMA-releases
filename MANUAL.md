@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.2.8.*
+*Everything she does, and where to find it. For v1.3.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -131,6 +131,30 @@ hidden until it is, so if you can't see it, that is why.
 **Files.** Drag a document, image, audio or video file into the conversation and
 ask about it.
 
+**Off the record.** Press the **eye** beside the message box and the conversation
+goes off the record: the window clears, the box gets a dashed gold edge, and
+nothing you say from then on is kept — not in her memory, her facts, her dreams,
+her notes, or the year report. She still knows everything she already knew about
+you, and she remembers what's been said *in this conversation* until you end it.
+Press the eye again (or close the window) and it's gone, and your ordinary
+conversation comes back. The one thing that is still written down: anything she
+**does** on your computer goes in the audit log, because that record is what keeps
+you safe. She won't save a memory while it's on, and she'll tell you so if you
+ask her to remember something.
+
+**"My head was too full this turn."** If you paste something very long, or run
+a model with a small memory window, there can be no room left for her tools —
+searching, files, the screen. When that happens she says so, and a line under her
+answer tells you how to get them back: a shorter message, or a model with a bigger
+context window. Asking again with the same message won't help.
+
+**"Your drive is almost full" / "Memory is tight."** When EMMA starts she checks
+how much memory and disk space is free. If either is short, a note appears in the
+chat saying what's wrong and what helps — closing other programs, clearing space,
+or a lighter model. It never stops her starting. The same numbers are written to
+her log every time she starts, so a check-up (§6) shows whether the machine was
+short.
+
 **Links in her answers** are clickable titles, with the website's name beside
 each one — so a link can't pretend to go somewhere it doesn't. Hover to see the
 full address; clicking opens it in your browser. *Copy* still copies her answer
@@ -169,6 +193,7 @@ of it, edit it, and delete it.
 | **What EMMA knows about you** | The facts she's gathered. Add your own, delete any. |
 | **Who EMMA is becoming** | Her notes on herself |
 | **Soul File** | Her entire brain as one file — **Export brain** or **Import…**. She also keeps a quiet daily copy of the whole thing (the last 7), and **Back up now** takes one on the spot. |
+| **Bring your history** | Bring what you wrote to ChatGPT or Claude home — below |
 | **Forget** | Two ways to make her forget, below |
 
 *Looking for everything ever said? That's two other places: **Chats** in the top
@@ -187,6 +212,24 @@ She can't know which one is right, so she doesn't guess.
 Three answers, and *"both are true"* is a real one — people genuinely do contain
 multitudes. Answering is the only place in EMMA where a fact is forgotten
 because *you* said so.
+
+### Bring your history
+
+Moving from ChatGPT or Claude? In their settings, ask for your data (*export
+data*); they email you a file. In the memory panel, **Bring your history →
+Choose export file…** and give EMMA that `.zip` (or the `conversations.json`
+inside it). She shows you what's in it first — how many conversations, how many
+of your messages, the dates — and nothing is saved until you say **Import**. A
+backup of her brain is taken before anything goes in.
+
+She keeps **only what you wrote**, dated and labelled as from there. The other
+AI's replies are left behind. What you wrote is background for her, never
+something you told her or a fact she's sure of, and when she uses it,
+**Why did I say that?** shows it as *from your imported history*. Her model reads
+the lines in over a few minutes while you carry on talking. Importing the same
+file twice adds nothing, **Remove** takes a whole source back out, and *Forget*
+and *Wipe* reach imported lines too. The file is read on your computer and
+nothing is sent anywhere.
 
 ### Making her forget
 
@@ -267,10 +310,11 @@ Everything under the ☰ menu, in menu order:
 | **Rehearsal room** | Practise the hard conversation — she plays the other person, then steps out of it and tells you honestly how you did. Or "argue me out of this", and she takes the other side properly. Nothing said in here is remembered. |
 | **Skills** | Procedures she can follow. **Teach her one yourself** with the box at the top: narrate how you do something in your own words and she writes it down as steps — that one outranks anything she works out on her own, and she won't add steps you didn't say. The **✎** opens a skill for editing — and editing one makes it yours, so her own learning can't overwrite it afterwards. The **⤓** exports that skill as a file a friend's EMMA can import; people swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
-| **Insights** | Patterns in what she's been doing |
+| **Insights** | Patterns in what she's been doing — and **A year with EMMA**, a page of what your last twelve months together looked like. She offers it herself in the bell on the anniversary of the day you first talked, and on 31 December. |
 | **Models** | Install, remove and switch models |
 | **Settings** | See §7 |
 | **MCP connections** | See §11 |
+| **Check-up** | Everything a bug report needs in one text: version, your machine, free memory and disk, which model, what she had to leave out of her last reply, and the end of her log. **Read it first — nothing leaves your computer unless you send it**, and your licence key, name and email are never in it. *Copy all* or *Save as a file*, then post it in Discord `#install` or email it. Typing `/checkup` does the same. |
 
 ---
 
@@ -281,8 +325,13 @@ this is the order you'll meet them in on screen.
 
 ### The top of the panel
 
-- **How she looks** — dark or light, and the colour she's drawn in.
-- **Her voice** — which voice she speaks in.
+- **How she looks** — dark or light, the colour she's drawn in, and her
+  **Language**: English, Deutsch or Nederlands. It changes the app's words and
+  everything she writes and says to you (she uses the friendly *du* / *je*).
+  After switching, give her a turn or two: a conversation that was in one
+  language can pull her first reply back into it.
+- **Her voice** — which voice she speaks in. Her German voice is **Kerstin**; her
+  Dutch voice is **Nathalie**, who has a Belgian (Flemish) accent.
 - **Family voices** — record a voice per person, with consent required and
   recorded. She cannot yet read *in* that voice; see *Her world* below.
 - **Kid mode** — a restricted EMMA with a bedtime. See §9.
@@ -329,6 +378,15 @@ this is the order you'll meet them in on screen.
   finally knows your real day. A web address is refused, not quietly ignored.
 - **Picture generator** — point her at AUTOMATIC1111, SD.Next or Forge if you run
   one.
+- **Offline Wikipedia** — a copy of Wikipedia on this computer, as a separate
+  download you choose: from about 0.3 GB (the most-read English articles, first
+  paragraphs) to 49 GB (every English article, full text); German and Dutch
+  too. It's checked against the checksum Wikipedia's offline project (Kiwix)
+  publishes. After that, when you ask about something that has an article —
+  *"what is oxygen?"*, *"wer war Ada Lovelace?"* — she reads the article's
+  opening, answers from it, and *Why did I say that?* names the article. She
+  finds articles **by their title**, so ask about the thing by name. No
+  internet is needed once it's downloaded. Remove it any time.
 
 ### Services that report in
 
@@ -338,6 +396,22 @@ this is the order you'll meet them in on screen.
   Empty by default and dormant until you point her at a folder; a web address is
   refused. *What she already understands about systems* below lists the general
   admin knowledge she ships with — it holds no data about any system of yours.
+
+### Your phone
+
+- **Talk to her from your phone** — off until you switch it on. With your phone
+  on the same Wi-Fi as this computer, press **Pair a phone** and scan the code
+  with the phone's camera (it works once, for ten minutes). The first time, the
+  phone's browser warns that the connection "isn't private": EMMA made her own
+  security certificate instead of buying one, so the browser doesn't recognise
+  it. The conversation is still encrypted and only goes to this computer. Tap
+  *Advanced → Proceed* (Android) or *Show Details → visit this website*
+  (iPhone), once. Your computer may also ask whether EMMA can use the network:
+  allow it on **private** networks. On the phone she's a window for chatting —
+  send, stop, approve an action, hear her, off the record — and anything that
+  changes settings, exports her brain or pairs another phone stays on the
+  computer. Her brain stays here, so the computer has to be on. Each paired
+  phone is listed with a **Remove**. Nothing goes over the internet.
 
 ### Your email
 
@@ -405,7 +479,13 @@ EMMA is one being with many relationships — not one shared account.
 - **Kid mode** — a restricted EMMA with a bedtime. Restriction is the resting
   state: she starts restricted and stays that way until an adult says otherwise.
 - **Sanctuary mode** (`Alt+Shift+S`) — for lending someone your laptop. Everything
-  goes discreet at once.
+  goes discreet at once: the window clears, your name, conversations, memory and
+  personal drawers are hidden, and nothing from the guest's conversation is kept.
+  The guest still talks to EMMA — her warmth and her way of speaking — just
+  without any of your life, and she remembers what they've said until Sanctuary
+  is switched off. It also switches itself on if a guest's phone arrives (when
+  you've allowed that), and the screen clears within a few seconds. Only you can
+  switch it off.
 
 ---
 

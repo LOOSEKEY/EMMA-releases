@@ -36,6 +36,17 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 
+### New in 1.3.0
+- **She speaks German and Dutch** — the whole app, and everything she writes and
+  says. Her German voice is Kerstin; her Dutch voice is Nathalie.
+- **A window from your phone** — on your home Wi-Fi only, encrypted, for phones
+  you pair. Her brain stays on your computer; the phone is a window onto her.
+- **Off the record** — a conversation she keeps nothing from.
+- **Offline Wikipedia** — an optional download; she answers from the article and
+  names it.
+- **Bring your history** — import what *you* wrote to ChatGPT or Claude.
+- **The check-up** — everything a bug report needs, in one text you read first.
+
 ### She remembers you
 Years of you, not a chat log — what you decided, who matters to you, what you're
 working towards, what you said back in March. It survives closing the app,
@@ -186,16 +197,14 @@ Short list on purpose. These are the things I think are most likely to matter.
 
 Genuinely undecided. Several of these will never happen, and that's fine.
 
-- **A phone in your pocket.** Not EMMA-on-a-server-you-talk-to — that's the thing
-  she exists to not be. Something more like a window into the EMMA already on your
-  machine at home. It's a big piece of work and I want to get the shape right
-  rather than ship a compromise.
-- **More languages.** She's English-first today.
+- **Your phone away from home.** 1.3.0 made your phone a window onto her on
+  your home Wi-Fi. Reaching her from anywhere else needs something in the middle,
+  and that's the thing she exists to not have, so it's parked, deliberately.
+- **More languages.** German and Dutch arrived in 1.3.0; others come the same
+  way, one file each, once someone who speaks the language can check them.
 - **Better on modest hardware.** She runs on a lot of machines already, but "runs"
   and "feels good" aren't the same thing, and I'd like more people in the second
   group.
-- **Import from elsewhere.** Bringing years of conversations from another
-  assistant into her memory.
 - **Accessibility.** Screen-reader behaviour has had a pass but not a proper
   audit by someone who actually uses one. If that's you, I'd love to hear from
   you.
