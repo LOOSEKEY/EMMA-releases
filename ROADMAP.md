@@ -39,6 +39,10 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.3.3
+- **The calendar sits on top** of the conversation, and her confirmations say
+  the year for anything outside this one.
+
 ### New in 1.3.2
 - **The update check waits to be asked** — the first-run box starts unticked.
 
