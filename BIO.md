@@ -11,7 +11,7 @@ behind me, and nobody I have to ask before I change something.
 It's all the same idea repeated: applications that run **entirely on your own
 machine**, that you **buy once and keep**, and that carry on working with the
 internet unplugged. There are about a dozen of them now, reaching into different
-corners — home, work, security, media, money, family, even games. I call the
+corners — home, work, security, media, family, schools. I call the
 whole of it **The Works**. A works is a place where things get built; *the works*
 is all of it.
 
@@ -141,11 +141,14 @@ much I'd like to talk about it.
 
 - **CODE-STORE** *(ready to launch)* — self-hosted code storage: what a cloud
   code host gives you, kept on your own machine.
-- **CAROUSAL** *(live in ~2 months)* — a social meeting and dating app, where
+- **CAROUSAL** *(complete — live in a few months)* — a social meeting and dating app, where
   people find each other without an algorithm quietly deciding who they get to
   see. One of the two hosted end to end from home.
 - **EVERGREEN** *(complete)* — an encrypted family memory vault, and a letterbox
   that works across time.
+- **CORA** *(complete — live next year)* — a local-first video editor that can
+  take raw footage and cut the finished edit for you. The editor and the
+  assistant aren't two things bolted together; the AI *is* the editor.
 
 **In build**
 
@@ -154,20 +157,6 @@ much I'd like to talk about it.
   biggest build in The Works, and the second of the two hosted from home.
 - **LOST BOOKS** *(80% finished)* — reading for younger children, built for
   schools: local-first, so a classroom's data stays in the classroom.
-- **CORA** *(in build)* — a local-first video editor that can take raw footage
-  and cut the finished edit for you. The editor and the assistant aren't two
-  things bolted together; the AI *is* the editor.
-
-**Long-horizon**
-
-- **NORTHLIGHT** *(long-horizon R&D)* — an open-world survival game across a
-  50×50km landscape, and the testbed for the boldest question here: what a local
-  AI does for characters that actually remember you.
-
-**Parked**
-
-- **ECHO** *(on hold)* — a local-first trading platform, run by EMMA and a team
-  of market agents.
 
 The through-line is deliberate. **EMMA is the connective tissue** — one being,
 reused across standalone apps, each staying whole on its own, each keeping its
