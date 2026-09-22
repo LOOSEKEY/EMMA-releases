@@ -131,10 +131,10 @@ EMMA core dropped in like a brick. Most of what follows is *finished* — what's
 left is a launch date. It's grouped by where each thing actually is, not by how
 much I'd like to talk about it.
 
-**Featured, and finished**
+**Featured, and live**
 
-- **Build Emma** *(live next month)* — a private, offline coding platform with
-  EMMA resident in the editor. In agent mode she takes a task and works the
+- **Build Emma** *(live — [buildemma.com](https://buildemma.com), £89 once)* — a
+  private, offline coding platform with EMMA resident in the editor. In agent mode she takes a task and works the
   workspace in steps, and nothing lands until you approve the diff.
 
 **Finished — waiting on a launch date**
