@@ -39,6 +39,16 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.4.0
+- **She can hear you** — the speech engine ships with her; her speech model is a
+  one-time download she asks about the first time you press the mic. Transcripts,
+  video and voice recognition work in a downloaded copy for the first time.
+- **Her Studio** — record a video or a podcast: backgrounds and green screen, a
+  cut-out that needs no green screen, scenes, your logo and name, a teleprompter,
+  spoken commands like *"EMMA, cut that"*, and an interview mode. When you stop,
+  she writes captions, chapters, titles, a description, an MP3 and thumbnails
+  into one folder.
+
 ### New in 1.3.4
 - **She works out what day a date falls on** — *"what day is Christmas?"*,
   *"how many days until…"* — instead of guessing, and doesn't talk about her

@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.3.4) has no Mac build yet.** Windows and Linux are on
-> 1.3.4; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.4.0) has no Mac build yet.** Windows and Linux are on
+> 1.4.0; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.3.4 update and then tell you there is no installer
+> EMMA may offer you the 1.4.0 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,13 +150,21 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
-- **New in 1.3.4: she works out the weekday, and your phone gets a way in.**
+- **New in 1.4.0: she can hear you, and she has a studio.** Press the mic and
+  talk — the speech engine now ships with her, and her speech model is a
+  one-time download she asks about first. And press **studio**: the window
+  becomes a room for making a video or podcast — green screen (or a cut-out that
+  needs no green screen), scenes, your logo, a teleprompter, *"EMMA, cut that"*
+  while you record, and she'll even interview you. When you stop, she writes the
+  captions, chapters, titles, description and thumbnails into one folder to drag
+  into YouTube. The [release notes](../../releases/tag/v1.4.0) say more.
+- **1.3.4: she works out the weekday, and your phone gets a way in.**
   Ask *"what day does Christmas fall on?"* and she now says **Friday**, not
   *"December 25th"*: EMMA does the date arithmetic herself and hands her the
   answer, countdowns too. And if your phone just keeps loading after you scan
   the pairing code, Settings → *Your phone* now says what to do (type the
   address into Chrome or Safari). The
-  [release notes](../../releases/tag/v1.3.4) say more.
+  release notes say more.
 - **1.3.3: two calendar fixes.** The calendar no longer hides behind the
   conversation, and when she books something for another year her reply now
   says the year, so a slip is easy to spot. The
@@ -174,7 +182,7 @@ Being straight with you, because I'd want the same:
   you can talk to her **from your phone** on your home Wi-Fi; **off the record**
   keeps nothing from a conversation; **offline Wikipedia** is an optional
   download she answers from and names; and you can **bring your history** from
-  ChatGPT or Claude. All of it is in 1.3.4 too.
+  ChatGPT or Claude. All of it is in 1.4.0 too.
 - **If you use Sanctuary mode, update.** In 1.2.8, reloading the window while
   Sanctuary was on could leave your conversation and name on screen. ✅ **Fixed
   in 1.3.0.** So is Windows quietly not opening when Ollama wasn't running.
@@ -204,7 +212,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.3.4**;
+- **macOS is behind, again.** Windows and Linux are on **1.4.0**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with

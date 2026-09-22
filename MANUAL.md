@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.3.4.*
+*Everything she does, and where to find it. For v1.4.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -127,6 +127,55 @@ Click to cycle. This is tone, not capability:
 
 ---
 
+### Her Studio
+
+Press **studio** in the top bar and the whole window becomes a studio for making
+a video or a podcast episode. Everything happens on your computer; nothing is
+uploaded anywhere, and the camera light is your proof.
+
+- **You, big, in the middle.** What you see on the stage is exactly what gets
+  recorded — backgrounds and all — so there are no surprises at the end. You're
+  shown mirrored because that's what people expect; **the saved video is never
+  mirrored**.
+- **Scenes**, down the left: *Just me*, *Me + screen* (a screen you share, with
+  you in the corner — floating with no box if a background is on), *Screen only*,
+  and a *Title card* you type.
+- **Look**: your room as it is, a **green screen** (click your cloth in the
+  picture to teach her the colour, then even the edges out), **cut me out** with
+  no green screen at all, or **blur my room**. Five backdrops, or your own
+  picture.
+- **Your mark on it**: your logo in any corner, and a **lower third** — your
+  name and what you do, sliding in when you start recording (or whenever you
+  press *Show it now*). Both are drawn into the video itself.
+- **Talk to her while you record.** Say **"EMMA, cut that"** and the fluffed
+  sentence disappears from the finished video, along with the command itself.
+  **"EMMA, chapter here"** drops a chapter mark. **"EMMA, take two"** throws
+  away the attempt you just made and starts that bit again. She works these out
+  afterwards from what she heard, so nothing has to be running while you record
+  — and a mistimed *take two* can never delete more than the last 45 seconds.
+- **Interview mode**: tell her what the episode is about and she writes the
+  questions, then asks them **out loud, one at a time**, waiting for your
+  answer. Each question becomes a chapter, titled with the question.
+- **Script**: paste what you want to say and it scrolls over your face as a
+  teleprompter. It is on your screen only and **never in the video**.
+- **Sound**: pick your microphone and watch the bar — green is right, red is too
+  loud.
+- **Record** keeps your take in pieces as it goes, so a crash or a flat battery
+  costs seconds, not the episode. Takes are listed with their length and size,
+  and kept in `studio/` inside her data folder.
+- **Make it ready** turns a take into a folder you can drag straight into
+  YouTube: the video, `.srt` captions, chapters, three title options, a
+  description, tags, a levelled `.mp3` for podcast platforms, three thumbnail
+  frames and the full transcript. It needs her speech model and ffmpeg
+  (Settings → *Hearing you*), and it says so if they're missing.
+- She **doesn't upload for you**: that would need an app Google approves, and a
+  third party in the middle of something built to have none.
+
+She won't record while **Sanctuary** is on, in **Kid mode**, or when the disk
+is nearly full — she says which, before you start rather than half way through.
+
+---
+
 ## 3. Talking to her
 
 **Type** in the box and press Enter. **Stop** appears while she's working — press
@@ -150,9 +199,13 @@ press it again to stop her. It is there whenever she has a voice installed, even
 with the speaker off, so you can have the briefing read to you without turning
 her voice on for everything else.
 
-**Talking back to her out loud** — the microphone, and hands-free conversation —
-needs speech *recognition*, which is not in this build. The mic button stays
-hidden until it is, so if you can't see it, that is why.
+**Talking back to her out loud.** Press the **microphone** beside the message
+box and talk; press it again and she types what you said and answers. The
+**headphones** button is hands-free conversation: she listens, answers out
+loud, and you can cut in while she's speaking. The first time you press the
+mic, she asks whether to download her speech model (about 150 MB, once) — see
+Settings → *Hearing you*. Nothing is recorded anywhere: what you say is turned
+into text on this machine and the sound is thrown away.
 
 **Files.** Drag a document, image, audio or video file into the conversation and
 ask about it.
@@ -373,6 +426,13 @@ this is the order you'll meet them in on screen.
 - **Watch me (computer use)** — lets her see and drive the screen. She says what
   she's about to do before she does it, and hands control straight back the
   moment you touch the mouse.
+- **Hearing you** — two one-time downloads, each fetched only when you click and
+  checked against a fingerprint built into EMMA. **Her speech model** (about
+  150 MB, from huggingface.co) lets her understand you: the microphone,
+  conversation mode and transcripts. The first time you press the mic she asks
+  before fetching it. **Audio and video files** need ffmpeg, a free toolkit
+  (about 50 MB, from EMMA's releases page); talking to her doesn't. If your
+  computer already has ffmpeg, she uses that and there's nothing to download.
 - **Knowing who's speaking** — she recognises enrolled voices and greets each
   person as themselves. Needs a one-time voice-model download (about a quarter of
   a gigabyte, checksummed, and only fetched when you click). Not available on
@@ -502,9 +562,8 @@ EMMA is one being with many relationships — not one shared account.
   like it. Everyone gets their own memories, not one shared assistant treating
   the room as a single person. Nobody is recognised until they've enrolled
   themselves on purpose; she keeps a mathematical fingerprint of a voice and
-  never a recording. It needs a one-time model download **and `ffmpeg` on your
-  machine**, which the installer doesn't carry — without it, enrolling can't
-  work.
+  never a recording. It needs the one-time voice-model download in Settings →
+  *Knowing who's speaking*.
 - **Family voices** — you can record a household voice, with consent captured
   and kept, always labelled a recreation, and deletable in one click. **She
   cannot yet read in that voice**: the recreation itself isn't built, and she
