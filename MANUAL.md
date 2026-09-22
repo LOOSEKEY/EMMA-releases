@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.3.0.*
+*Everything she does, and where to find it. For v1.3.1.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -82,7 +82,7 @@ Left to right:
 | Control | What it does |
 |---|---|
 | **Chats** | Your conversation threads — pick one up again, or browse back |
-| **Clear chat** | Starts a fresh thread. Your **memory is untouched** — this clears the screen, not what she knows |
+| **Calendar** | Your diary, as a drop-down — see *The calendar* below |
 | **Memory** | What she knows about you — see §4 |
 | **Notifications** | What she did while you were away |
 | **Dreams** | Overnight thinking — see §8 |
@@ -93,6 +93,29 @@ Left to right:
 | **Sanctuary mode** | Hides everything, instantly, when you lend someone your machine. `Alt+Shift+S` |
 | **Model picker** | The model she's thinking with. Warns you honestly when one is too big for your hardware. |
 | **☰ Her world** | Everything else — see §6 |
+
+### The calendar
+
+Click **calendar** and a month drops down. Pick a day to see what's on it;
+**+ Add** puts something in — a name, a day, a time (or *All day*), and if you
+like how long, where, and a note. Click an entry to change it or delete it.
+
+**She uses the same calendar.** Ask her *"what's on Friday?"* or *"am I busy
+tomorrow?"* and she reads it; say *"put the dentist in for Friday at 2pm"* and
+she adds it, tells you the day and time she booked, and warns you if it
+overlaps something. *"Cancel the dentist"* takes it out — if two entries could
+match, she asks which. Entries she added are marked **EMMA**. If you give her a
+time like "at 2" she asks whether you mean morning or afternoon rather than
+guess. Her morning briefing reads it too.
+
+It lives inside her memory, so it is **encrypted with everything else**, goes
+into your backups, and is erased by a full memory wipe. It's hidden in
+Sanctuary mode, and off the record she won't add anything to it.
+
+If you already keep a calendar in another program, point her at its `.ics`
+files (Settings → *Where she looks*). Those entries show up here and she reads
+them, but they stay **read-only** — only the program they came from changes
+them.
 
 ### The spine dial
 
@@ -108,6 +131,9 @@ Click to cycle. This is tone, not capability:
 
 **Type** in the box and press Enter. **Stop** appears while she's working — press
 it and she stops mid-sentence.
+
+**The bin**, just to the right of the box, clears the chat and starts a fresh
+thread. Her **memory is untouched** — it clears the screen, not what she knows.
 
 **Voice.** Go to Settings → *Her voice*, pick one, and she fetches it once —
 about a minute. Then press the speaker and she reads her answers aloud. She has
@@ -374,8 +400,9 @@ this is the order you'll meet them in on screen.
 
 ### Where she looks
 
-- **Calendar folders** — point her at local `.ics` files and the morning briefing
-  finally knows your real day. A web address is refused, not quietly ignored.
+- **Calendar folders** — point her at local `.ics` files from another calendar
+  program and they appear, read-only, beside her own calendar (§2). A web
+  address is refused, not quietly ignored.
 - **Picture generator** — point her at AUTOMATIC1111, SD.Next or Forge if you run
   one.
 - **Offline Wikipedia** — a copy of Wikipedia on this computer, as a separate

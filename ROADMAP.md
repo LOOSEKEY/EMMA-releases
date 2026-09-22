@@ -36,6 +36,12 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 
+### New in 1.3.1
+- **A calendar you both write in** — a drop-down at the top of the app. Add
+  things yourself, or ask her to; she reads it when you ask what's on, warns
+  about clashes, and asks rather than guesses. Encrypted with her memory.
+- **The bin moved** to just right of the chat box.
+
 ### New in 1.3.0
 - **She speaks German and Dutch** — the whole app, and everything she writes and
   says. Her German voice is Kerstin; her Dutch voice is Nathalie.
