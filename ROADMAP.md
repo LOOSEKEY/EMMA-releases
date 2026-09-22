@@ -39,6 +39,14 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.3.4
+- **She works out what day a date falls on** — *"what day is Christmas?"*,
+  *"how many days until…"* — instead of guessing, and doesn't talk about her
+  tools in her replies.
+- **Your phone gets a way in** when the camera's own browser just keeps
+  loading: Settings → *Your phone* says to type the address into Chrome or
+  Safari.
+
 ### New in 1.3.3
 - **The calendar sits on top** of the conversation, and her confirmations say
   the year for anything outside this one.
