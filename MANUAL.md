@@ -431,7 +431,10 @@ this is the order you'll meet them in on screen.
 
 - **Talk to her from your phone** — off until you switch it on. With your phone
   on the same Wi-Fi as this computer, press **Pair a phone** and scan the code
-  with the phone's camera (it works once, for ten minutes). The first time, the
+  with the phone's camera (it works once, for ten minutes). If the phone just
+  keeps loading, the camera has opened the link in its own small browser, which
+  can't reach EMMA: open Chrome (Android) or Safari (iPhone) and type the
+  address shown under the code instead. The first time, the
   phone's browser warns that the connection "isn't private": EMMA made her own
   security certificate instead of buying one, so the browser doesn't recognise
   it. The conversation is still encrypted and only goes to this computer. Tap
