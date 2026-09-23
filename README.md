@@ -162,7 +162,7 @@ Being straight with you, because I'd want the same:
   needs no green screen), scenes, your logo, a teleprompter, *"EMMA, cut that"*
   while you record, and she'll even interview you. When you stop, she writes the
   captions, chapters, titles, description and thumbnails into one folder to drag
-  into YouTube. The [release notes](../../releases/tag/v1.4.0) say more.
+  into YouTube. The 1.4.0 release notes say more.
 - **1.3.4: she works out the weekday, and your phone gets a way in.**
   Ask *"what day does Christmas fall on?"* and she now says **Friday**, not
   *"December 25th"*: EMMA does the date arithmetic herself and hands her the
