@@ -39,6 +39,12 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.5.1
+- **The Studio camera** — a webcam that opens but sends no picture no longer
+  leaves a blank screen: she asks again more simply and remembers what worked.
+- **Screen sharing** stays on while you switch scenes.
+- **Settings** — a long licence key stays inside its box.
+
 ### New in 1.5.0
 - **Is this a scam?** — paste it, photograph it, or pick an email; she names the
   warning signs she sees, checks where an email's links really go, and never says

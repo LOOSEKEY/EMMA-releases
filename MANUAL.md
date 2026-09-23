@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.5.0.*
+*Everything she does, and where to find it. For v1.5.1.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -173,6 +173,14 @@ uploaded anywhere, and the camera light is your proof.
 
 She won't record while **Sanctuary** is on, in **Kid mode**, or when the disk
 is nearly full — she says which, before you start rather than half way through.
+
+**If the camera picture doesn't appear**, she waits a few seconds, then asks the
+camera again more simply: some USB webcams say they can do things they can't.
+She remembers what worked, so next time it opens straight away. If it still
+sends nothing, she tells you what to try (unplug it and plug it back in,
+straight into the computer rather than a hub). **Sharing your screen** is asked
+for every time by the browser, by design; once shared, it stays shared while you
+switch scenes, until you leave the studio or press *Stop sharing*.
 
 ---
 

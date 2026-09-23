@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.5.0) has no Mac build yet.** Windows and Linux are on
-> 1.5.0; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.5.1) has no Mac build yet.** Windows and Linux are on
+> 1.5.1; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.5.0 update and then tell you there is no installer
+> EMMA may offer you the 1.5.1 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,13 +150,17 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.5.1: the Studio camera.** Some webcams open and then send no picture;
+  the Studio used to wait forever on a blank screen. Now she asks the camera
+  again more simply and remembers what worked. Your screen share also stays on
+  while you switch scenes, and a long licence key no longer runs out of its box
+  in Settings. The [release notes](../../releases/tag/v1.5.1) say more.
 - **New in 1.5.0: "is this a scam?" and live captions.** Open *Her world →
   Scam check* and paste a message, photograph a letter, or pick one of your
   latest emails: she tells you the warning signs she sees (and never says
   something is safe). *Her world → Live captions* puts words for whatever the
   computer is playing, a call or a video, in large type (Windows and Linux).
-  And her window now only runs EMMA's own code. The
-  [release notes](../../releases/tag/v1.5.0) say more.
+  And her window now only runs EMMA's own code. The 1.5.0 release notes say more.
 - **1.4.1 is a security release: please update.** Our own security scan, the
   morning after 1.4.0, found that on Windows a desktop notification's words
   could be made to run a program, and that a few spots in her window could run
@@ -224,7 +228,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.5.0**;
+- **macOS is behind, again.** Windows and Linux are on **1.5.1**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with
