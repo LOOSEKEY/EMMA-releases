@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.5.1.*
+*Everything she does, and where to find it. For v1.5.2.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -515,6 +515,12 @@ this is the order you'll meet them in on screen.
   changes settings, exports her brain or pairs another phone stays on the
   computer. Her brain stays here, so the computer has to be on. Each paired
   phone is listed with a **Remove**. Nothing goes over the internet.
+  The phone and the computer stay on the same conversation: what you say on
+  one shows up on the other within a few seconds, and when you carry on in a
+  different conversation, the other screen follows you there (unless you're
+  halfway through typing something on it). If the phone locks or loses the
+  Wi-Fi halfway through her answer, she finishes it anyway, and it's there when
+  you look again. Off the record stays on the screen it started on.
 
 ### Your email
 

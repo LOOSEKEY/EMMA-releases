@@ -39,6 +39,11 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.5.2
+- **Phone and computer keep in step** — what you say on one shows up on the other
+  within a few seconds, and the other screen follows you to another conversation.
+- **Her answer is kept when the phone locks** halfway through it; it used to be lost.
+
 ### New in 1.5.1
 - **The Studio camera** — a webcam that opens but sends no picture no longer
   leaves a blank screen: she asks again more simply and remembers what worked.
