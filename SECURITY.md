@@ -121,7 +121,25 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-09-06**, run the day 1.1.0 shipped, because that
+- **The most recent was 2026-09-23**, the morning after 1.4.0, because 1.4.0
+  and the releases just before it added a lot of new code: the phone, her ears,
+  the studio. The libraries were clean. Reading the new code found two real
+  problems, and both were **fixed and shipped in 1.4.1 the same day**:
+
+  - **On Windows, a notification's words could run a program.** The words of a
+    desktop notification were handed to Windows in a way that carefully written
+    text could turn into a command, and some notification text comes from web
+    pages (a watch you set up, your reading list). It had been there since
+    notifications arrived in July. Now the words are only ever words. macOS and
+    Linux were not affected.
+  - **Text from outside could run inside her window.** The names of tools she
+    uses and of files you add to Documents were shown as part of the page rather
+    than as plain text. Now they are plain text, and a test checks every place in
+    the window that builds a page.
+
+  Both were proven on the old build before being fixed and proven closed after.
+
+- **Before that, 2026-09-06**, run the day 1.1.0 shipped, because that
   release put three new libraries inside the installer for the first time — the
   speech engine and the runtime underneath it. Two things came out of it:
 

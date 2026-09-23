@@ -39,6 +39,11 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.4.1
+- **Two security fixes** — on Windows, a notification's words could be made to
+  run a program; and a file name or a tool name could run hidden code inside her
+  window. Both fixed, found by our own scan. Please update.
+
 ### New in 1.4.0
 - **She can hear you** — the speech engine ships with her; her speech model is a
   one-time download she asks about the first time you press the mic. Transcripts,
