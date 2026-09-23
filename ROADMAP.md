@@ -39,6 +39,14 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.5.0
+- **Is this a scam?** — paste it, photograph it, or pick an email; she names the
+  warning signs she sees, checks where an email's links really go, and never says
+  something is safe. Only when you ask.
+- **Live captions** — words for whatever is playing on the computer, in large
+  type. Nothing is kept. Windows and Linux.
+- **A safety net under her window** — only EMMA's own code can run in it.
+
 ### New in 1.4.1
 - **Two security fixes** — on Windows, a notification's words could be made to
   run a program; and a file name or a tool name could run hidden code inside her

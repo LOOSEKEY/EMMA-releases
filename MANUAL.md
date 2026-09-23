@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.4.1.*
+*Everything she does, and where to find it. For v1.5.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -376,6 +376,8 @@ Everything under the ☰ menu, in menu order:
 | **Activity** | Every action she's taken, filterable by tool and outcome |
 | **Search** | Everything ever said, across years |
 | **Documents** | Files you've given her to keep and reason over |
+| **Live captions** | Words for whatever is playing on the computer (a video call, a video, a voicemail), in large type above the message box. Press it to start, **Stop** to end. Nothing is kept: the words are gone when you stop. Windows and Linux; needs her speech model (Settings → *Hearing you*). Not on a Mac yet |
+| **Scam check** | *Is this a scam?* Paste a message, photograph a letter, or pick one of your latest emails, and she tells you the warning signs she sees. She never says something is safe, and never checks anything unless you ask |
 | **Goals** | Goals and projects she tracks with you |
 | **People** | Who matters to you, and what she knows about them |
 | **Meetings** | She attends the call and writes the minutes |

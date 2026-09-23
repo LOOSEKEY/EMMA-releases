@@ -43,7 +43,8 @@ ready. There's no paid bounty programme. If that ever changes it'll say so here.
 Anything in a released build: the app, the local API on `127.0.0.1:8000`,
 **the phone door** (since 1.3.0: a second, TLS-only listener on your home
 network, port `8443`, **off until you switch it on** in Settings → Your phone;
-only paired phones get past it, and they can chat but not administer), the
+only paired phones get past it, and they can chat, ask for a scam check, and read
+live captions, but not administer), the
 licence check, encryption at rest, the agentic "hands" and their confirmation
 layer, Dream Mode, and the email and document features that take input from
 outside your machine.
@@ -117,6 +118,10 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
 
 ## What I do on my side
 
+- **Her window only runs her own code** (since 1.5.0). It's served with a
+  Content-Security-Policy that allows only EMMA's own script files: no inline
+  script, and nothing in the page can send data to another site. So if text from
+  outside ever slipped into the page as code, the browser still wouldn't run it.
 - **A deep security scan every 60 days, without fail** — a standing rule since
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
