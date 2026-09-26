@@ -55,7 +55,9 @@ outside your machine.
   complete list of what *may* leave your machine, and every one of these is off
   or inert until the owner turns it on:
   **live mode** (web search, page fetches, and the browser tools, which are only
-  available while it's on) · **the update check**, one anonymous request, off by
+  available while it's on; from 1.6.0 the owner can send all of it through their
+  own Tor instead, and **with Tor chosen, any live-mode request that leaves the
+  normal way without the owner pressing *Search normally this time* is a finding**) · **the update check**, one anonymous request, off by
   default · **a spoken voice** you choose, downloaded once · **the voice-
   recognition model**, a one-time ~250MB download · **your email**, spoken
   directly to your own mail server if you connect it · **a non-default model

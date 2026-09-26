@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.5.2.*
+*Everything she does, and where to find it. For v1.6.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -89,7 +89,7 @@ Left to right:
 | **Careful mode** | She double-checks her answers before replying. Slower, better on anything that matters. |
 | **Safety dial** | How much she may do to your computer without asking — see §5 |
 | **Spine dial** | How much she pushes back — see below |
-| **Live mode** | Off by default. On, she may search the web, read pages and show you pictures. |
+| **Live mode** | Off by default. On, she may search the web, read pages and show you pictures. While it's on, a small globe beside the message box chooses **how she searches**: the normal way, or **privately through Tor** (the onion), and which search engine. See *How she searches* in §7. |
 | **Sanctuary mode** | Hides everything, instantly, when you lend someone your machine. `Alt+Shift+S` |
 | **Model picker** | The model she's thinking with. Warns you honestly when one is too big for your hardware. |
 | **☰ Her world** | Everything else — see §6 |
@@ -377,32 +377,50 @@ the moment you touch the mouse.
 
 ## 6. Her world — all the panels
 
-Everything under the ☰ menu, in menu order:
+Everything under the ☰ menu, in menu order. The menu is in four groups, each under
+its own heading; on a small window it scrolls.
+
+**Your life**
+
+| Panel | What it's for |
+|---|---|
+| **Search** | Everything ever said, across years |
+| **People** | Who matters to you, and what she knows about them |
+| **Goals** | Goals and projects she tracks with you |
+| **Journal** | Reflect with her, with prompts |
+| **Your story** | The biography she drafts from memory |
+| **Letters** | A time capsule to your future self, her yearly letter to you, and the almanac — predictions for the year, sealed until next January |
+| **Your style** | How you like her to write — learned, and editable |
+
+**Make and learn**
+
+| Panel | What it's for |
+|---|---|
+| **Story time** | The Bookshelf and the Story Board — serial bedtime stories |
+| **Tutor** | Study mode and flashcards |
+| **Podcast** | A two-voice audio overview she makes of anything |
+| **Rehearsal room** | Practise the hard conversation — she plays the other person, then steps out of it and tells you honestly how you did. Or "argue me out of this", and she takes the other side properly. Nothing said in here is remembered. |
+
+**Tools**
+
+| Panel | What it's for |
+|---|---|
+| **Documents** | Files you've given her to keep and reason over |
+| **Photos** | Find a picture by describing it |
+| **Video** | Drop a video and ask her about it |
+| **Transcripts** | Drop an audio file, get it transcribed |
+| **Meetings** | She attends the call and writes the minutes |
+| **Live captions** | Words for whatever is playing on the computer (a video call, a video, a voicemail), in large type above the message box. Press it to start, **Stop** to end. Nothing is kept: the words are gone when you stop. Windows and Linux; needs her speech model (Settings → *Hearing you*). Not on a Mac yet |
+| **Scam check** | *Is this a scam?* Paste a message, photograph a letter, or pick one of your latest emails, and she tells you the warning signs she sees. She never says something is safe, and never checks anything unless you ask |
+
+**EMMA and settings**
 
 | Panel | What it's for |
 |---|---|
 | **Activity** | Every action she's taken, filterable by tool and outcome |
-| **Search** | Everything ever said, across years |
-| **Documents** | Files you've given her to keep and reason over |
-| **Live captions** | Words for whatever is playing on the computer (a video call, a video, a voicemail), in large type above the message box. Press it to start, **Stop** to end. Nothing is kept: the words are gone when you stop. Windows and Linux; needs her speech model (Settings → *Hearing you*). Not on a Mac yet |
-| **Scam check** | *Is this a scam?* Paste a message, photograph a letter, or pick one of your latest emails, and she tells you the warning signs she sees. She never says something is safe, and never checks anything unless you ask |
-| **Goals** | Goals and projects she tracks with you |
-| **People** | Who matters to you, and what she knows about them |
-| **Meetings** | She attends the call and writes the minutes |
-| **Journal** | Reflect with her, with prompts |
-| **Your style** | How you like her to write — learned, and editable |
-| **Your story** | The biography she drafts from memory |
-| **Story time** | The Bookshelf and the Story Board — serial bedtime stories |
-| **Tutor** | Study mode and flashcards |
-| **Transcripts** | Drop an audio file, get it transcribed |
-| **Podcast** | A two-voice audio overview she makes of anything |
-| **Photos** | Find a picture by describing it |
-| **Video** | Drop a video and ask her about it |
-| **Letters** | A time capsule to your future self, her yearly letter to you, and the almanac — predictions for the year, sealed until next January |
-| **Rehearsal room** | Practise the hard conversation — she plays the other person, then steps out of it and tells you honestly how you did. Or "argue me out of this", and she takes the other side properly. Nothing said in here is remembered. |
+| **Insights** | Patterns in what she's been doing — and **A year with EMMA**, a page of what your last twelve months together looked like. She offers it herself in the bell on the anniversary of the day you first talked, and on 31 December. |
 | **Skills** | Procedures she can follow. **Teach her one yourself** with the box at the top: narrate how you do something in your own words and she writes it down as steps — that one outranks anything she works out on her own, and she won't add steps you didn't say. The **✎** opens a skill for editing — and editing one makes it yours, so her own learning can't overwrite it afterwards. The **⤓** exports that skill as a file a friend's EMMA can import; people swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
-| **Insights** | Patterns in what she's been doing — and **A year with EMMA**, a page of what your last twelve months together looked like. She offers it herself in the bell on the anniversary of the day you first talked, and on 31 December. |
 | **Models** | Install, remove and switch models |
 | **Settings** | See §7 |
 | **MCP connections** | See §11 |
@@ -488,12 +506,35 @@ this is the order you'll meet them in on screen.
   finds articles **by their title**, so ask about the thing by name. No
   internet is needed once it's downloaded. Remove it any time.
 
+### How she searches
+
+- **Search privately through Tor.** In live mode she searches the web. The
+  normal way is fast, and the sites she searches see your home internet
+  address. **Through Tor** is slower (often 10–20 seconds a search), and they see
+  a Tor address instead; pictures she finds are fetched through Tor too. It hides
+  **who** is asking, not **what**: the search engine still sees the words.
+- **It uses the Tor you run on this computer:** the Tor service, or Tor Browser
+  while it's open. *Check Tor* asks the Tor Project, through Tor, whether it's
+  really working, and shows *Connected through Tor ✅*.
+- **If Tor isn't running,** she doesn't search the normal way on her own. She says
+  so, and two buttons under her reply let you **Search normally this time** or
+  **Try Tor again**. She never switches on her own.
+- **Search engine:** *Automatic* (the default, and what she has always done) asks
+  several engines and puts the answers together. You can pick one instead:
+  Brave, Google, Yahoo, Startpage, Yandex or Wikipedia. Through Tor, Automatic is
+  the one that works best, because some engines turn Tor away.
+- Only live mode goes through Tor. Updates, downloads, email and the picture
+  generator always go the normal way. On the phone, this can only be changed on
+  the computer.
+
 ### Services that report in
 
 - **Morning dispatch folders** — point her at a folder where a service you run drops
   a small digest of what needs a person (counts, never content), and it joins the
   morning stand-up. Ask *"how are my apps doing?"* any time for the same on demand.
-  Empty by default and dormant until you point her at a folder; a web address is
+  If a service stops reporting (its report is more than a day and a half old), she
+  says it *hasn't reported in* rather than calling it all clear; to retire a
+  service, delete its report file. Empty by default and dormant until you point her at a folder; a web address is
   refused. *What she already understands about systems* below lists the general
   admin knowledge she ships with — it holds no data about any system of yours.
 

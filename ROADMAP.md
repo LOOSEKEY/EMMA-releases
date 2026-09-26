@@ -39,6 +39,17 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.6.0
+- **Search privately through Tor** — a picker beside the message box (live mode):
+  the normal way, or through the Tor you run, and which search engine. If Tor
+  isn't running she asks before searching the normal way; never on her own.
+- **Her answer, live on every screen** — ask on the phone and watch her write it
+  on the computer, and the other way round.
+- **Pictures on every screen** — kept with her answer, so the phone shows them too.
+- **The menu fits** — four groups, and it scrolls on a short window.
+- **App reports tell the truth** — an app that stops reporting says so, and she
+  reads every app's report, not just the newest 8.
+
 ### New in 1.5.2
 - **Phone and computer keep in step** — what you say on one shows up on the other
   within a few seconds, and the other screen follows you to another conversation.
