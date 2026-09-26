@@ -39,6 +39,12 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.6.1
+- **A security release** — two privacy fixes: a private Tor image search no longer
+  leaves the addresses or pictures in plain text on your disk (they're in her
+  encrypted memory now), and a hostile page can no longer talk her into reading
+  your own computer or local network.
+
 ### New in 1.6.0
 - **Search privately through Tor** — a picker beside the message box (live mode):
   the normal way, or through the Tor you run, and which search engine. If Tor

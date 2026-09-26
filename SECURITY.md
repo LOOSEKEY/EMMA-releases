@@ -128,7 +128,27 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-09-23**, the morning after 1.4.0, because 1.4.0
+- **The most recent was 2026-09-26**, the evening 1.6.0 went out, aimed at the
+  code 1.6.0 added that day — private search through Tor, a picture cache, a live
+  screen-to-screen feed. The libraries were clean and no secret was committed.
+  Reading the new code found two problems, both **fixed and shipped in 1.6.1**:
+
+  - **A private image search left a trace on your disk.** When you searched for
+    pictures through Tor, the addresses of what you found — and the pictures
+    themselves — were saved on your computer in plain text, beside her memory,
+    which is exactly what private search is meant to avoid, and it also slipped
+    past *off the record* and *forget everything*. Now those addresses are inside
+    her encrypted memory and cleared by *forget everything*, and the pictures are
+    only ever held in memory, never written to disk. Updating cleans up what 1.6.0
+    left. It needed access to your files to exploit; fixed anyway, at once.
+  - **She could be tricked into reading your own computer.** In live mode she
+    reads web pages you ask about, and a hostile page can hide instructions in its
+    text. One could tell her to fetch something on your own machine (her settings,
+    a device on your network) and read it back. She now refuses any address that
+    points at your computer or local network, so a booby-trapped page can't use
+    her as a way in. It needed you to open a page in live mode; fixed at once.
+
+- **Before that, 2026-09-23**, the morning after 1.4.0, because 1.4.0
   and the releases just before it added a lot of new code: the phone, her ears,
   the studio. The libraries were clean. Reading the new code found two real
   problems, and both were **fixed and shipped in 1.4.1 the same day**:
