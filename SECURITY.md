@@ -62,7 +62,11 @@ outside your machine.
   recognition model**, a one-time ~250MB download · **your email**, spoken
   directly to your own mail server if you connect it · **a non-default model
   engine**, if you configure one · **offline Wikipedia**, a one-time download
-  from Kiwix that you choose the size of (1.3.0). The model itself is local by
+  from Kiwix that you choose the size of (1.3.0) · **Go Live** (1.7.0), which
+  streams Her Studio to your own channel and is the one thing that opens an
+  outbound connection carrying your camera and voice — only while you hold Go
+  Live, to the address you set, with your stream key kept in the keyring, never
+  a file. The model itself is local by
   default. **Anything outbound that isn't on that list is a finding**, and so is
   anything on it that fires without the owner having enabled it.
 - The **phone door** is not outbound, but it is the one listener that isn't on

@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.6.1) has no Mac build yet.** Windows and Linux are on
-> 1.6.1; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.7.0) has no Mac build yet.** Windows and Linux are on
+> 1.7.0; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.6.1 update and then tell you there is no installer
+> EMMA may offer you the 1.7.0 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,12 +150,18 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.7.0: Her Studio grows up, and Go Live.** The studio now looks like a
+  studio — a hand-drawn dark-forest set, an ON AIR light, controls like a mixing
+  desk — and you can **stream straight to your own channel** (YouTube, Twitch,
+  Kick, or any RTMP). Your stream key stays in your keyring, and your face and
+  voice leave the computer only while you're live. The
+  [release notes](../../releases/tag/v1.7.0) say more.
 - **1.6.1: a security release.** Two privacy fixes found in a scan the evening
   1.6.0 shipped: a private image search through Tor was leaving the addresses of
   what you found (and the pictures) in plain text on your disk — now they're inside
   her encrypted memory and gone on *forget everything* — and a hostile page in live
   mode could tell her to read your own computer or local network, which she now
-  refuses. The [release notes](../../releases/tag/v1.6.1) say more.
+  refuses. The 1.6.1 release notes say more.
 - **1.6.0: search privately through Tor, and every screen live.** With live mode
   on, a small globe beside the message box chooses how she searches: the normal
   way, or privately through the Tor you run, so the sites she searches see a Tor
@@ -247,7 +253,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.6.1**;
+- **macOS is behind, again.** Windows and Linux are on **1.7.0**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with

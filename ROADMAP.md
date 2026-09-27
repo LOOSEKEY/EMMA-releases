@@ -39,6 +39,14 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.7.0
+- **Her Studio, redesigned** — a hand-drawn dark-forest set behind the whole
+  studio, an ON AIR light, a mixing-desk feel, and "Dark forest" as a backdrop
+  you can stand in.
+- **Go Live** — stream the studio straight to your own channel (YouTube, Twitch,
+  Kick, or any RTMP). Your stream key is kept in your keyring; you stream to your
+  own channel and nothing routes through EMMA.
+
 ### New in 1.6.1
 - **A security release** — two privacy fixes: a private Tor image search no longer
   leaves the addresses or pictures in plain text on your disk (they're in her
