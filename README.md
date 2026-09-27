@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.8.0) has no Mac build yet.** Windows and Linux are on
-> 1.8.0; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.9.0) has no Mac build yet.** Windows and Linux are on
+> 1.9.0; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.8.0 update and then tell you there is no installer
+> EMMA may offer you the 1.9.0 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,11 +150,17 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.9.0: show her a photo or a video, and the phone fits.** A paperclip beside
+  the message box takes a photo or a video, on a phone straight from the camera,
+  and she answers about it. A photo is never saved: she holds it for half an hour
+  for follow-ups, then lets it go. On a phone the whole window now fits the
+  screen, and Her Studio scrolls. The [release notes](../../releases/tag/v1.9.0)
+  say more.
 - **1.8.0: Her Studio's live-production toolkit.** Break screens (starting soon /
   be right back / ending with a countdown), number-key scene switching, a **Clip**
   button for instant highlights, a **sound desk** (a music bed and soundboard that
   duck while you talk), and auto-highlights that trim the "um"s and cut vertical
-  Shorts. The [release notes](../../releases/tag/v1.8.0) say more.
+  Shorts. The 1.8.0 release notes say more.
 - **1.7.2: the Studio stays put, and she holds a longer chat.** Refreshing the
   page keeps you in the Studio with your setup intact, and she keeps the thread of
   a long conversation far better (a running summary that starts early and is never
@@ -266,7 +272,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.8.0**;
+- **macOS is behind, again.** Windows and Linux are on **1.9.0**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with

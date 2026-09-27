@@ -43,8 +43,9 @@ ready. There's no paid bounty programme. If that ever changes it'll say so here.
 Anything in a released build: the app, the local API on `127.0.0.1:8000`,
 **the phone door** (since 1.3.0: a second, TLS-only listener on your home
 network, port `8443`, **off until you switch it on** in Settings → Your phone;
-only paired phones get past it, and they can chat, ask for a scam check, and read
-live captions, but not administer), the
+only paired phones get past it, and they can chat, ask for a scam check, show
+her a photo or a video (since 1.9.0; photos are held in memory only, never
+saved), and read live captions, but not administer), the
 licence check, encryption at rest, the agentic "hands" and their confirmation
 layer, Dream Mode, and the email and document features that take input from
 outside your machine.

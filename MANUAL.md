@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.8.0.*
+*Everything she does, and where to find it. For v1.9.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -215,8 +215,20 @@ mic, she asks whether to download her speech model (about 150 MB, once) — see
 Settings → *Hearing you*. Nothing is recorded anywhere: what you say is turned
 into text on this machine and the sound is thrown away.
 
-**Files.** Drag a document, image, audio or video file into the conversation and
-ask about it.
+**Photos and videos.** Press the **paperclip** beside the message box and pick a
+photo or a video — on a phone that means the camera or the gallery — or drag one
+onto the window. It waits above the box; type a question (or don't) and send.
+She looks at a photo with her own eyes (the picture model, *llava*, in Models)
+and answers about it. **The photo itself is never saved**: she holds it for half
+an hour so you can ask a follow-up, then lets it go, and after a reload your
+message shows 📷 without the picture. A video takes a minute or two: she watches
+it into her **Video** library (Her world → Video), the same as putting it there
+yourself, and then answers. Watching video needs her ears and the video tools —
+Her world → Video offers them if they're missing. A video can't be sent off the
+record, because it goes into her library.
+
+**Documents.** Drag a PDF, Word, text or Markdown file onto the window and it
+goes into her documents, so you can ask about it.
 
 **Off the record.** Press the **eye** beside the message box and the conversation
 goes off the record: the window clears, the box gets a dashed gold edge, and
@@ -552,10 +564,12 @@ this is the order you'll meet them in on screen.
   *Advanced → Proceed* (Android) or *Show Details → visit this website*
   (iPhone), once. Your computer may also ask whether EMMA can use the network:
   allow it on **private** networks. On the phone she's a window for chatting —
-  send, stop, approve an action, hear her, off the record — and anything that
+  send, stop, approve an action, hear her, show her a photo or a video, off the
+  record — and anything that
   changes settings, exports her brain or pairs another phone stays on the
   computer. Her brain stays here, so the computer has to be on. Each paired
-  phone is listed with a **Remove**. Nothing goes over the internet.
+  phone is listed with a **Remove**. The **paperclip** works on the phone too, so
+  you can show her a photo or a video straight from its camera. Nothing goes over the internet.
   The phone and the computer stay on the same conversation: what you say on
   one shows up on the other within a few seconds, and when you carry on in a
   different conversation, the other screen follows you there (unless you're

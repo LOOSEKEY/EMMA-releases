@@ -39,6 +39,13 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.9.0
+- **Photos and videos in the chat** — the paperclip takes a photo or a video (on a
+  phone, from the camera or the gallery) and she answers about it. Photos are
+  never saved; a video goes into her Video library first.
+- **The phone fits** — the message box no longer hides under the phone browser's
+  toolbar, the keyboard pushes it up, and Her Studio scrolls on a phone.
+
 ### New in 1.8.0
 - **Live-production toolkit for Her Studio** — break screens with a countdown,
   number-key scene switching, a Clip button for instant highlights, a sound desk
