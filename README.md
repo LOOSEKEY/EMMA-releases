@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.7.1) has no Mac build yet.** Windows and Linux are on
-> 1.7.1; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.7.2) has no Mac build yet.** Windows and Linux are on
+> 1.7.2; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.7.1 update and then tell you there is no installer
+> EMMA may offer you the 1.7.2 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,9 +150,14 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.7.2: the Studio stays put, and she holds a longer chat.** Refreshing the
+  page keeps you in the Studio with your setup intact, and she keeps the thread of
+  a long conversation far better (a running summary that starts early and is never
+  dropped; a larger memory automatically on a stronger computer). The
+  [release notes](../../releases/tag/v1.7.2) say more.
 - **1.7.1: a Studio layout fix** — on some window sizes the controls along the
   bottom and a couple of tabs on the right could run off the edge; they stay in
-  view now. The [release notes](../../releases/tag/v1.7.1) say more.
+  view now. The 1.7.1 release notes say more.
 - **1.7.0: Her Studio grows up, and Go Live.** The studio now looks like a
   studio — a hand-drawn dark-forest set, an ON AIR light, controls like a mixing
   desk — and you can **stream straight to your own channel** (YouTube, Twitch,
@@ -256,7 +261,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.7.1**;
+- **macOS is behind, again.** Windows and Linux are on **1.7.2**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with

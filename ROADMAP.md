@@ -39,6 +39,10 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.7.2
+- **The Studio stays put on a refresh** — reloading keeps you on the set with your setup, until you press Leave.
+- **She holds a long conversation better** — an earlier, never-dropped running summary, and a larger memory automatically on stronger hardware.
+
 ### New in 1.7.1
 - **A Studio layout fix** — the controls along the bottom and the tools tabs on the right no longer run off the edge on smaller windows.
 
