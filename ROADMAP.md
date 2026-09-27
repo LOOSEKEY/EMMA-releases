@@ -39,6 +39,12 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.8.0
+- **Live-production toolkit for Her Studio** — break screens with a countdown,
+  number-key scene switching, a Clip button for instant highlights, a sound desk
+  (music bed + soundboard that duck while you talk), and auto-highlights that trim
+  filler words and cut vertical Shorts.
+
 ### New in 1.7.2
 - **The Studio stays put on a refresh** — reloading keeps you on the set with your setup, until you press Leave.
 - **She holds a long conversation better** — an earlier, never-dropped running summary, and a larger memory automatically on stronger hardware.
