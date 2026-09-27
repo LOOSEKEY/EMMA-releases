@@ -39,6 +39,9 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.7.1
+- **A Studio layout fix** — the controls along the bottom and the tools tabs on the right no longer run off the edge on smaller windows.
+
 ### New in 1.7.0
 - **Her Studio, redesigned** — a hand-drawn dark-forest set behind the whole
   studio, an ON AIR light, a mixing-desk feel, and "Dark forest" as a backdrop
