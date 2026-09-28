@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.10.0) has no Mac build yet.** Windows and Linux are on
-> 1.10.0; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.10.1) has no Mac build yet.** Windows and Linux are on
+> 1.10.1; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.10.0 update and then tell you there is no installer
+> EMMA may offer you the 1.10.1 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -156,8 +156,8 @@ Being straight with you, because I'd want the same:
   card, and one press puts the episode together and gets it ready to upload.
   Four drawn rooms to sit in front of (a wall of books, a home office, a cosy
   lounge, a podcast booth), your own picture kept for next time, and a
-  sound-only mode for podcasts. The [release notes](../../releases/tag/v1.10.0)
-  say more.
+  sound-only mode for podcasts. **1.10.1** makes the title card readable over a
+  room. The [release notes](../../releases/tag/v1.10.1) say more.
 - **1.9.0: show her a photo or a video, and the phone fits.** A paperclip beside
   the message box takes a photo or a video, on a phone straight from the camera,
   and she answers about it. A photo is never saved: she holds it for half an hour
@@ -279,7 +279,7 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.10.0**;
+- **macOS is behind, again.** Windows and Linux are on **1.10.1**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with

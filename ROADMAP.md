@@ -39,6 +39,9 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.10.1
+- **The title card reads clearly over a room** — a room or your own picture is darkened behind its words.
+
 ### New in 1.10.0
 - **Episodes in Her Studio** — record in bits; she keeps the takes in order
   (rename, reorder, leave out, play back), adds a title and an ending card if you
