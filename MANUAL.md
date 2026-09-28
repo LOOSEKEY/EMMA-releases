@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.9.0.*
+*Everything she does, and where to find it. For v1.10.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -142,8 +142,14 @@ uploaded anywhere, and the camera light is your proof.
   and a *Title card* you type.
 - **Look**: your room as it is, a **green screen** (click your cloth in the
   picture to teach her the colour, then even the edges out), **cut me out** with
-  no green screen at all, or **blur my room**. Five backdrops, or your own
-  picture.
+  no green screen at all, or **blur my room**.
+- **A room behind you**: a **wall of books**, a **home office**, a **cosy
+  lounge**, a **podcast booth**, the dark forest or a plain colour — or **your
+  own picture**, which she keeps for next time. Picking one is enough: she cuts
+  you out in front of it. *Soften the room behind me* blurs it a little, the way
+  a real camera does, so it looks like a room and not a poster. The rooms are
+  drawn for EMMA, not photos from anywhere, so nothing in the picture belongs to
+  anyone else. The room is never mirrored, even while you are.
 - **Your mark on it**: your logo in any corner, and a **lower third** — your
   name and what you do, sliding in when you start recording (or whenever you
   press *Show it now*). Both are drawn into the video itself.
@@ -160,9 +166,23 @@ uploaded anywhere, and the camera light is your proof.
   teleprompter. It is on your screen only and **never in the video**.
 - **Sound**: pick your microphone and watch the bar — green is right, red is too
   loud.
+- **No camera? Record sound only.** Pick *No camera — sound only* in the camera
+  list (or press *Record sound only* if no camera opens). The stage shows your
+  episode's name over the room you picked, with your voice moving across it, so
+  you still get a video for YouTube — and *Make it ready* gives you the `.mp3`
+  for podcast apps.
 - **Record** keeps your take in pieces as it goes, so a crash or a flat battery
   costs seconds, not the episode. Takes are listed with their length and size,
-  and kept in `studio/` inside her data folder.
+  and kept in `studio/` inside her data folder. Press ▶ to play one back.
+- **Episodes**: nobody records a whole episode in one go. Press *New episode*,
+  name it, and every take you record goes on the end of it, in order. Rename a
+  take (the name becomes its chapter), move it up or down, or leave it out (it
+  goes back to your loose takes; nothing is deleted). Tick *Start with the title
+  card* or *End with a "Thanks for watching" card* if you want them. Then **Put
+  it together and make it ready** joins the takes into one video and makes the
+  same folder as below, for the whole episode. Joining takes about as long as
+  the episode itself; you can keep working while she does it. Deleting an
+  episode keeps every take.
 - **Make it ready** turns a take into a folder you can drag straight into
   YouTube: the video, `.srt` captions, chapters, three title options, a
   description, tags, a levelled `.mp3` for podcast platforms, three thumbnail
@@ -220,8 +240,9 @@ photo or a video — on a phone that means the camera or the gallery — or drag
 onto the window. It waits above the box; type a question (or don't) and send.
 She looks at a photo with her own eyes (the picture model, *llava*, in Models)
 and answers about it. **The photo itself is never saved**: she holds it for half
-an hour so you can ask a follow-up, then lets it go, and after a reload your
-message shows 📷 without the picture. A video takes a minute or two: she watches
+an hour so you can ask a follow-up — and while she holds it, it shows on every
+screen, so a photo sent from your phone appears on the computer too — then lets
+it go, and your message shows 📷 without the picture. A video takes a minute or two: she watches
 it into her **Video** library (Her world → Video), the same as putting it there
 yourself, and then answers. Watching video needs her ears and the video tools —
 Her world → Video offers them if they're missing. A video can't be sent off the

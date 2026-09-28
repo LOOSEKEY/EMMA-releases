@@ -39,6 +39,18 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.10.0
+- **Episodes in Her Studio** — record in bits; she keeps the takes in order
+  (rename, reorder, leave out, play back), adds a title and an ending card if you
+  like, and puts the whole episode together ready to upload, one chapter per take.
+- **Rooms behind you** — a wall of books, a home office, a cosy lounge and a
+  podcast booth, drawn for EMMA; picking one cuts you out in front of it. Your
+  own picture and your logo are kept now.
+- **Sound only** — record a podcast with no camera; she shows your episode's
+  name with your voice moving on it.
+- **No made-up titles for a take with no words**, and the cut-out's built-in
+  usage logging switched off at source (EMMA's safety net already blocked it).
+
 ### New in 1.9.0
 - **Photos and videos in the chat** — the paperclip takes a photo or a video (on a
   phone, from the camera or the gallery) and she answers about it. Photos are
