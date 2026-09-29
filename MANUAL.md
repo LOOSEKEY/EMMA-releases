@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.10.1.*
+*Everything she does, and where to find it. For v1.11.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -50,28 +50,35 @@ She runs entirely on your machine. The model doing the thinking is
 account and no server — which is also why **she is exactly as capable as your
 hardware lets her be**. That's the trade.
 
-### 🐧 On Linux, her window is a browser window
+### 🐧 On Linux, her own window (new in 1.11.0)
 
-On Windows and macOS EMMA opens as an ordinary application window. **On Linux
-she doesn't**, and this is expected rather than something broken:
+Since 1.11.0 EMMA opens in **her own window on Linux too**, like on Windows and
+macOS. She borrows your system's own window toolkit to draw it (GTK and
+WebKitGTK — the same pieces GNOME's own apps use), so there's nothing extra in
+the download:
 
-- If you have Chrome, Chromium, Brave or Edge installed, she opens in a
-  **separate, frameless window of her own** — no tabs, no address bar, her own
-  icon in the taskbar, and a private profile that never touches your browsing
-  session. It looks and behaves much like an app window.
-- If you don't, she opens as a **tab in your default browser** instead.
+- **Installed from the `.deb`**: `apt` fetches those pieces for you
+  (`python3-gi` and `gir1.2-webkit2-4.1`) and she opens in her window.
+- **The AppImage**: she uses them if your system has them, which most GNOME,
+  Cinnamon and MATE desktops do. If yours doesn't,
+  `sudo apt install python3-gi gir1.2-webkit2-4.1` (or your distro's
+  equivalent) adds them.
+- If they aren't there, she opens exactly as she did before 1.11.0: a
+  frameless Chrome/Chromium/Brave/Edge window if you have one, otherwise a tab
+  in your default browser. *Her world → Check-up* says which one you're getting,
+  and why.
 
-Either way she is running locally exactly as she does everywhere else — nothing
-is going over the internet, and every feature works. The native Linux window
-needs a system library that isn't in the installer yet; it's a known gap and
-it's on the roadmap.
+In her window, links open in your normal browser, **Ctrl +** / **Ctrl −** /
+**Ctrl 0** zoom, and **F5** reloads. Camera, microphone and screen sharing
+work there as they do in a browser, and saving a file (a Soul File, an export)
+asks where to put it.
 
-**Closing that window does not stop her**, which is the one practical
-difference. On Windows and macOS closing EMMA's window quits her; on Linux she
-carries on running in the background — which is also what lets her dream
-overnight. To stop her completely, either stop the background service
-(`systemctl --user stop emma.service`) if you installed it, or quit the `emma`
-process from your system monitor.
+**Closing her window quits her** — on Linux now as everywhere else. If you
+liked her carrying on in the background after you closed the tab (so she can
+dream overnight), turn on Settings → **Open in my browser instead**: she then
+opens as a tab again, and closing the tab leaves her running. To stop her in
+that case, quit the `emma` process from your system monitor (or, if you set
+her up as a background service, `systemctl --user stop emma.service`).
 
 ---
 
@@ -482,6 +489,9 @@ this is the order you'll meet them in on screen.
 - **Let her remember the screen** — she can see what's on it.
 - **Let her hear the room** — ambient listening, with a *Forget what she's
   holding* button.
+- **Open in my browser instead** — she opens as a tab in the browser you already
+  use rather than in her own window. Takes effect the next time you start her.
+  On Linux it also means closing the tab no longer quits her (see §1).
 - **Check for updates** — see §14.
 - **License** — your key, and what's left of your trial. See §14.
 - **Watch me (computer use)** — lets her see and drive the screen. She says what

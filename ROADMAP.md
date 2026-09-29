@@ -39,6 +39,10 @@ Everything here is in the current release. Not previews, not betas.
 including her voice, below — reaches Macs with the next Mac build, planned for
 1 October.)*
 
+### New in 1.11.0
+- **Her own window on Linux** — drawn with your system's GTK and WebKit; the `.deb` asks for them.
+- **Open in my browser instead** — a Settings switch, on every system, for anyone who'd rather have her in a tab.
+
 ### New in 1.10.1
 - **The title card reads clearly over a room** — a room or your own picture is darkened behind its words.
 
@@ -308,7 +312,6 @@ Short list on purpose. These are the things I think are most likely to matter.
 |---|---|
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
-| **A native window on Linux** | On Windows and macOS EMMA opens as an ordinary application window. On Linux she opens in a browser window instead — a separate frameless one with its own taskbar icon if you have Chrome, Chromium, Brave or Edge, otherwise a tab. Everything works and it's all still local; it's where she appears, not whether she runs. The native window needs a system library that has never been in the Linux bundle. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
 
 ## 💭 Being considered

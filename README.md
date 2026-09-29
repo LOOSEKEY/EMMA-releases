@@ -115,8 +115,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 
 > ### 🍎 On a Mac? Read this first
 >
-> **The current release (1.10.1) has no Mac build yet.** Windows and Linux are on
-> 1.10.1; macOS is on **1.0.1**, which is a complete release with both Mac files
+> **The current release (1.11.0) has no Mac build yet.** Windows and Linux are on
+> 1.11.0; macOS is on **1.0.1**, which is a complete release with both Mac files
 > in it. A Mac installer can only be built on a Mac, and the build machines are
 > unavailable until **1 October**, when a Mac build is planned.
 >
@@ -124,7 +124,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > from the latest release, or use the buttons on
 > [ownemma.com](https://ownemma.com), which already point Mac visitors there.
 >
-> EMMA may offer you the 1.10.1 update and then tell you there is no installer
+> EMMA may offer you the 1.11.0 update and then tell you there is no installer
 > for your platform. That is this gap, not a broken install. Stay on 1.0.1.
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
@@ -150,6 +150,11 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.11.0: her own window on Linux, and a switch for the browser.** On Linux
+  she now opens in a window of her own, drawn with your system's GTK and WebKit
+  (the `.deb` asks for them). On any system, Settings → **Open in my browser
+  instead** puts her in a tab of the browser you already use. The
+  [release notes](../../releases/tag/v1.11.0) say more.
 - **1.10.0: whole episodes in Her Studio, a wall of books behind you, and
   podcasts with no camera.** Record in bits and she keeps the takes in order:
   name them, move them, leave out the bad ones, add a title card and an ending
@@ -157,7 +162,7 @@ Being straight with you, because I'd want the same:
   Four drawn rooms to sit in front of (a wall of books, a home office, a cosy
   lounge, a podcast booth), your own picture kept for next time, and a
   sound-only mode for podcasts. **1.10.1** makes the title card readable over a
-  room. The [release notes](../../releases/tag/v1.10.1) say more.
+  room.
 - **1.9.0: show her a photo or a video, and the phone fits.** A paperclip beside
   the message box takes a photo or a video, on a phone straight from the camera,
   and she answers about it. A photo is never saved: she holds it for half an hour
@@ -279,19 +284,17 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.10.1**;
+- **macOS is behind, again.** Windows and Linux are on **1.11.0**;
   macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
   build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
   and closed in 1.0.0; this one will close the same way. Nothing is wrong with
   1.0.1 — it is a complete release, and it is what the Mac buttons on the site
   hand you.
-- **On Linux she opens in a browser window, not her own app window.** If you
-  have Chrome, Chromium, Brave or Edge she gets a separate frameless window with
-  its own taskbar icon and a private profile, which looks much like an app; with
-  none of those she opens as a tab. She's still running entirely on your machine
-  and every feature works — the native Linux window needs a system library that
-  isn't in the installer yet. Worth knowing: on Linux, closing that window
-  doesn't stop her, she keeps running in the background.
+- **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
+  her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
+  asks for them; with the AppImage, if she opens in your browser instead,
+  `sudo apt install python3-gi gir1.2-webkit2-4.1` fixes it. Closing her window
+  quits her, as on Windows and macOS.
 - **It's one person.** Me. Support is a real human and usually quick, but I'm not
   a company and I'm not going to pretend to be one. If you want to know who
   you're buying from and what else I'm building: **[The Works](BIO.md)**.
