@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. Macs are on the same version as everyone else again
-> (**1.11.1**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
+> (**1.11.2**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
 > download it fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -140,13 +140,17 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.11.2: the top bar fits.** On a tablet or a mid-sized window the row of
+  buttons along the top had grown wider than the window, pushing the model
+  picker and the Her world menu off the edge. Now they move onto a second line
+  when they don't fit, and nothing changes where they do. The
+  [release notes](../../releases/tag/v1.11.2) say more.
 - **1.11.1: a no means no, and room to type.** With the safety dial on Ask, a
   Deny always stopped the action, but afterwards she could *say* she'd done it
   anyway. Now she can't: if her reply claims something you said no to, it's
   replaced with the truth. Also: the box you type in no longer gets squeezed to
   a few letters when her voice buttons are showing, and the status light
-  re-checks itself instead of staying red. The
-  [release notes](../../releases/tag/v1.11.1) say more.
+  re-checks itself instead of staying red.
 - **1.11.0: her own window on Linux, and a switch for the browser.** On Linux
   she now opens in a window of her own, drawn with your system's GTK and WebKit
   (the `.deb` asks for them). On any system, Settings → **Open in my browser

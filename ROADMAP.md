@@ -38,6 +38,9 @@ Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
 them up from 1.0.1.)*
 
+### New in 1.11.2
+- **The top bar fits** — on tablets and mid-sized windows the buttons move onto a second line instead of running off the edge.
+
 ### New in 1.11.1
 - **A no means no** — after you press Deny, she can't tell you she did it anyway; a reply that claims it is replaced with the truth.
 - **Room to type** — with her voice installed, the typing box keeps its width; the buttons move to their own line when space is short.
