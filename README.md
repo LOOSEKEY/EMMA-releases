@@ -113,24 +113,14 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 | **Linux** — most people | `emma_*_amd64.deb` | `sudo apt install ./emma_*.deb` |
 | **Linux** — portable | `EMMA-*.AppImage` | `chmod +x` and run |
 
-> ### 🍎 On a Mac? Read this first
->
-> **The current release (1.11.0) has no Mac build yet.** Windows and Linux are on
-> 1.11.0; macOS is on **1.0.1**, which is a complete release with both Mac files
-> in it. A Mac installer can only be built on a Mac, and the build machines are
-> unavailable until **1 October**, when a Mac build is planned.
->
-> Download the Mac files from **[v1.0.1](../../releases/tag/v1.0.1)** rather than
-> from the latest release, or use the buttons on
-> [ownemma.com](https://ownemma.com), which already point Mac visitors there.
->
-> EMMA may offer you the 1.11.0 update and then tell you there is no installer
-> for your platform. That is this gap, not a broken install. Stay on 1.0.1.
+> ### 🍎 On a Mac?
 >
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess.
+> download button to guess. Macs are on the same version as everyone else again
+> (**1.11.0**, since 1 October); if you're on 1.0.1, press **Update** in EMMA or
+> download it fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
 > means Apple Silicon; "Processor: Intel" means Intel.
@@ -284,12 +274,10 @@ Being straight with you, because I'd want the same:
 - **The builds are unsigned.** Windows and macOS will both warn you on first run
   (see below). A certificate costs money I'd sooner put into the product, and I'd
   rather tell you than let it surprise you.
-- **macOS is behind, again.** Windows and Linux are on **1.11.0**;
-  macOS is on **1.0.1**. A Mac installer can only be built on a Mac, and the
-  build machines are unavailable until 1 October, when a Mac build is planned. The same thing happened at 0.6.9
-  and closed in 1.0.0; this one will close the same way. Nothing is wrong with
-  1.0.1 — it is a complete release, and it is what the Mac buttons on the site
-  hand you.
+- **On a Mac, two things are Windows and Linux only.** Live captions (macOS
+  can't capture its own sound without an extra app), and, on Intel Macs,
+  telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
+  system: Macs caught up from 1.0.1 to **1.11.0** on 1 October.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,
@@ -302,8 +290,9 @@ Being straight with you, because I'd want the same:
 ### About that unsigned warning
 
 - **Windows:** *"Windows protected your PC"* → **More info → Run anyway**
-- **macOS:** *"cannot be opened because the developer cannot be verified"* →
-  **right-click the app → Open**
+- **macOS:** *"Apple could not verify EMMA is free of malware"* → press **Done**,
+  then **System Settings → Privacy & Security**, scroll down and press **Open
+  Anyway**. Once only. (Before macOS 15: **right-click the app → Open**.)
 
 Every release lists SHA-256 hashes if you'd rather check the bytes yourself.
 

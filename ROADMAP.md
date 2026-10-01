@@ -35,9 +35,8 @@ time. I'd rather you knew which of those you were dealing with.
 ## ✅ Shipped — this is what you get today
 
 Everything here is in the current release. Not previews, not betas.
-*(On a Mac, the current build is **1.0.1**: everything from 1.1.0 onwards —
-including her voice, below — reaches Macs with the next Mac build, planned for
-1 October.)*
+*(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
+them up from 1.0.1.)*
 
 ### New in 1.11.0
 - **Her own window on Linux** — drawn with your system's GTK and WebKit; the `.deb` asks for them.
