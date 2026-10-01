@@ -150,8 +150,7 @@ Being straight with you, because I'd want the same:
 - **1.11.0: her own window on Linux, and a switch for the browser.** On Linux
   she now opens in a window of her own, drawn with your system's GTK and WebKit
   (the `.deb` asks for them). On any system, Settings → **Open in my browser
-  instead** puts her in a tab of the browser you already use. The
-  [release notes](../../releases/tag/v1.11.0) say more.
+  instead** puts her in a tab of the browser you already use.
 - **1.10.0: whole episodes in Her Studio, a wall of books behind you, and
   podcasts with no camera.** Record in bits and she keeps the takes in order:
   name them, move them, leave out the bad ones, add a title card and an ending
