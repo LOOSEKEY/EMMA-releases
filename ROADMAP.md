@@ -38,6 +38,11 @@ Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
 them up from 1.0.1.)*
 
+### New in 1.11.1
+- **A no means no** — after you press Deny, she can't tell you she did it anyway; a reply that claims it is replaced with the truth.
+- **Room to type** — with her voice installed, the typing box keeps its width; the buttons move to their own line when space is short.
+- **The status light catches up** — a red light re-checks itself instead of staying red all session.
+
 ### New in 1.11.0
 - **Her own window on Linux** — drawn with your system's GTK and WebKit; the `.deb` asks for them.
 - **Open in my browser instead** — a Settings switch, on every system, for anyone who'd rather have her in a tab.
