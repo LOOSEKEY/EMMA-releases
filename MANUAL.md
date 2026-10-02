@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.11.3.*
+*Everything she does, and where to find it. For v1.11.5.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -459,7 +459,7 @@ its own heading; on a small window it scrolls.
 |---|---|
 | **Activity** | Every action she's taken, filterable by tool and outcome |
 | **Insights** | Patterns in what she's been doing — and **A year with EMMA**, a page of what your last twelve months together looked like. She offers it herself in the bell on the anniversary of the day you first talked, and on 31 December. |
-| **Skills** | Procedures she can follow. **Teach her one yourself** with the box at the top: narrate how you do something in your own words and she writes it down as steps — that one outranks anything she works out on her own, and she won't add steps you didn't say. The **✎** opens a skill for editing — and editing one makes it yours, so her own learning can't overwrite it afterwards. The **⤓** exports that skill as a file a friend's EMMA can import; people swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
+| **Skills** | Procedures she can follow. **Teach her one yourself** with the box at the top: narrate how you do something in your own words and she writes it down as steps — that one outranks anything she works out on her own, and she won't add steps you didn't say. A skill made of words (*how I write a caption*) she simply does in her reply, step by step; she only touches your files when your steps or you say so. The **✎** opens a skill for editing — and editing one makes it yours, so her own learning can't overwrite it afterwards. The **⤓** exports that skill as a file a friend's EMMA can import; people swap them in Discord `#skills`. A skill from someone else waits for you to read it before she'll use it. |
 | **Standing orders** | Tasks she runs on her own, on a schedule |
 | **Models** | Install, remove and switch models |
 | **Settings** | See §7 |

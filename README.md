@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. Macs are on the same version as everyone else again
-> (**1.11.3**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
+> (**1.11.5**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
 > download it fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -140,11 +140,18 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.11.5: skills you teach her, done your way.** Teach her how you do
+  something in words (*how I write a photo caption*) and ask for it: she could
+  treat it as a job for the computer, save the result into a file in your
+  Documents folder without being asked, and skip some of your steps. Now a
+  skill made of words is done in her reply, every step in order; a skill that
+  is a computer job (*open the spreadsheet, save it as a PDF*) still is one.
+  The [release notes](../../releases/tag/v1.11.5) say more. (There is no
+  1.11.4: it was built, found incomplete, and never published.)
 - **1.11.3: her memory, back on screen.** On a laptop or an ordinary screen,
   the memory drawer (*What EMMA knows about you*) had been showing none of the
   facts she keeps about you since 1.3.1: they were all still in her memory, but
   the drawer gave the list no room. Now the list always has a space of its own.
-  The [release notes](../../releases/tag/v1.11.3) say more.
 - **1.11.2: the top bar fits.** On a tablet or a mid-sized window the row of
   buttons along the top had grown wider than the window, pushing the model
   picker and the Her world menu off the edge. Now they move onto a second line

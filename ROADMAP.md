@@ -38,6 +38,9 @@ Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
 them up from 1.0.1.)*
 
+### New in 1.11.5
+- **Skills you teach her, done your way** — a skill made of words (how you write a caption) is done in her reply, following every step, instead of being saved to a file unasked.
+
 ### New in 1.11.3
 - **Her memory, back on screen** — the memory drawer lists the facts she keeps about you again on laptops and ordinary screens (since 1.3.1 it had shown none of them).
 
