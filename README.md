@@ -153,8 +153,7 @@ Being straight with you, because I'd want the same:
   Documents folder without being asked, and skip some of your steps. Now a
   skill made of words is done in her reply, every step in order; a skill that
   is a computer job (*open the spreadsheet, save it as a PDF*) still is one.
-  The [release notes](../../releases/tag/v1.11.5) say more. (There is no
-  1.11.4: it was built, found incomplete, and never published.)
+  (There is no 1.11.4: it was built, found incomplete, and never published.)
 - **1.11.3: her memory, back on screen.** On a laptop or an ordinary screen,
   the memory drawer (*What EMMA knows about you*) had been showing none of the
   facts she keeps about you since 1.3.1: they were all still in her memory, but
