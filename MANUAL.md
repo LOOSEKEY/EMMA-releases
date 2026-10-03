@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.11.5.*
+*Everything she does, and where to find it. For v1.11.6.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -503,7 +503,10 @@ this is the order you'll meet them in on screen.
   conversation mode and transcripts. The first time you press the mic she asks
   before fetching it. **Audio and video files** need ffmpeg, a free toolkit
   (about 50 MB, from EMMA's releases page); talking to her doesn't. If your
-  computer already has ffmpeg, she uses that and there's nothing to download.
+  computer already has ffmpeg, she uses that for reading files. **Going live
+  and making MP4 clips and Shorts need EMMA's own**, because most computers'
+  ffmpeg can't make that kind of video; if yours can't, this line says so and
+  offers the download.
 - **Knowing who's speaking** — she recognises enrolled voices and greets each
   person as themselves. Needs a one-time voice-model download (about a quarter of
   a gigabyte, checksummed, and only fetched when you click). Not available on

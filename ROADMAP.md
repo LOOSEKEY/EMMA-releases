@@ -38,6 +38,9 @@ Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
 them up from 1.0.1.)*
 
+### New in 1.11.6
+- **Go live from any computer** — if your computer's own ffmpeg can't stream, Settings → Hearing you says so and offers EMMA's in one click; clips and Shorts are no longer quietly left out.
+
 ### New in 1.11.5
 - **Skills you teach her, done your way** — a skill made of words (how you write a caption) is done in her reply, following every step, instead of being saved to a file unasked.
 

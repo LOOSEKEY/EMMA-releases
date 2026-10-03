@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. Macs are on the same version as everyone else again
-> (**1.11.5**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
+> (**1.11.6**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
 > download it fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -140,6 +140,13 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.11.6: go live from any computer.** EMMA's first real live stream went
+  out from Her Studio to YouTube. If your computer already had its own ffmpeg
+  (most Linux systems, many Macs), Go Live stayed greyed out and Settings had
+  no button to fix it; now Settings → Hearing you says so and offers EMMA's
+  own in one click. Highlight clips and Shorts, which needed the same thing,
+  are no longer quietly left out. The
+  [release notes](../../releases/tag/v1.11.6) say more.
 - **1.11.5: skills you teach her, done your way.** Teach her how you do
   something in words (*how I write a photo caption*) and ask for it: she could
   treat it as a job for the computer, save the result into a file in your
