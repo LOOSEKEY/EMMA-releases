@@ -326,6 +326,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 
 | | |
 |---|---|
+| **Her Studio, for streamers** | Built, and being tested for the next release. The stream won't freeze when EMMA's window is hidden behind a game; Go Live reconnects by itself if your connection drops; one light tells you the stream is healthy; the game's own sound goes into the stream (not on a Mac yet); and *Smooth · Sharp · Gamer*: EMMA picks the quality your computer can carry, up to 1080p at 60, and you can change it with one tap. Everything OBS does is the plan, without the 47 menus. |
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |

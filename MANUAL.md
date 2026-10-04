@@ -146,7 +146,12 @@ uploaded anywhere, and the camera light is your proof.
   mirrored**.
 - **Scenes**, down the left: *Just me*, *Me + screen* (a screen you share, with
   you in the corner — floating with no box if a background is on), *Screen only*,
-  and a *Title card* you type.
+  and a *Title card* you type. Number keys **1–9** switch scenes as you go, the
+  way a stream deck does (not while you're typing in a box).
+- **Breaks**: *Starting soon*, *Be right back* and *Ending* cards over the set,
+  also down the left. In the **Breaks** tab, write your own heading and a line
+  under it if you like, set the minutes and press *Start the countdown*; the
+  card shows it, so viewers know when you're back. *Clear it* removes it.
 - **Look**: your room as it is, a **green screen** (click your cloth in the
   picture to teach her the colour, then even the edges out), **cut me out** with
   no green screen at all, or **blur my room**.
@@ -172,7 +177,11 @@ uploaded anywhere, and the camera light is your proof.
 - **Script**: paste what you want to say and it scrolls over your face as a
   teleprompter. It is on your screen only and **never in the video**.
 - **Sound**: pick your microphone and watch the bar — green is right, red is too
-  loud.
+  loud. The **Sound** tab is a small sound desk: *Load a music file* for a **music
+  bed** under you (*Play*, *Stop*, a volume, *Loop it*, and *Duck the music while
+  I talk*, which drops it while you speak and brings it back when you stop), and a
+  **soundboard**: *Add a clip* for a sting or applause, then tap its pad. All of
+  it is mixed into the recording and the stream.
 - **No camera? Record sound only.** Pick *No camera — sound only* in the camera
   list (or press *Record sound only* if no camera opens). The stage shows your
   episode's name over the room you picked, with your voice moving across it, so
@@ -181,6 +190,8 @@ uploaded anywhere, and the camera light is your proof.
 - **Record** keeps your take in pieces as it goes, so a crash or a flat battery
   costs seconds, not the episode. Takes are listed with their length and size,
   and kept in `studio/` inside her data folder. Press ▶ to play one back.
+  **Clip**, while you record, marks the moment: *Make it ready* saves the 30 or
+  so seconds before each mark as a highlight of its own.
 - **Episodes**: nobody records a whole episode in one go. Press *New episode*,
   name it, and every take you record goes on the end of it, in order. Rename a
   take (the name becomes its chapter), move it up or down, or leave it out (it
@@ -194,7 +205,23 @@ uploaded anywhere, and the camera light is your proof.
   YouTube: the video, `.srt` captions, chapters, three title options, a
   description, tags, a levelled `.mp3` for podcast platforms, three thumbnail
   frames and the full transcript. It needs her speech model and ffmpeg
-  (Settings → *Hearing you*), and it says so if they're missing.
+  (Settings → *Hearing you*), and it says so if they're missing. Two ticks
+  before you press it: *Trim out my "um"s* (a tidied copy with the filler words
+  cut, slower) and *Also make vertical Shorts of the best bits* (9:16 clips of
+  the best moments, for phones).
+- **Go live** streams the studio straight to your own channel: **YouTube**,
+  **Twitch**, or **Custom** (Kick, or any RTMP address you paste). Open the
+  **Go live** tab, choose where, paste the **stream key** from your channel's
+  dashboard and press *Save the key*. The key is kept in your computer's
+  keyring, never in a file, and *Forget it* removes it. Then press **Go live**
+  under the stage: the ON AIR light turns red, and everything on the stage goes
+  out exactly as you see it (never mirrored), at 1280×720, 30 frames a second.
+  **End stream** stops it. It needs EMMA's own ffmpeg if your computer's can't
+  make that kind of video (Settings → *Hearing you* says so and offers it). Your
+  face and voice leave the computer only while you're live, and only to the
+  address you chose; nothing goes through anyone else. If the connection drops,
+  the stream ends and she tells you; press *Go live* again. Not while
+  **Sanctuary** is on.
 - She **doesn't upload for you**: that would need an app Google approves, and a
   third party in the middle of something built to have none.
 
