@@ -67,7 +67,12 @@ outside your machine.
   streams Her Studio to your own channels and is the one thing that opens
   outbound connections carrying your camera and voice — only while you hold Go
   Live, only to the places you switched on (up to five since 1.12.0), each with
-  its stream key kept in the keyring, never a file. The model itself is local by
+  its stream key kept in the keyring, never a file · **your Twitch chat**
+  (1.14.0), read anonymously from `irc.chat.twitch.tv` only while you have it
+  switched on in the Studio (EMMA never writes in it), and, only after you press
+  *Connect Twitch* and type a code at twitch.tv/activate, `id.twitch.tv`,
+  `api.twitch.tv` and `eventsub.wss.twitch.tv` for your new followers, with a
+  token that can only read who follows you, kept in the keyring. The model itself is local by
   default. **Anything outbound that isn't on that list is a finding**, and so is
   anything on it that fires without the owner having enabled it.
 - The **phone door** is not outbound, but it is the one listener that isn't on

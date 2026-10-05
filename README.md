@@ -118,9 +118,9 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0
-> and 1.13.0 came out for Windows and Linux first on 5 October, and their Mac
-> versions follow next week. If you're on 1.0.1, press **Update** in EMMA or download
+> download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0,
+> 1.13.0 and 1.14.0 came out for Windows and Linux first on 5–6 October, and
+> their Mac versions follow next week. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -141,6 +141,15 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.14.0: your Twitch chat and alerts, on your stream.** A new **Chat** tab
+  in Her Studio: type your channel's name and your chat shows, in the tab and
+  on the picture as a layer you place. No sign-in, and EMMA never writes in your
+  chat. New subs, gifted subs, raids and cheers become her own alert card in the
+  stream and the recording, with a chime. New followers too, after you press
+  **Connect Twitch** once and type a short code at twitch.tv/activate; EMMA may
+  then see who follows you, nothing else. Windows and Linux now; **the Mac
+  version follows next week.** The [release notes](../../releases/tag/v1.14.0)
+  say more.
 - **1.13.0: your own stage, and a proper sound desk.** Every scene in Her
   Studio is now made of layers you can change or add to: cameras (a second
   webcam too), up to four screens, pictures, looping videos, text. Press
@@ -149,8 +158,7 @@ Being straight with you, because I'd want the same:
   taken out, on your computer), *Broadcast voice* or *Raw*, with one limiter so
   nothing clips. Add up to four more microphones, and every sound is also kept
   on its own track, lined up for your video editor. Windows and Linux now;
-  **the Mac version follows next week.** The
-  [release notes](../../releases/tag/v1.13.0) say more.
+  **the Mac version follows next week.**
 - **1.12.0: go live everywhere at once.** Her Studio streams to up to five
   places at once (YouTube, Twitch, Kick, any address), each with its own key
   and light; one place dropping never touches the others, and a dropped line
@@ -322,8 +330,8 @@ Being straight with you, because I'd want the same:
 - **On a Mac, two things are Windows and Linux only.** Live captions (macOS
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
-  system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0 and 1.13.0
-  reach Macs a week after Windows and Linux.
+  system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0 and
+  1.14.0 reach Macs a week after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

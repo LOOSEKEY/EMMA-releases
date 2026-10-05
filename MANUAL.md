@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.13.0.*
+*Everything she does, and where to find it. For v1.14.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -280,6 +280,23 @@ uploaded anywhere, and the camera light is your proof.
     (Settings → *Hearing you* says so and offers it). Your face and voice leave
     the computer only while you're live, and only to the places you switched on;
     nothing goes through anyone else. Not while **Sanctuary** is on.
+- **Your Twitch chat and alerts** (the **Chat** tab): type your channel's name
+  (or paste its link) and press **Save**; *Show my chat* turns it on. No sign-in:
+  she reads your channel's public chat the way twitch.tv does before you log in,
+  and never writes in it. Your chat shows in the tab, and **Put my chat on this
+  scene** adds it to the picture as a layer (move and resize it with Arrange;
+  under the Stage tab you can set its size, how long each message stays, and a
+  dark box behind it). A message a moderator deletes, and everything from
+  someone timed out or banned, disappears from the screen too.
+  - **Alerts**: new subs, gifted subs, raids and cheers show as her own card at
+    the top of the picture, in the stream and the recording, with a chime (or no
+    sound, or one of your soundboard clips). *Try an alert* shows one.
+  - **New followers** need one more step: **Connect Twitch**. She shows a short
+    code; type it at twitch.tv/activate (the button opens it) and say yes. EMMA
+    may then see who follows you, nothing else; the connection is kept in your
+    computer's keyring, and **Disconnect Twitch** forgets it and tells Twitch to
+    cancel it.
+  - Emotes show as their words. Not while **Sanctuary** is on.
 - She **doesn't upload for you**: that would need an app Google approves, and a
   third party in the middle of something built to have none.
 

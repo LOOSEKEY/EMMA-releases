@@ -36,8 +36,12 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0 and 1.13.0 are Windows and Linux for now; their Mac
-versions follow next week.)*
+them up from 1.0.1. 1.12.0, 1.13.0 and 1.14.0 are Windows and Linux for now; their
+Mac versions follow next week.)*
+
+### New in 1.14.0
+- **Your Twitch chat in the Studio** — a Chat tab: type your channel's name, no sign-in, and your chat shows in the tab and on the picture as a layer you place. EMMA never writes in your chat; messages a moderator removes disappear from the screen too.
+- **Alerts drawn by EMMA herself** — new followers, subs, gifted subs, raids and cheers as her own card in the stream and the recording, with a chime. Follows need **Connect Twitch** once (a short code at twitch.tv/activate; EMMA may then see who follows you, nothing else).
 
 ### New in 1.13.0
 - **Your own stage** — every Studio scene is made of layers: cameras (a second webcam too), up to four screens, pictures, looping videos, text, a colour or your room. Press **Arrange** and drag, with snapping, resizing and cropping; make new scenes of your own.
@@ -342,7 +346,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 
 | | |
 |---|---|
-| **Her Studio, for streamers (the rest)** | 1.12.0 brought five places at once, a stream that keeps going, three qualities and game sound; 1.13.0 brought a stage made of layers with transitions, and a sound desk with every sound on its own track. Next: your Twitch chat and alerts on screen, your phone as a remote control, EMMA as a webcam in Zoom, and your phone as a second camera. Everything OBS does is the plan, without the 47 menus. |
+| **Her Studio, for streamers (the rest)** | 1.12.0 brought five places at once, a stream that keeps going, three qualities and game sound; 1.13.0 brought a stage made of layers with transitions, and a sound desk with every sound on its own track; 1.14.0 brought your Twitch chat and alerts on screen. Next: your phone as a remote control, EMMA as a webcam in Zoom, and your phone as a second camera. Everything OBS does is the plan, without the 47 menus. |
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
