@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.12.0.*
+*Everything she does, and where to find it. For v1.13.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -148,6 +148,20 @@ uploaded anywhere, and the camera light is your proof.
   you in the corner — floating with no box if a background is on), *Screen only*,
   and a *Title card* you type. Number keys **1–9** switch scenes as you go, the
   way a stream deck does (not while you're typing in a box).
+- **Your own stage** (the **Stage** tab): every scene is made of layers, and you
+  can change any of them or make your own with **New scene**. *Add a layer*:
+  a camera (another webcam too), a screen (up to four shares), a picture, a
+  looping video, text, a colour, or your room. Press **Arrange** and drag them on
+  the picture: drag to move (they snap to the edges, the centre and the thirds),
+  a corner to resize (hold Shift for any shape), **Alt and a corner to crop**,
+  and right-click for *Bring to front*, *Send to back* and *Remove*. *Put this
+  scene back* restores a built-in scene. Your scenes are kept in her data folder
+  and come back after a restart. Green screen, cut-out and blur are for your main
+  camera; another camera shows as it is.
+- **Moving between scenes** (also in the Stage tab): *Cut*, *Fade*, *Slide* or
+  *Stinger*, a short video of your own with see-through parts that plays over
+  the change. A stinger plays in Chrome, Edge and EMMA's own window on Windows;
+  elsewhere the scenes fade instead.
 - **Breaks**: *Starting soon*, *Be right back* and *Ending* cards over the set,
   also down the left. In the **Breaks** tab, write your own heading and a line
   under it if you like, set the minutes and press *Start the countdown*; the
@@ -176,6 +190,15 @@ uploaded anywhere, and the camera light is your proof.
   answer. Each question becomes a chapter, titled with the question.
 - **Script**: paste what you want to say and it scrolls over your face as a
   teleprompter. It is on your screen only and **never in the video**.
+- **Your voice** (the **Sound** tab): *Clean voice* (the default) takes out
+  background noise like a fan, a hum or typing, goes quiet between your words and
+  evens your level out; *Broadcast voice* is fuller and firmer; *Raw* is your
+  microphone exactly as it is. *More* has the knobs: noise removal, the gate,
+  a rumble cut, bass, presence and air, compression and level. Everything goes
+  through one limiter at the end, so the recording and the stream never clip.
+  Noise removal runs on her own copy of RNNoise, on your computer.
+- **More microphones** (Sound tab): add up to four more, for a guest beside you,
+  each with its own voice setting and volume.
 - **Sound**: pick your microphone and watch the bar — green is right, red is too
   loud. The **Sound** tab is a small sound desk: *Load a music file* for a **music
   bed** under you (*Play*, *Stop*, a volume, *Loop it*, and *Duck the music while
@@ -216,7 +239,11 @@ uploaded anywhere, and the camera light is your proof.
   (Settings → *Hearing you*), and it says so if they're missing. Two ticks
   before you press it: *Trim out my "um"s* (a tidied copy with the filler words
   cut, slower) and *Also make vertical Shorts of the best bits* (9:16 clips of
-  the best moments, for phones).
+  the best moments, for phones). A third, *Also make files for my video
+  editor*, adds a `for-my-editor` folder: every sound from the take on its own
+  (your voice, each microphone, music, soundboard, game) as a WAV, and one file
+  with the video and each sound as a named track. They line up with the video
+  from the start, and they're the uncut take.
 - **Go live** streams the studio straight to your own channels: **YouTube**,
   **Twitch**, or **Custom** (Kick, or any RTMP address you paste; SRT and WHIP
   addresses too, where her ffmpeg has them). The **Go live** tab lists up to
@@ -261,9 +288,10 @@ is nearly full — she says which, before you start rather than half way through
 
 **If the camera picture doesn't appear**, she waits a few seconds, then asks the
 camera again more simply: some USB webcams say they can do things they can't.
-She remembers what worked, so next time it opens straight away. If it still
-sends nothing, she tells you what to try (unplug it and plug it back in,
-straight into the computer rather than a hub). **Sharing your screen** is asked
+She remembers what worked, so next time it opens straight away. **If the camera
+doesn't answer at all** (it happens when a USB webcam gets stuck), she says so
+after a few seconds and offers *Try the camera again* and *Record sound only*;
+unplug it and plug it back in, straight into the computer rather than a hub. **Sharing your screen** is asked
 for every time by the browser, by design; once shared, it stays shared while you
 switch scenes, until you leave the studio or press *Stop sharing*.
 

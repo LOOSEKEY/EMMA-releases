@@ -36,8 +36,15 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0 is Windows and Linux for now; its Mac version
-follows next week.)*
+them up from 1.0.1. 1.12.0 and 1.13.0 are Windows and Linux for now; their Mac
+versions follow next week.)*
+
+### New in 1.13.0
+- **Your own stage** — every Studio scene is made of layers: cameras (a second webcam too), up to four screens, pictures, looping videos, text, a colour or your room. Press **Arrange** and drag, with snapping, resizing and cropping; make new scenes of your own.
+- **Transitions** — cut, fade, slide, or a stinger video of your own between scenes.
+- **Your voice** — *Clean voice* takes out background noise (RNNoise, on your computer), goes quiet between words and evens you out; *Broadcast voice* and *Raw* too, the knobs under *More*, and one limiter so nothing clips.
+- **More microphones, every sound on its own track** — up to four more mics; while you record, each sound is also kept on its own, and *Also make files for my video editor* gives you the WAVs and one file with every track, lined up with the video.
+- **A camera that stops answering** no longer leaves the Studio waiting forever; refreshing inside the Studio shows the Studio straight away.
 
 ### New in 1.12.0
 - **Go live everywhere at once** — up to five places (YouTube, Twitch, Kick or any address), each with its own key and light; one dropping never touches the others, and you can switch them on and off while live.
@@ -335,7 +342,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 
 | | |
 |---|---|
-| **Her Studio, for streamers (the rest)** | 1.12.0 brought five places at once, a stream that keeps going, three qualities and game sound. Next: a stage made of layers you place freely (camera, screen, pictures, text) with transitions, a bigger sound desk, your chat and alerts on screen, your phone as a remote control, EMMA as a webcam in Zoom, and your phone as a second camera. Everything OBS does is the plan, without the 47 menus. |
+| **Her Studio, for streamers (the rest)** | 1.12.0 brought five places at once, a stream that keeps going, three qualities and game sound; 1.13.0 brought a stage made of layers with transitions, and a sound desk with every sound on its own track. Next: your Twitch chat and alerts on screen, your phone as a remote control, EMMA as a webcam in Zoom, and your phone as a second camera. Everything OBS does is the plan, without the 47 menus. |
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |
