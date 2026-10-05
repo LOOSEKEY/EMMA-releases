@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.11.6.*
+*Everything she does, and where to find it. For v1.12.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -181,7 +181,11 @@ uploaded anywhere, and the camera light is your proof.
   bed** under you (*Play*, *Stop*, a volume, *Loop it*, and *Duck the music while
   I talk*, which drops it while you speak and brings it back when you stop), and a
   **soundboard**: *Add a clip* for a sting or applause, then tap its pad. All of
-  it is mixed into the recording and the stream.
+  it is mixed into the recording and the stream. **Game sound** adds what the
+  computer is playing: *Whole computer* (Windows and Linux) or, on Linux, *Just
+  one app* (only the game, not your music or your notifications), with a volume,
+  and *More* for a nudge that lines the sound up with the picture. It's off each
+  time you open the Studio. Wear headphones, or your microphone hears it too.
 - **No camera? Record sound only.** Pick *No camera — sound only* in the camera
   list (or press *Record sound only* if no camera opens). The stage shows your
   episode's name over the room you picked, with your voice moving across it, so
@@ -191,7 +195,11 @@ uploaded anywhere, and the camera light is your proof.
   costs seconds, not the episode. Takes are listed with their length and size,
   and kept in `studio/` inside her data folder. Press ▶ to play one back.
   **Clip**, while you record, marks the moment: *Make it ready* saves the 30 or
-  so seconds before each mark as a highlight of its own.
+  so seconds before each mark as a highlight of its own. **Recording while
+  you're live** uses the stream's own picture instead of making it twice, so
+  it's lighter on the computer and the same quality as the stream. It starts a
+  moment before you press Record, so your first words are never lost, and if you
+  end the stream first, the recording carries on until you press Stop.
 - **Episodes**: nobody records a whole episode in one go. Press *New episode*,
   name it, and every take you record goes on the end of it, in order. Rename a
   take (the name becomes its chapter), move it up or down, or leave it out (it
@@ -209,19 +217,42 @@ uploaded anywhere, and the camera light is your proof.
   before you press it: *Trim out my "um"s* (a tidied copy with the filler words
   cut, slower) and *Also make vertical Shorts of the best bits* (9:16 clips of
   the best moments, for phones).
-- **Go live** streams the studio straight to your own channel: **YouTube**,
-  **Twitch**, or **Custom** (Kick, or any RTMP address you paste). Open the
-  **Go live** tab, choose where, paste the **stream key** from your channel's
-  dashboard and press *Save the key*. The key is kept in your computer's
-  keyring, never in a file, and *Forget it* removes it. Then press **Go live**
-  under the stage: the ON AIR light turns red, and everything on the stage goes
-  out exactly as you see it (never mirrored), at 1280×720, 30 frames a second.
-  **End stream** stops it. It needs EMMA's own ffmpeg if your computer's can't
-  make that kind of video (Settings → *Hearing you* says so and offers it). Your
-  face and voice leave the computer only while you're live, and only to the
-  address you chose; nothing goes through anyone else. If the connection drops,
-  the stream ends and she tells you; press *Go live* again. Not while
-  **Sanctuary** is on.
+- **Go live** streams the studio straight to your own channels: **YouTube**,
+  **Twitch**, or **Custom** (Kick, or any RTMP address you paste; SRT and WHIP
+  addresses too, where her ffmpeg has them). The **Go live** tab lists up to
+  **five places**. Each has its own switch, its platform, a name if you want one,
+  and its own **stream key** from that channel's dashboard: paste it and press
+  *Save the key*. Keys are kept in your computer's keyring, never in a file;
+  *Forget it* removes one, and × removes a place. *Add another place* adds one.
+  Switch on every place you want and press **Go live** under the stage: they all
+  get the same stream, exactly as you see it (never mirrored). **End stream**
+  stops it.
+  - **Quality**: *Smooth* (720p, 30 frames a second), *Sharp* (1080p, 30) or
+    *Gamer* (1080p, 60). She picks the one your computer can manage and says
+    why; one tap changes it, and she keeps your choice. It sets what you record
+    too. Where the graphics card can encode video, it does the work.
+  - **One light** beside the ON AIR light says how the stream is doing: green,
+    amber or red. Tap it for the speed, the bitrate and dropped frames. While
+    you're live, each place shows its own word beside its switch (*Live*,
+    *Connecting…*, *Reconnecting…*, *Stopped*).
+  - **If a line drops**, she reconnects that place on her own for up to five
+    minutes, says so on screen and once out loud, and says *Back on air* when it
+    is. The other places carry on. A place that refuses the stream at the start
+    (a wrong key) is reported, not retried. You can switch a place off or on
+    while you're live.
+  - With two or more places on, she says how much **upload** they need together.
+    If two or more fall behind at once, that's your upload, not the platforms,
+    and she offers a lower quality.
+  - Minimising EMMA, or covering her with a full-screen game, doesn't freeze the
+    stream. In Firefox, minimising can still pause the picture now and then; the
+    light says so, and bringing the window back carries on.
+  - **If YouTube says "No data" while the light is green**, copy the stream key
+    from YouTube Studio again and save it. YouTube still accepts an old key, so
+    EMMA can't tell it's stale.
+  - It needs EMMA's own ffmpeg if your computer's can't make that kind of video
+    (Settings → *Hearing you* says so and offers it). Your face and voice leave
+    the computer only while you're live, and only to the places you switched on;
+    nothing goes through anyone else. Not while **Sanctuary** is on.
 - She **doesn't upload for you**: that would need an app Google approves, and a
   third party in the middle of something built to have none.
 

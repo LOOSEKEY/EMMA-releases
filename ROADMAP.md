@@ -36,7 +36,16 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1.)*
+them up from 1.0.1. 1.12.0 is Windows and Linux for now; its Mac version
+follows next week.)*
+
+### New in 1.12.0
+- **Go live everywhere at once** — up to five places (YouTube, Twitch, Kick or any address), each with its own key and light; one dropping never touches the others, and you can switch them on and off while live.
+- **It keeps going** — a dropped line reconnects by itself; minimising EMMA or covering her with a game doesn't freeze the stream; one light says how it's doing.
+- **Smooth · Sharp · Gamer** — EMMA picks the quality your computer can carry, up to 1080p at 60, and the graphics card does the work where it can.
+- **Record and stream, one encode** — recording while live uses the stream's own picture, and keeps going if you end the stream first.
+- **Game sound** — what your computer is playing, into the recording and the stream (one app at a time on Linux).
+- **Episodes as sharp as your sharpest take**, and Firefox no longer gets stuck in sound only.
 
 ### New in 1.11.6
 - **Go live from any computer** — if your computer's own ffmpeg can't stream, Settings → Hearing you says so and offers EMMA's in one click; clips and Shorts are no longer quietly left out.
@@ -326,7 +335,7 @@ Short list on purpose. These are the things I think are most likely to matter.
 
 | | |
 |---|---|
-| **Her Studio, for streamers** | Built, and being tested for the next release. The stream won't freeze when EMMA's window is hidden behind a game; Go Live reconnects by itself if your connection drops; one light tells you the stream is healthy; the game's own sound goes into the stream (not on a Mac yet); and *Smooth · Sharp · Gamer*: EMMA picks the quality your computer can carry, up to 1080p at 60, and you can change it with one tap. Everything OBS does is the plan, without the 47 menus. |
+| **Her Studio, for streamers (the rest)** | 1.12.0 brought five places at once, a stream that keeps going, three qualities and game sound. Next: a stage made of layers you place freely (camera, screen, pictures, text) with transitions, a bigger sound desk, your chat and alerts on screen, your phone as a remote control, EMMA as a webcam in Zoom, and your phone as a second camera. Everything OBS does is the plan, without the 47 menus. |
 | **Signed builds** | Right now Windows and macOS both warn you on first run, because the builds aren't signed by a recognised certificate. It's the single roughest edge in the whole product and the first thing I'd like to spend money on. |
 | **Voice recognition on Intel Macs** | Done everywhere else as of 0.6.6, and I don't expect this one to change: one of the maths libraries underneath it has stopped shipping builds for Intel Macs entirely, so there's no package I can make that would work. EMMA tells you so plainly rather than offering a download that would fail. Everything else in EMMA works on those machines exactly as before. |
 | **Polish, wherever you find it** | Most of what got fixed this month came from people saying "this bit is annoying". That keeps being the best source of work I have. |

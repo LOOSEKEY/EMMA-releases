@@ -118,9 +118,10 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. Macs are on the same version as everyone else again
-> (**1.11.6**; level since 1 October); if you're on 1.0.1, press **Update** in EMMA or
-> download it fresh. Nothing you have is deleted.
+> download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0
+> came out for Windows and Linux first on 5 October, and the Mac version
+> follows next week. If you're on 1.0.1, press **Update** in EMMA or download
+> 1.11.6 fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
 > means Apple Silicon; "Processor: Intel" means Intel.
@@ -140,13 +141,21 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.12.0: go live everywhere at once.** Her Studio streams to up to five
+  places at once (YouTube, Twitch, Kick, any address), each with its own key
+  and light; one place dropping never touches the others, and a dropped line
+  comes back by itself. *Smooth · Sharp · Gamer* (up to 1080p at 60), with the
+  graphics card doing the work where it can. Recording while you're live uses
+  the stream's own picture, so it's lighter on your computer, and it keeps
+  recording if you end the stream first. Game sound goes into the stream.
+  Windows and Linux now; **the Mac version follows next week.** The
+  [release notes](../../releases/tag/v1.12.0) say more.
 - **1.11.6: go live from any computer.** EMMA's first real live stream went
   out from Her Studio to YouTube. If your computer already had its own ffmpeg
   (most Linux systems, many Macs), Go Live stayed greyed out and Settings had
   no button to fix it; now Settings → Hearing you says so and offers EMMA's
   own in one click. Highlight clips and Shorts, which needed the same thing,
-  are no longer quietly left out. The
-  [release notes](../../releases/tag/v1.11.6) say more.
+  are no longer quietly left out.
 - **1.11.5: skills you teach her, done your way.** Teach her how you do
   something in words (*how I write a photo caption*) and ask for it: she could
   treat it as a job for the computer, save the result into a file in your
@@ -304,7 +313,8 @@ Being straight with you, because I'd want the same:
 - **On a Mac, two things are Windows and Linux only.** Live captions (macOS
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
-  system: Macs caught up from 1.0.1 to **1.11.0** on 1 October.
+  system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0 reaches
+  Macs a week after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,
