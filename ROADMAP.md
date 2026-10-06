@@ -36,8 +36,11 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0 and 1.14.0 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0 and 1.14.1 are Windows and Linux for now; their
 Mac versions follow next week.)*
+
+### New in 1.14.1
+- **She knows your name isn't hers** — greeting her by name ("good morning Emma") no longer teaches her that your name is Emma, and a greeting on its own is never saved as a fact. If you really are called Emma, telling her so still works. Anything wrong she already saved, delete in **Memory**.
 
 ### New in 1.14.0
 - **Your Twitch chat in the Studio** — a Chat tab: type your channel's name, no sign-in, and your chat shows in the tab and on the picture as a layer you place. EMMA never writes in your chat; messages a moderator removes disappear from the screen too.
