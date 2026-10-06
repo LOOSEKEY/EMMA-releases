@@ -154,8 +154,7 @@ Being straight with you, because I'd want the same:
   stream and the recording, with a chime. New followers too, after you press
   **Connect Twitch** once and type a short code at twitch.tv/activate; EMMA may
   then see who follows you, nothing else. Windows and Linux now; **the Mac
-  version follows next week.** The [release notes](../../releases/tag/v1.14.0)
-  say more.
+  version follows next week.**
 - **1.13.0: your own stage, and a proper sound desk.** Every scene in Her
   Studio is now made of layers you can change or add to: cameras (a second
   webcam too), up to four screens, pictures, looping videos, text. Press
