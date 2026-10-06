@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0,
-> 1.13.0, 1.14.0 and 1.14.1 came out for Windows and Linux first on 5–6 October, and
+> 1.13.0, 1.14.0, 1.14.1 and 1.15.0 came out for Windows and Linux first on 5–6 October, and
 > their Mac versions follow next week. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -141,12 +141,23 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.0: Twitch stays happy, 1440p and 4K, and twenty new sets.**
+  Streaming to YouTube and Twitch at once could make Twitch say *"bitrate too
+  high"* and mark the stream poor; Twitch is now sent less, more evenly, and if
+  it's ever sent more than it takes, EMMA gives it a lighter copy of its own
+  and says so. Two new qualities, **Ultra (1440p)** and **4K**: YouTube gets
+  the whole picture, Twitch its own 1080p copy (you'll want a strong computer
+  and a fast upload). And **twenty new sets** behind you (neon city,
+  synthwave, deep space, northern lights, a fireside cabin and more); the dark
+  forest stays, the first rooms and plain colours go. Windows and Linux now;
+  **the Mac version follows next week.** The
+  [release notes](../../releases/tag/v1.15.0) say more.
 - **1.14.1: she knows your name isn't hers.** Saying "good morning Emma"
   could teach her that *your* name was Emma, and she'd greet you with it. Her
   name is now never taken as yours (unless you tell her it is: "my name is
   Emma" still works). Anything she already saved stays until you delete it:
   **Memory** in the top bar. Windows and Linux now; **the Mac version follows
-  next week.** The [release notes](../../releases/tag/v1.14.1) say more.
+  next week.**
 - **1.14.0: your Twitch chat and alerts, on your stream.** A new **Chat** tab
   in Her Studio: type your channel's name and your chat shows, in the tab and
   on the picture as a layer you place. No sign-in, and EMMA never writes in your
@@ -167,7 +178,7 @@ Being straight with you, because I'd want the same:
 - **1.12.0: go live everywhere at once.** Her Studio streams to up to five
   places at once (YouTube, Twitch, Kick, any address), each with its own key
   and light; one place dropping never touches the others, and a dropped line
-  comes back by itself. *Smooth · Sharp · Gamer* (up to 1080p at 60), with the
+  comes back by itself. *Smooth · Sharp · Gamer* (up to 1080p at 60; 1440p and 4K came in 1.15.0), with the
   graphics card doing the work where it can. Recording while you're live uses
   the stream's own picture, so it's lighter on your computer, and it keeps
   recording if you end the stream first. Game sound goes into the stream.
@@ -207,8 +218,8 @@ Being straight with you, because I'd want the same:
   podcasts with no camera.** Record in bits and she keeps the takes in order:
   name them, move them, leave out the bad ones, add a title card and an ending
   card, and one press puts the episode together and gets it ready to upload.
-  Four drawn rooms to sit in front of (a wall of books, a home office, a cosy
-  lounge, a podcast booth), your own picture kept for next time, and a
+  Four drawn rooms to sit in front of (replaced by twenty new sets in 1.15.0),
+  your own picture kept for next time, and a
   sound-only mode for podcasts. **1.10.1** makes the title card readable over a
   room.
 - **1.9.0: show her a photo or a video, and the phone fits.** A paperclip beside
@@ -336,7 +347,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0 and 1.14.1 reach Macs a week after Windows and Linux.
+  1.14.0, 1.14.1 and 1.15.0 reach Macs a week after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

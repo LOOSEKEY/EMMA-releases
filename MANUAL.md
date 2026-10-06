@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.14.1.*
+*Everything she does, and where to find it. For v1.15.0.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -169,13 +169,17 @@ uploaded anywhere, and the camera light is your proof.
 - **Look**: your room as it is, a **green screen** (click your cloth in the
   picture to teach her the colour, then even the edges out), **cut me out** with
   no green screen at all, or **blur my room**.
-- **A room behind you**: a **wall of books**, a **home office**, a **cosy
-  lounge**, a **podcast booth**, the dark forest or a plain colour — or **your
-  own picture**, which she keeps for next time. Picking one is enough: she cuts
-  you out in front of it. *Soften the room behind me* blurs it a little, the way
-  a real camera does, so it looks like a room and not a poster. The rooms are
-  drawn for EMMA, not photos from anywhere, so nothing in the picture belongs to
-  anyone else. The room is never mirrored, even while you are.
+- **A set behind you**: the **dark forest** or one of twenty more — *Neon city,
+  Synthwave, Deep space, Northern lights, Deep ocean, Gamer den, Cyber grid,
+  Fireside cabin, Desert stars, Volcano, Misty dawn, Candlelit library, Starship
+  bridge, Blossom night, Firefly jungle, Crystal cave, Moonlit castle, Golden
+  hour, Liquid light* and *City bokeh* — or **your own picture**, which she
+  keeps for next time. Picking one is enough: she cuts you out in front of it.
+  *Soften the room behind me* blurs it a little, the way a real camera does.
+  The sets are drawn for EMMA, not photos from anywhere, so nothing in the
+  picture belongs to anyone else. They stay still on purpose, so the stream's
+  bitrate goes on you, and stay sharp at 1440p and 4K. The set is never
+  mirrored, even while you are.
 - **Your mark on it**: your logo in any corner, and a **lower third** — your
   name and what you do, sliding in when you start recording (or whenever you
   press *Show it now*). Both are drawn into the video itself.
@@ -254,10 +258,18 @@ uploaded anywhere, and the camera light is your proof.
   Switch on every place you want and press **Go live** under the stage: they all
   get the same stream, exactly as you see it (never mirrored). **End stream**
   stops it.
-  - **Quality**: *Smooth* (720p, 30 frames a second), *Sharp* (1080p, 30) or
-    *Gamer* (1080p, 60). She picks the one your computer can manage and says
-    why; one tap changes it, and she keeps your choice. It sets what you record
-    too. Where the graphics card can encode video, it does the work.
+  - **Quality**: *Smooth* (720p, 30 frames a second), *Sharp* (1080p, 30),
+    *Gamer* (1080p, 60), *Ultra* (1440p, 60) or *4K* (2160p, 30). She picks one
+    of the first three that your computer can manage and says why; one tap
+    changes it, and she keeps your choice. It sets what you record too. Where
+    the graphics card can encode video, it does the work. Ultra and 4K are
+    heavy: they need a strong computer and a fast upload (about 18 and 25 Mb/s
+    for YouTube alone).
+  - **Each place gets what it takes.** YouTube takes up to 4K. Twitch takes
+    1080p at most and complains above about 6000 kb/s, so at Ultra or 4K Twitch
+    gets its own 1080p copy, and if Twitch is ever sent more than it takes, she
+    moves it to a lighter copy of its own (720p) and says so. The other places
+    carry on untouched.
   - **One light** beside the ON AIR light says how the stream is doing: green,
     amber or red. Tap it for the speed, the bitrate and dropped frames. While
     you're live, each place shows its own word beside its switch (*Live*,
@@ -267,7 +279,8 @@ uploaded anywhere, and the camera light is your proof.
     is. The other places carry on. A place that refuses the stream at the start
     (a wrong key) is reported, not retried. You can switch a place off or on
     while you're live.
-  - With two or more places on, she says how much **upload** they need together.
+  - With two or more places on (or at Ultra or 4K), she says how much
+    **upload** they need together. Keep it well under what your line can send.
     If two or more fall behind at once, that's your upload, not the platforms,
     and she offers a lower quality.
   - Minimising EMMA, or covering her with a full-screen game, doesn't freeze the

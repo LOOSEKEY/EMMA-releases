@@ -36,8 +36,13 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0 and 1.14.1 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1 and 1.15.0 are Windows and Linux for now; their
 Mac versions follow next week.)*
+
+### New in 1.15.0
+- **Twitch stays happy** — streaming to YouTube and Twitch at once, Twitch is sent less and more evenly, so it no longer says "bitrate too high"; if a place is ever sent more than it takes, EMMA gives it a lighter copy of its own and says so, and the others carry on.
+- **Ultra (1440p) and 4K** — YouTube gets the whole picture, Twitch its own 1080p copy, made on the graphics card where it can. Heavy: a strong computer and a fast upload.
+- **Twenty new sets behind you** — neon city, synthwave, deep space, northern lights, deep ocean, a gamer den, a fireside cabin, a candlelit library, a starship bridge and more, drawn for EMMA and sharp at 4K. The dark forest stays; the first rooms and the plain colours are gone.
 
 ### New in 1.14.1
 - **She knows your name isn't hers** — greeting her by name ("good morning Emma") no longer teaches her that your name is Emma, and a greeting on its own is never saved as a fact. If you really are called Emma, telling her so still works. Anything wrong she already saved, delete in **Memory**.
@@ -89,9 +94,9 @@ Mac versions follow next week.)*
 - **Episodes in Her Studio** — record in bits; she keeps the takes in order
   (rename, reorder, leave out, play back), adds a title and an ending card if you
   like, and puts the whole episode together ready to upload, one chapter per take.
-- **Rooms behind you** — a wall of books, a home office, a cosy lounge and a
-  podcast booth, drawn for EMMA; picking one cuts you out in front of it. Your
-  own picture and your logo are kept now.
+- **Rooms behind you** — four rooms drawn for EMMA (replaced by twenty new sets
+  in 1.15.0); picking one cuts you out in front of it. Your own picture and your
+  logo are kept now.
 - **Sound only** — record a podcast with no camera; she shows your episode's
   name with your voice moving on it.
 - **No made-up titles for a take with no words**, and the cut-out's built-in
