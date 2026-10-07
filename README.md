@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1 and 1.15.0 came out for Windows and Linux first on 5–6 October, and
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0 and 1.15.1 came out for Windows and Linux first on 5–7 October, and
 > their Mac versions follow next week. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -141,6 +141,14 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.1: Her Studio works again from her Linux window.** On 1 October
+  Debian updated WebKitGTK, which her own Linux window is drawn with, and two
+  things broke there: cameras switched on but never sent a picture, so the
+  Studio couldn't find any, and her drop-down menus turned white and
+  unreadable. In her Linux window, **studio** now opens the Studio in your web
+  browser, where cameras work, and her menus are dark again. Windows and Linux
+  now; **the Mac version follows next week.** The
+  [release notes](../../releases/tag/v1.15.1) say more.
 - **1.15.0: Twitch stays happy, 1440p and 4K, and twenty new sets.**
   Streaming to YouTube and Twitch at once could make Twitch say *"bitrate too
   high"* and mark the stream poor; Twitch is now sent less, more evenly, and if
@@ -150,8 +158,7 @@ Being straight with you, because I'd want the same:
   and a fast upload). And **twenty new sets** behind you (neon city,
   synthwave, deep space, northern lights, a fireside cabin and more); the dark
   forest stays, the first rooms and plain colours go. Windows and Linux now;
-  **the Mac version follows next week.** The
-  [release notes](../../releases/tag/v1.15.0) say more.
+  **the Mac version follows next week.**
 - **1.14.1: she knows your name isn't hers.** Saying "good morning Emma"
   could teach her that *your* name was Emma, and she'd greet you with it. Her
   name is now never taken as yours (unless you tell her it is: "my name is
@@ -347,12 +354,14 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1 and 1.15.0 reach Macs a week after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0 and 1.15.1 reach Macs a week after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,
   `sudo apt install python3-gi gir1.2-webkit2-4.1` fixes it. Closing her window
-  quits her, as on Windows and macOS.
+  quits her, as on Windows and macOS. Since 1.15.1 Her Studio opens in your
+  browser from her window (cameras stopped working in windows like hers after
+  Debian's October update).
 - **It's one person.** Me. Support is a real human and usually quick, but I'm not
   a company and I'm not going to pretend to be one. If you want to know who
   you're buying from and what else I'm building: **[The Works](BIO.md)**.

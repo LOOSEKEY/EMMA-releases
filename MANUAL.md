@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.0.*
+*Everything she does, and where to find it. For v1.15.1.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -69,9 +69,15 @@ the download:
   and why.
 
 In her window, links open in your normal browser, **Ctrl +** / **Ctrl −** /
-**Ctrl 0** zoom, and **F5** reloads. Camera, microphone and screen sharing
-work there as they do in a browser, and saving a file (a Soul File, an export)
+**Ctrl 0** zoom, and **F5** reloads. Saving a file (a Soul File, an export)
 asks where to put it.
+
+**Her Studio opens in your browser** (since 1.15.1). Debian's update of the
+system's WebKitGTK in October 2026 (version 2.54) stopped cameras sending a
+picture in windows like hers: the camera turns on, but no picture arrives.
+So in her window, **studio** opens the Studio in your normal browser instead,
+straight onto the set, and her window tells you it went there. Chat stays in
+her window.
 
 **Closing her window quits her** — on Linux now as everywhere else. If you
 liked her carrying on in the background after you closed the tab (so she can
@@ -138,7 +144,9 @@ Click to cycle. This is tone, not capability:
 
 Press **studio** in the top bar and the whole window becomes a studio for making
 a video or a podcast episode. Everything happens on your computer; nothing is
-uploaded anywhere, and the camera light is your proof.
+uploaded anywhere, and the camera light is your proof. *(In her own window on
+Linux, the Studio opens in your browser instead: see “On Linux, her own window”
+above.)*
 
 - **You, big, in the middle.** What you see on the stage is exactly what gets
   recorded — backgrounds and all — so there are no surprises at the end. You're

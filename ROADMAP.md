@@ -36,8 +36,12 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1 and 1.15.0 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0 and 1.15.1 are Windows and Linux for now; their
 Mac versions follow next week.)*
+
+### New in 1.15.1
+- **Her Studio opens in your browser from her Linux window** — Debian's WebKitGTK update of 1 October 2026 stopped cameras sending a picture in her own Linux window; there, **studio** now opens the Studio in your web browser, straight onto the set, and chat stays in her window.
+- **Her drop-down menus are dark again** — the same update drew them white and unreadable in her Linux window.
 
 ### New in 1.15.0
 - **Twitch stays happy** — streaming to YouTube and Twitch at once, Twitch is sent less and more evenly, so it no longer says "bitrate too high"; if a place is ever sent more than it takes, EMMA gives it a lighter copy of its own and says so, and the others carry on.
