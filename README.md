@@ -118,9 +118,9 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.11.6 for one more week:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1, 1.15.0 and 1.15.1 came out for Windows and Linux first on 5–7 October, and
-> their Mac versions follow next week. If you're on 1.0.1, press **Update** in EMMA or download
+> download button to guess. **Macs are on 1.11.6 for now:** 1.12.0,
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1 and 1.15.2 came out for Windows and Linux first on 5–12 October, and
+> their Mac versions follow soon. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -141,14 +141,20 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.2: break cards that don't slow the Studio down.** *Starting soon*,
+  *Be right back* and *Ending* drew the whole forest picture again on every
+  frame; with a countdown up the Studio fell to a few frames a second and kept
+  getting slower, which a live stream would carry. The forest is now drawn once
+  and reused, so a break card costs no more than the empty set. Windows and
+  Linux now; **the Mac version follows soon.** The
+  [release notes](../../releases/tag/v1.15.2) say more.
 - **1.15.1: Her Studio works again from her Linux window.** On 1 October
   Debian updated WebKitGTK, which her own Linux window is drawn with, and two
   things broke there: cameras switched on but never sent a picture, so the
   Studio couldn't find any, and her drop-down menus turned white and
   unreadable. In her Linux window, **studio** now opens the Studio in your web
   browser, where cameras work, and her menus are dark again. Windows and Linux
-  now; **the Mac version follows next week.** The
-  [release notes](../../releases/tag/v1.15.1) say more.
+  now; **the Mac version follows soon.**
 - **1.15.0: Twitch stays happy, 1440p and 4K, and twenty new sets.**
   Streaming to YouTube and Twitch at once could make Twitch say *"bitrate too
   high"* and mark the stream poor; Twitch is now sent less, more evenly, and if
@@ -158,13 +164,13 @@ Being straight with you, because I'd want the same:
   and a fast upload). And **twenty new sets** behind you (neon city,
   synthwave, deep space, northern lights, a fireside cabin and more); the dark
   forest stays, the first rooms and plain colours go. Windows and Linux now;
-  **the Mac version follows next week.**
+  **the Mac version follows soon.**
 - **1.14.1: she knows your name isn't hers.** Saying "good morning Emma"
   could teach her that *your* name was Emma, and she'd greet you with it. Her
   name is now never taken as yours (unless you tell her it is: "my name is
   Emma" still works). Anything she already saved stays until you delete it:
   **Memory** in the top bar. Windows and Linux now; **the Mac version follows
-  next week.**
+  soon.**
 - **1.14.0: your Twitch chat and alerts, on your stream.** A new **Chat** tab
   in Her Studio: type your channel's name and your chat shows, in the tab and
   on the picture as a layer you place. No sign-in, and EMMA never writes in your
@@ -172,7 +178,7 @@ Being straight with you, because I'd want the same:
   stream and the recording, with a chime. New followers too, after you press
   **Connect Twitch** once and type a short code at twitch.tv/activate; EMMA may
   then see who follows you, nothing else. Windows and Linux now; **the Mac
-  version follows next week.**
+  version follows soon.**
 - **1.13.0: your own stage, and a proper sound desk.** Every scene in Her
   Studio is now made of layers you can change or add to: cameras (a second
   webcam too), up to four screens, pictures, looping videos, text. Press
@@ -181,7 +187,7 @@ Being straight with you, because I'd want the same:
   taken out, on your computer), *Broadcast voice* or *Raw*, with one limiter so
   nothing clips. Add up to four more microphones, and every sound is also kept
   on its own track, lined up for your video editor. Windows and Linux now;
-  **the Mac version follows next week.**
+  **the Mac version follows soon.**
 - **1.12.0: go live everywhere at once.** Her Studio streams to up to five
   places at once (YouTube, Twitch, Kick, any address), each with its own key
   and light; one place dropping never touches the others, and a dropped line
@@ -189,7 +195,7 @@ Being straight with you, because I'd want the same:
   graphics card doing the work where it can. Recording while you're live uses
   the stream's own picture, so it's lighter on your computer, and it keeps
   recording if you end the stream first. Game sound goes into the stream.
-  Windows and Linux now; **the Mac version follows next week.**
+  Windows and Linux now; **the Mac version follows soon.**
 - **1.11.6: go live from any computer.** EMMA's first real live stream went
   out from Her Studio to YouTube. If your computer already had its own ffmpeg
   (most Linux systems, many Macs), Go Live stayed greyed out and Settings had
@@ -354,7 +360,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1, 1.15.0 and 1.15.1 reach Macs a week after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0, 1.15.1 and 1.15.2 reach Macs soon after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

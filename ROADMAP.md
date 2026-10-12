@@ -36,8 +36,11 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0 and 1.15.1 are Windows and Linux for now; their
-Mac versions follow next week.)*
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1 and 1.15.2 are Windows and Linux for now; their
+Mac versions follow soon.)*
+
+### New in 1.15.2
+- **Break cards that don't slow the Studio down** — *Starting soon*, *Be right back* and *Ending* drew the whole forest picture on every frame, and with a countdown up the Studio fell to a few frames a second; the forest is now drawn once and reused.
 
 ### New in 1.15.1
 - **Her Studio opens in your browser from her Linux window** — Debian's WebKitGTK update of 1 October 2026 stopped cameras sending a picture in her own Linux window; there, **studio** now opens the Studio in your web browser, straight onto the set, and chat stays in her window.
