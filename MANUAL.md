@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.2.*
+*Everything she does, and where to find it. For v1.15.3.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -856,7 +856,8 @@ That one file is your backup, your migration, and your exit.
 - **Moving to a new machine** — export on the old one, install on the new one,
   import.
 - **Leaving** — export, then uninstall like any other app. Nothing is held back
-  and nothing is kept anywhere else, because there is nowhere else.
+  and nothing else is kept anywhere, except one small file holding the date your
+  trial began (§13).
 
 **Your export always works** — during the trial, after it expires, whatever
 happens. Your memory is never held hostage to a payment.
@@ -872,6 +873,16 @@ happens. Your memory is never held hostage to a payment.
 | **Linux** | `~/.local/share/EMMA` |
 
 Her memory is `emma.db` in there. Set `EMMA_DATA_DIR` to put it somewhere else.
+
+One small file lives outside that folder: **the date your trial began**, so that
+removing her folder doesn't start a new trial. It holds that date and nothing
+else, and uninstalling leaves it behind.
+
+| System | Trial date |
+|---|---|
+| **Windows** | `%LOCALAPPDATA%\EMMA\trial-start` |
+| **macOS** | `~/Library/Preferences/EMMA/trial-start` |
+| **Linux** | `~/.local/state/EMMA/trial-start` |
 
 ---
 

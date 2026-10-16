@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for now:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1 and 1.15.2 came out for Windows and Linux first on 5–12 October, and
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2 and 1.15.3 came out for Windows and Linux first on 5–16 October, and
 > their Mac versions follow soon. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -141,13 +141,19 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.3: tighter licence and trial checks.** Two ways round the licence
+  that took no skill at all are closed, and the date your trial began is now
+  also kept in one small file outside her data folder, so deleting her data no
+  longer starts a new trial. Nothing changes if you have a licence, and a trial
+  already running carries on with the same days left. Windows and Linux now;
+  **the Mac version follows soon.** The
+  [release notes](../../releases/tag/v1.15.3) say more.
 - **1.15.2: break cards that don't slow the Studio down.** *Starting soon*,
   *Be right back* and *Ending* drew the whole forest picture again on every
   frame; with a countdown up the Studio fell to a few frames a second and kept
   getting slower, which a live stream would carry. The forest is now drawn once
   and reused, so a break card costs no more than the empty set. Windows and
-  Linux now; **the Mac version follows soon.** The
-  [release notes](../../releases/tag/v1.15.2) say more.
+  Linux now; **the Mac version follows soon.**
 - **1.15.1: Her Studio works again from her Linux window.** On 1 October
   Debian updated WebKitGTK, which her own Linux window is drawn with, and two
   things broke there: cameras switched on but never sent a picture, so the
@@ -360,7 +366,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1, 1.15.0, 1.15.1 and 1.15.2 reach Macs soon after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2 and 1.15.3 reach Macs soon after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,
