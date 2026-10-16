@@ -59,8 +59,11 @@ outside your machine.
   available while it's on; from 1.6.0 the owner can send all of it through their
   own Tor instead, and **with Tor chosen, any live-mode request that leaves the
   normal way without the owner pressing *Search normally this time* is a finding**) · **the update check**, one anonymous request, off by
-  default · **a spoken voice** you choose, downloaded once · **the voice-
-  recognition model**, a one-time ~250MB download · **your email**, spoken
+  default · **a spoken voice** you choose, downloaded once · **her speech model**
+  (1.4.0), a one-time ~150 MB download so she can hear you · **ffmpeg** (1.4.0),
+  a one-time ~45 MB download (10 MB on a Mac) for audio and video files, the
+  Studio's finished videos and Go Live · **the voice pack** for telling voices
+  apart, a one-time 200–330 MB download · **your email**, spoken
   directly to your own mail server if you connect it · **a non-default model
   engine**, if you configure one · **offline Wikipedia**, a one-time download
   from Kiwix that you choose the size of (1.3.0) · **Go Live** (1.7.0), which

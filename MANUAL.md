@@ -95,6 +95,7 @@ Left to right:
 | Control | What it does |
 |---|---|
 | **Chats** | Your conversation threads — pick one up again, or browse back |
+| **Studio** | Turns the whole window into a studio for a video, a podcast or a live stream — see *Her Studio* below |
 | **Calendar** | Your diary, as a drop-down — see *The calendar* below |
 | **Memory** | What she knows about you — see §4 |
 | **Notifications** | What she did while you were away |
@@ -848,7 +849,7 @@ settings.
 
 ## 12. Backups, moving machines, leaving
 
-**Memory → Export Soul File** gives you her entire brain as a single file you own.
+**Memory → Export brain** gives you her entire brain as a single file you own.
 That one file is your backup, your migration, and your exit.
 
 - **Backing up** — she takes automatic backups, and you can export whenever you

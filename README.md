@@ -71,10 +71,10 @@ back the moment you touch the mouse.
 bedtime story in character, and whispers after midnight. *(New in 1.1.0: the
 speech engine now ships with her. Before that it was left out of the installer,
 so no downloaded copy could speak a word — if you tried her voice and got
-nothing, that was why, and it works now.)* Talking back to her out loud needs
-speech recognition, which isn't in the build yet — the mic stays hidden.
-*(1.2.0: if her voice ever fails, she now tells you why instead of going
-quiet.)*
+nothing, that was why, and it works now.)* **And she can hear you** (since
+1.4.0): press the mic and talk; her speech model is a one-time download she
+asks about first. *(1.2.0: if her voice ever fails, she now tells you why
+instead of going quiet.)*
 
 💤 **She dreams** — overnight she joins up things you've said months apart, and
 wakes with something to tell you.
@@ -417,24 +417,24 @@ you, and it takes thirty seconds.
 **She never updates herself.** She'll tell you there's a new version; nothing is
 downloaded or replaced until you press the button.
 
-Three things she'd ever download, and she asks before each. The **speech model for
-voice recognition** — about a quarter of a gigabyte, which is why it isn't inside
-the installer. She tells you the size before anything starts, and checks what
-arrives against a fingerprint built into the app before she'll use it. **Windows,
-Linux and Apple Silicon Macs.** On an Intel Mac she'll tell you it isn't available
-and leave the button alone — one of the libraries underneath it no longer builds
-for those machines. Everything else in EMMA works there exactly as it does
-anywhere.
+Five things she'd ever download, and she asks before each. Every one is
+checked against a fingerprint before she'll use it.
 
-**A different speaking voice**, if you pick one from the library. She ships
-with a voice that works from the first launch, so this only happens if you go
-looking for another one.
+- **Her speech model**, so she can hear you — about 150 MB, the first time you
+  press the mic.
+- **ffmpeg**, for audio and video files, the Studio's finished videos and Go
+  Live — about 45 MB (10 MB on a Mac), from Settings → *Hearing you*.
+- **The voice pack for telling voices apart** — 200–330 MB depending on your
+  system. **Windows, Linux and Apple Silicon Macs.** On an Intel Mac she'll tell
+  you it isn't available and leave the button alone — one of the libraries
+  underneath it no longer builds for those machines.
+- **A different speaking voice**, if you pick one from the library. She ships
+  with a voice that works from the first launch.
+- **Offline Wikipedia**, if you want it — in the size you choose, checked
+  against the checksum Wikipedia's offline project publishes.
 
-And **offline Wikipedia**, if you want it — a one-time download in the size you
-choose, checked against the checksum Wikipedia's offline project publishes.
-
-*(Separately: live mode, the update check and your email each reach the
-internet only when you switch them on. The full list is in
+*(Separately: live mode, the update check, your email, Go Live and your Twitch
+chat each reach the internet only when you switch them on. The full list is in
 [SECURITY.md](SECURITY.md).)*
 
 ## What you'd actually own
