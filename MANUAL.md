@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.3.*
+*Everything she does, and where to find it. For v1.15.4.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -514,7 +514,7 @@ it to cycle:
 
 | Position | What happens |
 |---|---|
-| **Full** | She acts, then tells you what she did. Fastest. |
+| **Full** | She does what you ask, then tells you what she did. Fastest. If she wants to change something you *didn't* ask for, she asks first. |
 | **Ask** | Anything that changes your system stops and waits for your Allow / Deny. |
 | **Lock** | She touches nothing. Conversation only. |
 

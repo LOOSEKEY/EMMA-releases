@@ -36,8 +36,11 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2 and 1.15.3 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3 and 1.15.4 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.4
+- **On Full, she only changes what you ask** — anything she wants to change on your computer that your message didn't ask for (a file, a folder, a command, the mouse or keyboard, the browser, an email) waits for your Approve, as on Ask; opinions and plans are talked through; a tool that wasn't on offer can't run, so web search stays off unless live mode is on; a command that only reads no longer asks just because it pipes one command into another.
 
 ### New in 1.15.3
 - **Tighter licence and trial checks** — two ways round the licence that took no skill are closed, and the date your trial began is also kept in one small file outside her data folder, so deleting her data no longer starts a new trial. Licences and trials already running are unchanged.
