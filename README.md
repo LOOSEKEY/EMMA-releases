@@ -155,8 +155,7 @@ Being straight with you, because I'd want the same:
   also kept in one small file outside her data folder, so deleting her data no
   longer starts a new trial. Nothing changes if you have a licence, and a trial
   already running carries on with the same days left. Windows and Linux now;
-  **the Mac version follows soon.** The
-  [release notes](../../releases/tag/v1.15.3) say more.
+  **the Mac version follows soon.**
 - **1.15.2: break cards that don't slow the Studio down.** *Starting soon*,
   *Be right back* and *Ending* drew the whole forest picture again on every
   frame; with a countdown up the Studio fell to a few frames a second and kept
