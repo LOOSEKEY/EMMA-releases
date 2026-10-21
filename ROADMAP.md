@@ -251,6 +251,9 @@ slipped through unasked — an empty folder harms nothing, so it had been
 classed as not worth interrupting you for. That was the wrong call: the dial is
 about consent, not harm. Her own activity log is what caught it.*
 
+*On **FULL**, as of 1.15.4, she does what you ask without checking first, and
+asks before changing anything you didn't ask for.*
+
 ### She talks
 Several voices, reading her answers aloud, and a quieter one after midnight.
 Press *replay* to hear anything again — the morning briefing especially, which

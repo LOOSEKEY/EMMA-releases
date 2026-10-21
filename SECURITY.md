@@ -130,6 +130,14 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   offline. Reaching it needed a malicious page open in your browser while EMMA
   was running, and the cross-origin guard did not stop it (see the GET note
   above). **Update to 1.0.1 or later.** macOS and Linux were never affected.
+- **Two things the safety dial didn't hold, fixed in 1.15.4.** On **Full**, if
+  a small model decided to act on something you'd only asked its opinion of, it
+  ran: once, it wrote its answer into a file in Documents. Now anything she
+  wants to change that you didn't ask for waits for your Approve. And with
+  **live mode off**, the web and browser tools were held back from her but not
+  refused if she named one anyway, so a model could in principle have gone
+  online. Now a tool that wasn't offered can't run at all. I found both myself;
+  I know of no case of the second happening. **Update to 1.15.4 or later.**
 
 ## What I do on my side
 
