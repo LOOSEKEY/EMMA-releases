@@ -155,6 +155,7 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   every finding rather than a wall of CVE numbers.
 - **The most recent was 2026-10-21**, the scheduled pass, run twelve days late
   (it was due 9 October; I found it missing while checking these documents).
+  The next is due by **20 December 2026**.
   The libraries were clean apart from the PDF reader, and no secret was
   committed. Three things, all **fixed and shipped in 1.15.5**:
 
