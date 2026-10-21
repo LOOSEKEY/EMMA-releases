@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.6.*
+*Everything she does, and where to find it. For v1.15.7.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -192,6 +192,18 @@ above.)*
 - **Your mark on it**: your logo in any corner, and a **lower third** — your
   name and what you do, sliding in when you start recording (or whenever you
   press *Show it now*). Both are drawn into the video itself.
+- **Live captions** (Look tab): what you say, written across the bottom of the
+  picture a moment after you say it, so it's in the recording and the stream.
+  Worked out on this computer by the same speech model she listens to you with
+  (Settings → *Hearing you*), and never kept. The take's own captions file is
+  still made by *Make it ready*.
+- **Check the shot**, before you record: press it, look at the camera and say a
+  sentence the way you will on the show. For a few seconds she looks and
+  listens, then says what she'd change: lit from behind, too dark, your head at
+  the top of the frame, off to one side, too far away; too loud, too quiet,
+  background noise, a hum on the microphone. She measures the light and where
+  you sit from the same cut-out that puts you in front of a set, and the sound
+  from the microphone as it is. Nothing is recorded or kept.
 - **Talk to her while you record.** Say **"EMMA, cut that"** and the fluffed
   sentence disappears from the finished video, along with the command itself.
   **"EMMA, chapter here"** drops a chapter mark. **"EMMA, take two"** throws

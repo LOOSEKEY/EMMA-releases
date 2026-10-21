@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for now:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5 and 1.15.6 came out for Windows and Linux first on 5–22 October, and
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6 and 1.15.7 came out for Windows and Linux first on 5–22 October, and
 > their Mac versions follow soon. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -141,13 +141,20 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.7: Check the shot, and live captions.** In her Studio, a new
+  button beside Record: look at the camera, say a sentence, and she tells you
+  out loud what she'd change (the light on you, where you sit in the picture,
+  your level, a hum or background noise) or that you look and sound good. And
+  a Live captions switch in the Look tab writes what you say across the bottom
+  of the picture, so it's in your recording and stream. Both run on your own
+  computer and keep nothing. Windows and Linux now; **the Mac version follows
+  soon.** The [release notes](../../releases/tag/v1.15.7) say more.
 - **1.15.6: kid mode keeps a child's chat to the child.** What a child said
   was being saved as yours, and your memories were being read into their
   chat; now neither happens, and past bedtime she really does wind down. The
   calendar no longer files a date in a year that's gone, an empty detail no
   longer shows as "null", and if anything she tried was blocked or refused,
   her reply says so. Windows and Linux now; **the Mac version follows soon.**
-  The [release notes](../../releases/tag/v1.15.6) say more.
 - **1.15.5: a security release.** From the scheduled security scan: a website
   you had open could make EMMA ask GitHub for updates even with update checks
   off, so her API now refuses anything your browser says came from another
@@ -388,7 +395,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5 and 1.15.6 reach Macs soon after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6 and 1.15.7 reach Macs soon after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

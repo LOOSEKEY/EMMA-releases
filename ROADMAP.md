@@ -36,8 +36,12 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5 and 1.15.6 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6 and 1.15.7 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.7
+- **Check the shot** — a button beside Record in her Studio: she looks and listens for a few seconds and tells you out loud what she'd change (lit from behind, too dark, off to one side, too far away; too loud, too quiet, a hum, background noise), or that you look and sound good. Measured on your computer; nothing is recorded or kept.
+- **Live captions** — a switch in the Studio's Look tab writes what you say across the bottom of the picture, so it's in your recording and stream. Uses the speech model she already listens with; runs on your computer and keeps nothing.
 
 ### New in 1.15.6
 - **Kid mode keeps a child's chat to the child** — nothing a child says is kept or remembered as yours, and nothing of yours is brought into their chat; past bedtime every reply winds down for sleep.
