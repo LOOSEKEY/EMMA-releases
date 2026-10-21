@@ -87,25 +87,29 @@ outside your machine.
   0.6.5), or a **document** you hand her. That's the one input a stranger can
   put in front of her without you choosing it.
 - Anything that lets a **web page you visit** reach the local API. This is the
-  classic one for a localhost app, and it is **partly** defended — read this
-  carefully, because the gap is deliberate and it is where the real findings
-  are:
-  - **Defended:** a request carrying an `Origin` whose host isn't loopback is
-    refused `403`, which covers every `fetch`/XHR and every form POST — that is,
-    every cross-site *state-changing* call. The `Host` header must be loopback
-    too, which closes DNS rebinding. **A bypass of either is a real finding.**
-  - **Not defended:** a cross-site **plain GET**. A `<img src="http://127.0.0.1:8000/…">`,
-    `<script>` or `<link>` on any page sends **no `Origin` header at all**, and
-    requests with no Origin are allowed on purpose, because that is also what
-    `curl` and legitimate local clients look like. **So anything reachable by GET
-    alone is genuinely interesting**, including a flaw in the web framework
-    underneath EMMA's own handlers rather than in her code.
-  - This is not hypothetical: it is exactly how a `starlette` advisory
-    (PYSEC-2026-2281) was reachable on Windows until **1.0.1**. *Listening only
-    on loopback is not a defence against a page in your own browser.*
-  - The candidate fix — refusing no-Origin requests that carry
-    `Sec-Fetch-Site: cross-site`, which browsers send and `curl` does not — is
-    known and not yet implemented.
+  classic one for a localhost app, and it is defended in layers. Read this
+  carefully, because the edges are where the real findings are:
+  - **A request carrying an `Origin` whose host isn't loopback is refused
+    `403`**, which covers every `fetch`/XHR and every form POST, so every
+    cross-site *state-changing* call. The `Host` header must be loopback too,
+    which closes DNS rebinding.
+  - **Since 1.15.5, a request the browser marks `Sec-Fetch-Site: cross-site` is
+    refused too.** That closes the cross-site **plain GET**: an
+    `<img src="http://127.0.0.1:8000/…">`, `<script>` or `<link>` on any page
+    sends no `Origin` at all, and until 1.15.5 that was allowed (it is how a
+    website could make EMMA check GitHub for updates with checks off, found by
+    the 2026-10-21 scan, and how a `starlette` advisory, PYSEC-2026-2281, was
+    reachable on Windows until **1.0.1**). *Listening only on loopback is not a
+    defence against a page in your own browser.*
+  - **WebSockets skip those checks**, so each of her sockets (the Studio's Go
+    Live, game sound, Twitch, live captions and sound-file sockets) checks the
+    `Origin` itself and closes on anything that isn't loopback. The phone door
+    refuses WebSockets altogether.
+  - What is still allowed, on purpose: requests with **no `Origin` and no
+    `Sec-Fetch-Site`**, because that is what `curl` and legitimate local clients
+    look like. **A way for a web page to reach her API or a socket past these
+    checks is a real finding**, including through a flaw in the web framework
+    underneath her own handlers.
 - Anything that **mints or forges a licence**, or lets one machine's licence
   work where it shouldn't.
 
