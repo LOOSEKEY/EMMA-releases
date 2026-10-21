@@ -36,8 +36,11 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3 and 1.15.4 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4 and 1.15.5 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.5
+- **A security release** — from the scheduled scan: her API refuses requests your browser says came from another website (one could make her check GitHub for updates with checks off); the update check only runs if you've turned it on or press Check now; the PDF library is updated past files built to hang it; an uploaded video or voice memo no longer chooses how it's read.
 
 ### New in 1.15.4
 - **On Full, she only changes what you ask** — anything she wants to change on your computer that your message didn't ask for (a file, a folder, a command, the mouse or keyboard, the browser, an email) waits for your Approve, as on Ask; opinions and plans are talked through; a tool that wasn't on offer can't run, so web search stays off unless live mode is on; a command that only reads no longer asks just because it pipes one command into another.

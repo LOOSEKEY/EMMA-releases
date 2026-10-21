@@ -119,7 +119,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for now:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3 and 1.15.4 came out for Windows and Linux first on 5–21 October, and
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4 and 1.15.5 came out for Windows and Linux first on 5–21 October, and
 > their Mac versions follow soon. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -141,6 +141,14 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.5: a security release.** From the scheduled security scan: a website
+  you had open could make EMMA ask GitHub for updates even with update checks
+  off, so her API now refuses anything your browser says came from another
+  site; a booby-trapped PDF could hang her, so the PDF library is updated; and
+  an uploaded video or voice memo no longer picks how it's read. None of them
+  let anyone read your memories or files. Windows and Linux now; **the Mac
+  version follows soon.** The [release notes](../../releases/tag/v1.15.5) say
+  more.
 - **1.15.4: on Full, she only changes what you ask.** Asked her opinion of a
   plan, a small local model could decide to *do* something about it: once, it
   wrote its answer into a file in Documents. Now, on the Full dial, anything
@@ -149,7 +157,7 @@ Being straight with you, because I'd want the same:
   can't run, so web search stays off unless live mode is on; and a command
   that only reads no longer asks permission because it has a pipe in it. Ask
   and Lock are unchanged. Windows and Linux now; **the Mac version follows
-  soon.** The [release notes](../../releases/tag/v1.15.4) say more.
+  soon.**
 - **1.15.3: tighter licence and trial checks.** Two ways round the licence
   that took no skill at all are closed, and the date your trial began is now
   also kept in one small file outside her data folder, so deleting her data no
@@ -374,7 +382,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3 and 1.15.4 reach Macs soon after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4 and 1.15.5 reach Macs soon after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

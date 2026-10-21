@@ -149,7 +149,25 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-09-26**, the evening 1.6.0 went out, aimed at the
+- **The most recent was 2026-10-21**, the scheduled pass, run twelve days late
+  (it was due 9 October; I found it missing while checking these documents).
+  The libraries were clean apart from the PDF reader, and no secret was
+  committed. Three things, all **fixed and shipped in 1.15.5**:
+
+  - **A website could make EMMA reach the internet.** While she was running,
+    a page open in your browser could make her ask GitHub whether there was an
+    update, even with update checks off, which is how she starts. It couldn't
+    read anything of yours, and the check carries nothing about you, but it
+    broke the promise that nothing goes out unless you turn it on. Her API now
+    refuses anything your browser says came from another website, and the
+    check only runs if you've switched it on or press Check now.
+  - **A booby-trapped PDF could hang her.** The PDF library had published
+    fixes for files built to run it for a very long time or use up memory;
+    it's updated.
+  - **An uploaded video or voice memo chose how it was read**, by its file
+    name. Not exploitable with the video tools EMMA installs; tightened anyway.
+
+- **Before that, 2026-09-26**, the evening 1.6.0 went out, aimed at the
   code 1.6.0 added that day — private search through Tor, a picture cache, a live
   screen-to-screen feed. The libraries were clean and no secret was committed.
   Reading the new code found two problems, both **fixed and shipped in 1.6.1**:
