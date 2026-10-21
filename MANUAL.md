@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.5.*
+*Everything she does, and where to find it. For v1.15.6.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -800,6 +800,9 @@ EMMA is one being with many relationships — not one shared account.
   tells you so rather than pretending. What ships is everything around it.
 - **Kid mode** — a restricted EMMA with a bedtime. Restriction is the resting
   state: she starts restricted and stays that way until an adult says otherwise.
+  A child talks to her without your life in the conversation: she doesn't bring
+  up your memories, chats or documents, and nothing the child says is kept or
+  remembered as yours. No tools, and past bedtime she winds every reply down.
 - **Sanctuary mode** (`Alt+Shift+S`) — for lending someone your laptop. Everything
   goes discreet at once: the window clears, your name, conversations, memory and
   personal drawers are hidden, and nothing from the guest's conversation is kept.
