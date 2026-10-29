@@ -156,7 +156,7 @@ Being straight with you, because I'd want the same:
   a Live captions switch in the Look tab writes what you say across the bottom
   of the picture, so it's in your recording and stream. Both run on your own
   computer and keep nothing. Windows and Linux now; **the Mac version follows
-  soon.** The [release notes](../../releases/tag/v1.15.7) say more.
+  soon.**
 - **1.15.6: kid mode keeps a child's chat to the child.** What a child said
   was being saved as yours, and your memories were being read into their
   chat; now neither happens, and past bedtime she really does wind down. The
