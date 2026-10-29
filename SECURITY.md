@@ -85,10 +85,15 @@ outside your machine.
   loopback, so **a way past its pairing, or a way for a paired phone to do more
   than chat, is exactly the kind of finding I want.**
 - Anything that gets **past the confirmation layer** on the agentic actions —
-  files, apps, commands.
+  files, apps, commands — or that changes anything in a folder listed in
+  **Your projects**, which is read-only at every dial position (since 1.15.8).
 - Anything reachable from an **email or an attachment** she reads (IMAP, since
-  0.6.5), or a **document** you hand her. That's the one input a stranger can
-  put in front of her without you choosing it.
+  0.6.5), a **document** you hand her, or an **issue, pull request or comment**
+  on a GitHub repo she reads (since 1.15.9, if you connect your GitHub). Email
+  and GitHub are the inputs a stranger can put in front of her without you
+  choosing them. On GitHub, a way to make her read a repo her token wasn't
+  given, to send anything but a read to GitHub, or to act on what an issue says,
+  is a finding.
 - Anything that lets a **web page you visit** reach the local API. This is the
   classic one for a localhost app, and it is defended in layers. Read this
   carefully, because the edges are where the real findings are:

@@ -824,18 +824,23 @@ morning.
 
 Everything is in the **Dreams** panel in the top bar. The switches, in order:
 
-- **Dream Mode** — the master switch. She sleeps on the day when you open her in
-  the morning.
+- **Dream Mode** — the master switch. She goes over the day overnight; if she
+  couldn't (the computer was off), she catches up when you open her the next
+  morning, between 6am and noon, from what was said before the night. Opening her
+  in the afternoon or evening never sets her dreaming.
 - **Dream journal** — she also writes a short, surreal entry. She's allowed to be
   weird in here.
 - **Mood** — she gently senses the emotional tenor of your days. Private, and
   never shown to anyone.
 - **Rituals** — a morning stand-up and an evening wind-down card, bookending your
   day.
-- **Dream automatically overnight, around ‹hour›** — so she's already dreamt
-  when you wake, rather than dreaming while you wait. This runs while EMMA is up;
-  to dream with the window closed, install the background service
-  (`desktop/install.sh --service`).
+- **Dream automatically overnight, around ‹hour›** — she dreams any time from
+  the hour you pick until 6am, so she's already dreamt when you wake rather than
+  dreaming while you wait. This runs while EMMA is up; to dream with the window
+  closed, install the background service (`desktop/install.sh --service`).
+  - **Only when the machine is idle** — on by default; off, and she'll dream while
+    you're still working.
+  - **Only on mains power** — on by default; off, and she'll dream on battery too.
 - **Whisper after dark** — softens her spoken replies between the hours you set.
 - **Sleep on it now** — don't wait for tonight.
 

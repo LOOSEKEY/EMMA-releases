@@ -334,6 +334,22 @@ folder and left in Drafts for you to send. Reading and sending are separate
 switches, sending is off until you turn it on, and she has no way to delete
 anything.
 
+### She knows your work
+Tell her where your projects live (Settings → *Your projects*: a name and a
+folder, or *Find my projects*) and when you mention one she reads its notes
+first, the README, the roadmap and the newest daily note, plus its newest commits
+if it's a git repo. She knows where it's at instead of hunting for the folder.
+*(1.15.8; commits since 1.15.9.)*
+
+Connect **your GitHub** (Settings → *Your GitHub*, a read-only token you make on
+GitHub) and she can read your repos there too, private ones included: files,
+commits, issues and pull requests. *(1.15.9.)*
+
+Both are **read-only**. She can never change anything in a project folder,
+whatever the safety dial says, and GitHub itself refuses any change through her
+token, which stays in your system keyring. What she reads on GitHub is treated as
+information, never as instructions, because anyone can write an issue.
+
 ### Her memory is locked, and you hold the key
 As of 0.6.5 a new install encrypts her brain on disk from the first moment —
 AES-256, key in your operating system's keychain — instead of waiting for you to
