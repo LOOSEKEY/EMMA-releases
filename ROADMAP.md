@@ -36,8 +36,11 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9 and 1.15.10 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9, 1.15.10 and 1.15.11 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.11
+- **Instructions that match** — the GitHub token steps in Settings follow GitHub's page as it is today, and the Dreams panel says what actually works for dreaming overnight (leave her open; she catches up in the morning).
 
 ### New in 1.15.10
 - **Settings that fit** — *Your projects*' add box no longer runs past the edge of Settings (the **+** was hidden), and *Your GitHub* shows "Connected as …" in full.

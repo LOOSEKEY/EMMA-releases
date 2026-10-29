@@ -126,7 +126,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
 > download button to guess. **Macs are on 1.11.6 for now:** 1.12.0,
-> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9 and 1.15.10 came out for Windows and Linux first on 5–29 October, and
+> 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9, 1.15.10 and 1.15.11 came out for Windows and Linux first on 5–29 October, and
 > their Mac versions follow soon. If you're on 1.0.1, press **Update** in EMMA or download
 > 1.11.6 fresh. Nothing you have is deleted.
 
@@ -148,11 +148,15 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.11: instructions that match.** The steps for making a GitHub token
+  in Settings now match GitHub's page as it is today, and the Dreams panel no
+  longer tells you to run a developer command to dream with the window closed:
+  leave her open overnight (minimised is fine), or she catches up in the
+  morning. Windows and Linux now; **the Mac version follows soon.** The
+  [release notes](../../releases/tag/v1.15.11) say more.
 - **1.15.10: Settings that fit.** In *Your projects* the folder box ran past
   the edge of Settings and hid the **+** for adding a project; *Your GitHub*
-  cut "Connected as …" short. Both fit now. Windows and Linux now; **the Mac
-  version follows soon.** The [release notes](../../releases/tag/v1.15.10) say
-  more.
+  cut "Connected as …" short. Both fit now.
 - **1.15.9: your GitHub, read-only.** Paste a read-only GitHub token in
   Settings → *Your GitHub* and she can read your repos, private ones too:
   files, commits, issues and pull requests. Name a repo and she reads its README
@@ -420,7 +424,7 @@ Being straight with you, because I'd want the same:
   can't capture its own sound without an extra app), and, on Intel Macs,
   telling voices apart (one of its libraries no longer builds for them). Everything else is the same on every
   system: Macs caught up from 1.0.1 to **1.11.0** on 1 October. 1.12.0, 1.13.0,
-  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9 and 1.15.10 reach Macs soon after Windows and Linux.
+  1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8, 1.15.9, 1.15.10 and 1.15.11 reach Macs soon after Windows and Linux.
 - **On Linux, her window needs two system packages.** Since 1.11.0 she opens in
   her own window, drawn with `python3-gi` and `gir1.2-webkit2-4.1`. The `.deb`
   asks for them; with the AppImage, if she opens in your browser instead,

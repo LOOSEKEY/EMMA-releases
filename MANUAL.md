@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.10.*
+*Everything she does, and where to find it. For v1.15.11.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -836,8 +836,10 @@ Everything is in the **Dreams** panel in the top bar. The switches, in order:
   day.
 - **Dream automatically overnight, around ‹hour›** — she dreams any time from
   the hour you pick until 6am, so she's already dreamt when you wake rather than
-  dreaming while you wait. This runs while EMMA is up; to dream with the window
-  closed, install the background service (`desktop/install.sh --service`).
+  dreaming while you wait. This runs while EMMA is open: leave her open
+  overnight (minimised is fine). If she was closed all night, she catches up when
+  you open her in the morning. *(Running her from source? `desktop/install.sh
+  --service` keeps her going with the window closed.)*
   - **Only when the machine is idle** — on by default; off, and she'll dream while
     you're still working.
   - **Only on mains power** — on by default; off, and she'll dream on battery too.
