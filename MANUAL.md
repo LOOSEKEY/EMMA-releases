@@ -533,7 +533,7 @@ it to cycle:
 **"Changes your system" means changes your system** — writing a file, creating a
 folder, running a command. Not a judgement about whether it's harmful.
 
-Three things sit **above** the dial and apply even on Full:
+These sit **above** the dial and apply even on Full:
 
 - **Protected paths** — SSH keys, GPG, cloud credentials. Refused at every dial
   position, no exceptions. Add your own in Settings → *Protected paths*.
@@ -710,8 +710,8 @@ this is the order you'll meet them in on screen.
   several engines and puts the answers together. You can pick one instead:
   Brave, Google, Yahoo, Startpage, Yandex or Wikipedia. Through Tor, Automatic is
   the one that works best, because some engines turn Tor away.
-- Only live mode goes through Tor. Updates, downloads, email and the picture
-  generator always go the normal way. On the phone, this can only be changed on
+- Only live mode goes through Tor. Updates, downloads, email, your GitHub and
+  the picture generator always go the normal way. On the phone, this can only be changed on
   the computer.
 
 ### Services that report in
@@ -772,14 +772,28 @@ click **+**.
 
 Lets her read your repos on GitHub, private ones too: files and folders, commits,
 issues and pull requests. Name one of your repos in a message and she reads its
-README first. A repo that's also in *Your projects* uses the notes on this
-computer instead.
+README and newest commits first, so *"how's it going?"* gets a real answer. A
+repo that's also in *Your projects* uses the notes on this computer instead.
+Off until you connect it.
 
-To connect: on GitHub go to **Settings → Developer settings → Fine-grained
-tokens → Generate new token**. Pick the repos she may read, and under
-**Repository permissions** set **Contents** to **Read-only** (and **Issues** and
-**Pull requests** to Read-only if you want those). Paste the token into the box
-and press **Connect**.
+To connect, make a token on GitHub (about two minutes):
+
+1. Signed in to GitHub, go to **Settings → Developer settings → Personal access
+   tokens → Fine-grained tokens → Generate new token**.
+2. Give it a name (*EMMA read-only*, say) and an **Expiration**. *Custom* lets
+   you pick a date up to a year away.
+3. Under **Repository access**, pick **All repositories** for every repo you own,
+   now and later, or **Only select repositories** to choose.
+4. Under **Permissions**, press **Add permissions** and add **Contents**, and
+   **Issues** and **Pull requests** if you want those. Each one says
+   **Access: Read-only**; leave it that way. GitHub adds **Metadata** (read-only)
+   by itself.
+5. Press **Generate token** and copy it. GitHub shows it only once, so paste it
+   straight into the box in Settings → *Your GitHub* and press **Connect**.
+   Don't paste it anywhere else.
+
+She checks it with GitHub and shows **Connected as** your GitHub name and how
+many repos she can read.
 
 - **Read-only, enforced by GitHub.** Only fine-grained tokens (they start
   `github_pat_`) are accepted. A classic token (`ghp_…`) is turned away, because
@@ -790,6 +804,8 @@ and press **Connect**.
 - **What she reads there is information, not orders.** Anyone can write an
   issue, so text from GitHub is marked as untrusted and anything that looks
   like an instruction to her is taken out.
+- **When the token runs out** (or you delete it on GitHub), she says GitHub
+  refused it rather than going quiet. Make a new one the same way and paste it in.
 - **Disconnect** with the ✕. To stop the token working everywhere, delete it on
   GitHub too.
 

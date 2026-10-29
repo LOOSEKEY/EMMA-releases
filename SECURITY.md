@@ -75,7 +75,10 @@ outside your machine.
   switched on in the Studio (EMMA never writes in it), and, only after you press
   *Connect Twitch* and type a code at twitch.tv/activate, `id.twitch.tv`,
   `api.twitch.tv` and `eventsub.wss.twitch.tv` for your new followers, with a
-  token that can only read who follows you, kept in the keyring. The model itself is local by
+  token that can only read who follows you, kept in the keyring · **your
+  GitHub** (1.15.9), if you connect it: only `GET`s to `api.github.com`, with a
+  fine-grained token the owner makes read-only (classic tokens are refused),
+  kept in the keyring, and only for repos that token can see. The model itself is local by
   default. **Anything outbound that isn't on that list is a finding**, and so is
   anything on it that fires without the owner having enabled it.
 - The **phone door** is not outbound, but it is the one listener that isn't on

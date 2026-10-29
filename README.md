@@ -87,6 +87,13 @@ chapter, illustrated, in a sleepy voice.
 morning briefing, and drafts replies in your voice. Reading and sending are
 separate switches, and sending is off.
 
+💼 **She knows your work** — tell her where your projects live and when you
+mention one she reads its notes and newest commits first, instead of hunting for
+the folder *(1.15.8)*. Connect your GitHub with a read-only token and she can read
+your repos there too, private ones included: files, commits, issues and pull
+requests *(1.15.9)*. Read-only both ways: she can never change your project
+folders, and GitHub itself refuses any change through her token.
+
 🛠️ **She'll look after the things you run** — point her at a folder and the apps
 you run (a site, a home server, a side project) can drop a small note of what
 needs a person. She reads it in the morning, worst first, in plain English, and
@@ -480,8 +487,8 @@ checked against a fingerprint before she'll use it.
 - **Offline Wikipedia**, if you want it — in the size you choose, checked
   against the checksum Wikipedia's offline project publishes.
 
-*(Separately: live mode, the update check, your email, Go Live and your Twitch
-chat each reach the internet only when you switch them on. The full list is in
+*(Separately: live mode, the update check, your email, your GitHub, Go Live
+and your Twitch chat each reach the internet only when you switch them on. The full list is in
 [SECURITY.md](SECURITY.md).)*
 
 ## What you'd actually own
