@@ -36,8 +36,14 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6 and 1.15.7 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7 and 1.15.8 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.8
+- **Your projects** — Settings → *Your projects*: a name and a folder (or *Find my projects*). Mention one and she reads its notes first (README, roadmap, newest daily note); she can never change anything in those folders.
+- **The morning briefing comes in the morning** — she dreams overnight from the hour you pick until 6am, and only catches up a missed night the next morning; three overnight passes that had never run (long problems, changed beliefs, memories that disagree) now do.
+- **Goals when they matter** — a goal comes into a reply when you're talking about it, and the newest things you've told her always reach her.
+- **Her Studio's Raw sound is really raw** — the browser's own noise suppression and echo cancelling switch off with it.
 
 ### New in 1.15.7
 - **Check the shot** — a button beside Record in her Studio: she looks and listens for a few seconds and tells you out loud what she'd change (lit from behind, too dark, off to one side, too far away; too loud, too quiet, a hum, background noise), or that you look and sound good. Measured on your computer; nothing is recorded or kept.

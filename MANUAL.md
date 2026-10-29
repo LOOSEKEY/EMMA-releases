@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.7.*
+*Everything she does, and where to find it. For v1.15.8.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -533,10 +533,12 @@ it to cycle:
 **"Changes your system" means changes your system** — writing a file, creating a
 folder, running a command. Not a judgement about whether it's harmful.
 
-Two things sit **above** the dial and apply even on Full:
+Three things sit **above** the dial and apply even on Full:
 
 - **Protected paths** — SSH keys, GPG, cloud credentials. Refused at every dial
   position, no exceptions. Add your own in Settings → *Protected paths*.
+- **Your projects** — read-only at every dial position: she reads their notes and
+  never changes them. Settings → *Your projects*.
 - **The audit log** — everything she does, in a tamper-evident chain, readable
   line by line under **Her world → Activity**.
 
@@ -752,6 +754,15 @@ this is the order you'll meet them in on screen.
 
 - **Let her read your email** and **Let her send email as you** — two separate
   switches, and sending is off. See §10.
+
+### Your projects
+
+Your projects and where each one lives. Name one in a message and she reads its
+notes first (the README, the roadmap, the newest daily note), so she knows
+where it's at without going looking. A project can go by other names: put them
+after a slash, e.g. `HARBOUR-AI / harbour`. **Read-only:** she can never change
+anything in these folders. **Find my projects** offers folders that look like
+projects; nothing is added until you click **+**.
 
 ### Protected paths
 
