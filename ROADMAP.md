@@ -36,8 +36,12 @@ time. I'd rather you knew which of those you were dealing with.
 
 Everything here is in the current release. Not previews, not betas.
 *(Macs got all of it at once on 1 October, when the 1.11.0 Mac build caught
-them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7 and 1.15.8 are Windows and Linux for now; their
+them up from 1.0.1. 1.12.0, 1.13.0, 1.14.0, 1.14.1, 1.15.0, 1.15.1, 1.15.2, 1.15.3, 1.15.4, 1.15.5, 1.15.6, 1.15.7, 1.15.8 and 1.15.9 are Windows and Linux for now; their
 Mac versions follow soon.)*
+
+### New in 1.15.9
+- **Your GitHub** — Settings → *Your GitHub*: paste a fine-grained, read-only token and she can read your repos, private ones too (files, commits, issues, pull requests). Name a repo and its README and newest commits come first. GitHub itself refuses any change; the token stays in your keyring; what she reads there is treated as information, never instructions.
+- **Your projects bring their newest commits** — a project folder that's a git repo comes with its branch and last few commits.
 
 ### New in 1.15.8
 - **Your projects** — Settings → *Your projects*: a name and a folder (or *Find my projects*). Mention one and she reads its notes first (README, roadmap, newest daily note); she can never change anything in those folders.

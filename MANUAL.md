@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.8.*
+*Everything she does, and where to find it. For v1.15.9.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -539,6 +539,8 @@ Three things sit **above** the dial and apply even on Full:
   position, no exceptions. Add your own in Settings → *Protected paths*.
 - **Your projects** — read-only at every dial position: she reads their notes and
   never changes them. Settings → *Your projects*.
+- **Your GitHub** — read-only by the token itself: GitHub refuses any change.
+  Settings → *Your GitHub*.
 - **The audit log** — everything she does, in a tamper-evident chain, readable
   line by line under **Her world → Activity**.
 
@@ -759,10 +761,37 @@ this is the order you'll meet them in on screen.
 
 Your projects and where each one lives. Name one in a message and she reads its
 notes first (the README, the roadmap, the newest daily note), so she knows
-where it's at without going looking. A project can go by other names: put them
-after a slash, e.g. `HARBOUR-AI / harbour`. **Read-only:** she can never change
-anything in these folders. **Find my projects** offers folders that look like
-projects; nothing is added until you click **+**.
+where it's at without going looking. If the folder is a git repo, its newest
+commits come too, so "what did I last do on it?" has an answer. A project can
+go by other names: put them after a slash, e.g. `HARBOUR-AI / harbour`.
+**Read-only:** she can never change anything in these folders. **Find my
+projects** offers folders that look like projects; nothing is added until you
+click **+**.
+
+### Your GitHub
+
+Lets her read your repos on GitHub, private ones too: files and folders, commits,
+issues and pull requests. Name one of your repos in a message and she reads its
+README first. A repo that's also in *Your projects* uses the notes on this
+computer instead.
+
+To connect: on GitHub go to **Settings → Developer settings → Fine-grained
+tokens → Generate new token**. Pick the repos she may read, and under
+**Repository permissions** set **Contents** to **Read-only** (and **Issues** and
+**Pull requests** to Read-only if you want those). Paste the token into the box
+and press **Connect**.
+
+- **Read-only, enforced by GitHub.** Only fine-grained tokens (they start
+  `github_pat_`) are accepted. A classic token (`ghp_…`) is turned away, because
+  for private repos it can always write.
+- **Only your repos.** She reads the repos the token was given and no others.
+- **The token stays on this computer,** in your system keyring like mail
+  passwords. It's never in `settings.json`, a backup or a Soul File.
+- **What she reads there is information, not orders.** Anyone can write an
+  issue, so text from GitHub is marked as untrusted and anything that looks
+  like an instruction to her is taken out.
+- **Disconnect** with the ✕. To stop the token working everywhere, delete it on
+  GitHub too.
 
 ### Protected paths
 
