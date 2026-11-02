@@ -39,6 +39,9 @@ Everything here is in the current release. Not previews, not betas.
 them up from 1.0.1, and again on 2 November, when the 1.15.11 Mac build caught
 them up from 1.11.6.)*
 
+### New in 1.15.12
+- **The morning briefing waits for the morning** — she still dreams at the hour you pick, but the note, the card and the spoken stand-up wait until 6am instead of arriving at 2. A problem she slept on, or a memory she wants to check, goes to the bell at night with no popup.
+
 ### New in 1.15.11
 - **Instructions that match** — the GitHub token steps in Settings follow GitHub's page as it is today, and the Dreams panel says what actually works for dreaming overnight (leave her open; she catches up in the morning).
 

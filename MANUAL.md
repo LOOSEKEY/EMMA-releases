@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.11.*
+*Everything she does, and where to find it. For v1.15.12.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -827,7 +827,8 @@ Everything is in the **Dreams** panel in the top bar. The switches, in order:
 - **Dream Mode** — the master switch. She goes over the day overnight; if she
   couldn't (the computer was off), she catches up when you open her the next
   morning, between 6am and noon, from what was said before the night. Opening her
-  in the afternoon or evening never sets her dreaming.
+  in the afternoon or evening never sets her dreaming. However early she dreams,
+  your morning briefing waits for the morning: it arrives at 6am, not at 2.
 - **Dream journal** — she also writes a short, surreal entry. She's allowed to be
   weird in here.
 - **Mood** — she gently senses the emotional tenor of your days. Private, and

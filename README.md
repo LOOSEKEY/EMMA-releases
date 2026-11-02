@@ -125,9 +125,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.15.11, level with Windows and Linux**
-> (the Mac files joined the 1.15.11 release on 2 November, bringing Macs up from
-> 1.11.6 in one step). Press **Update** in EMMA or download fresh. Nothing you
+> download button to guess. **Macs are on 1.15.12, level with Windows and Linux**
+> (all five files went out together on 2 November). Press **Update** in EMMA or download fresh. Nothing you
 > have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -148,12 +147,15 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.12: the morning briefing waits for the morning.** She still dreams
+  at the hour you set, but no longer tells you at 2am: the note, the card and
+  the spoken stand-up wait until 6am. Windows, Linux and Mac on the same day,
+  2 November. The [release notes](../../releases/tag/v1.15.12) say more.
 - **1.15.11: instructions that match.** The steps for making a GitHub token
   in Settings now match GitHub's page as it is today, and the Dreams panel no
   longer tells you to run a developer command to dream with the window closed:
   leave her open overnight (minimised is fine), or she catches up in the
-  morning. On every system since 2 November. The
-  [release notes](../../releases/tag/v1.15.11) say more.
+  morning. On every system since 2 November.
 - **1.15.10: Settings that fit.** In *Your projects* the folder box ran past
   the edge of Settings and hid the **+** for adding a project; *Your GitHub*
   cut "Connected as …" short. Both fit now.
