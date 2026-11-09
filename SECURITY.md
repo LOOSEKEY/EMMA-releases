@@ -157,8 +157,9 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   Content-Security-Policy that allows only EMMA's own script files: no inline
   script, and nothing in the page can send data to another site. So if text from
   outside ever slipped into the page as code, the browser still wouldn't run it.
-- **A deep security scan every 60 days, without fail** — a standing rule since
-  18 July 2026, not "when I get to it". Every runtime dependency audited, the
+- **A deep security scan every month, and never more than 60 days apart** — a
+  standing rule since 18 July 2026 (monthly since November), not "when I get
+  to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
 - **The most recent was 2026-11-09**, run early: since November the scan

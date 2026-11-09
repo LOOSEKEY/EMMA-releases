@@ -876,8 +876,9 @@ EMMA is one being with many relationships — not one shared account.
 - **Kid mode** — a restricted EMMA with a bedtime. Restriction is the resting
   state: she starts restricted and stays that way until an adult says otherwise.
   A child talks to her without your life in the conversation: she doesn't bring
-  up your memories, chats or documents, and nothing the child says is kept or
-  remembered as yours. No tools, and past bedtime she winds every reply down.
+  up your memories, chats or documents, doesn't open your project folders even
+  if the child names one, and nothing the child says is kept or remembered as
+  yours. No tools, and past bedtime she winds every reply down.
 - **Sanctuary mode** (`Alt+Shift+S`) — for lending someone your laptop. Everything
   goes discreet at once: the window clears, your name, conversations, memory and
   personal drawers are hidden, and nothing from the guest's conversation is kept.
