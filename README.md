@@ -125,7 +125,7 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.15.14, level with Windows and Linux**
+> download button to guess. **Macs are on 1.15.15, level with Windows and Linux**
 > (all five files went out together on 9 November). Press **Update** in EMMA or download fresh. Nothing you
 > have is deleted.
 
@@ -147,11 +147,18 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.15: free-to-use pictures only, and picture searches that don't ask
+  first.** A new switch for anyone making videos: when she searches for
+  pictures, only photos from Unsplash, Pexels and Pixabay, free to use even in
+  a video with no credit needed, each with its licence (paid stock is left
+  out). On *Ask first* a picture search no longer stops for Approve as if it
+  could change your system, and she goes by a picture's title instead of
+  describing photos she hasn't seen. Windows, Linux and Mac on the same day,
+  9 November. The [release notes](../../releases/tag/v1.15.15) say more.
 - **1.15.14: kid mode leaves your projects alone.** When a child is talking
   to her, EMMA no longer opens your project folders, even if the child names
   one (nothing from them reached the child before; now she doesn't read them
-  at all). Windows, Linux and Mac on the same day, 9 November. The
-  [release notes](../../releases/tag/v1.15.14) say more.
+  at all). Windows, Linux and Mac on the same day, 9 November.
 - **1.15.13: new sets in the Studio, and the November security fixes.**
   Sixteen of the drawn scenes behind you are replaced by sets that look like
   real rooms seen through a camera (Studio grey, Podcast, Newsroom, Office,

@@ -39,6 +39,10 @@ Everything here is in the current release. Not previews, not betas.
 them up from 1.0.1, and again on 2 November, when the 1.15.11 Mac build caught
 them up from 1.11.6.)*
 
+### New in 1.15.15
+- **Free-to-use pictures only** — a switch in the search picker and Settings: when she searches for pictures, only photos from Unsplash, Pexels and Pixabay, free to use even in a video, no credit needed, each with its licence. Paid stock is left out.
+- **Picture searches don't ask first** — on *Ask first* a search for pictures no longer stops for Approve (on *Locked* it was refused); it only reads the web. And she goes by the pictures' titles instead of describing photos she hasn't seen.
+
 ### New in 1.15.14
 - **Kid mode leaves your projects alone** — with kid mode on, she doesn't open your project folders at all, even if the child names one.
 

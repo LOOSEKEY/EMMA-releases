@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.14.*
+*Everything she does, and where to find it. For v1.15.15.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -103,7 +103,7 @@ Left to right:
 | **Careful mode** | She double-checks her answers before replying. Slower, better on anything that matters. |
 | **Safety dial** | How much she may do to your computer without asking — see §5 |
 | **Spine dial** | How much she pushes back — see below |
-| **Live mode** | Off by default. On, she may search the web, read pages and show you pictures. While it's on, a small globe beside the message box chooses **how she searches**: the normal way, or **privately through Tor** (the onion), and which search engine. See *How she searches* in §7. |
+| **Live mode** | Off by default. On, she may search the web, read pages and show you pictures. While it's on, a small globe beside the message box chooses **how she searches**: the normal way, or **privately through Tor** (the onion), which search engine, and **free-to-use pictures only**. See *How she searches* in §7. |
 | **Sanctuary mode** | Hides everything, instantly, when you lend someone your machine. `Alt+Shift+S` |
 | **Model picker** | The model she's thinking with. Warns you honestly when one is too big for your hardware. |
 | **☰ Her world** | Everything else — see §6 |
@@ -709,6 +709,14 @@ this is the order you'll meet them in on screen.
   several engines and puts the answers together. You can pick one instead:
   Brave, Google, Yahoo, Startpage, Yandex or Wikipedia. Through Tor, Automatic is
   the one that works best, because some engines turn Tor away.
+- **Free-to-use pictures only** *(1.15.15)*. When she searches for pictures,
+  only photos from **Unsplash, Pexels and Pixabay**: anyone may use them, even in
+  a video, with no credit needed, and each says which licence it's under. Paid
+  stock is left out, even when it turns up on those sites' own pages (Unsplash+
+  too). It's in the picker beside the globe and in Settings → *How she searches*
+  (on a phone, Settings). Off by default; off, she shows any picture on the web,
+  and most of those belong to someone. She only ever gets a picture's title and
+  where it's from, never the picture, so she goes by the title.
 - Only live mode goes through Tor. Updates, downloads, email, your GitHub and
   the picture generator always go the normal way. On the phone, this can only be changed on
   the computer.
