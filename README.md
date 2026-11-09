@@ -159,7 +159,7 @@ Being straight with you, because I'd want the same:
 - **1.15.12: the morning briefing waits for the morning.** She still dreams
   at the hour you set, but no longer tells you at 2am: the note, the card and
   the spoken stand-up wait until 6am. Windows, Linux and Mac on the same day,
-  2 November. The [release notes](../../releases/tag/v1.15.12) say more.
+  2 November.
 - **1.15.11: instructions that match.** The steps for making a GitHub token
   in Settings now match GitHub's page as it is today, and the Dreams panel no
   longer tells you to run a developer command to dream with the window closed:
