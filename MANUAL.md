@@ -1,6 +1,6 @@
 # EMMA — the user manual
 
-*Everything she does, and where to find it. For v1.15.12.*
+*Everything she does, and where to find it. For v1.15.13.*
 
 This is the reference. If you're **installing her for the first time**, or
 something is **broken**, start at [ownemma.com/help](https://ownemma.com/help)
@@ -178,11 +178,10 @@ above.)*
 - **Look**: your room as it is, a **green screen** (click your cloth in the
   picture to teach her the colour, then even the edges out), **cut me out** with
   no green screen at all, or **blur my room**.
-- **A set behind you**: the **dark forest** or one of twenty more — *Neon city,
-  Synthwave, Deep space, Northern lights, Deep ocean, Gamer den, Cyber grid,
-  Fireside cabin, Desert stars, Volcano, Misty dawn, Candlelit library, Starship
-  bridge, Blossom night, Firefly jungle, Crystal cave, Moonlit castle, Golden
-  hour, Liquid light* and *City bokeh* — or **your own picture**, which she
+- **A set behind you**: the **dark forest** or one of twenty more — *Cyber grid,
+  Gamer den, Firefly jungle, Liquid light, Studio grey, Canvas, Podcast, Newsroom,
+  Office, Study, Oak slats, Loft, Skyline, Plaster, Concrete, Brick, Lounge,
+  Keynote, Curtain* and *Greenhouse* — or **your own picture**, which she
   keeps for next time. Picking one is enough: she cuts you out in front of it.
   *Soften the room behind me* blurs it a little, the way a real camera does.
   The sets are drawn for EMMA, not photos from anywhere, so nothing in the

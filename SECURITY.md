@@ -161,9 +161,28 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   18 July 2026, not "when I get to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-10-21**, the scheduled pass, run twelve days late
+- **The most recent was 2026-11-09**, run early: since November the scan
+  is monthly, so the next is due by **9 December 2026**. It covered everything
+  from 1.15.5 to 1.15.12. No secret was committed. Four things, all **fixed and
+  shipped in 1.15.13**:
+
+  - **A project folder could make EMMA run a program.** When you mention one
+    of *Your projects* that is a git repository, she reads its newest commits.
+    A folder whose own git settings asked for signatures to be checked by a
+    program of its choosing had that program run. She now never checks
+    signatures there.
+  - **Reading your GitHub could step outside your repo.** A file path with
+    `..` in it reached other repositories, or other GitHub addresses, with your
+    token. Read-only, never a change, but it broke the promise that she only
+    reads your own repos. Such paths are refused now.
+  - **More booby-trapped PDFs.** The PDF library published eighteen more fixes
+    for files built to hang it or use up memory; it's updated.
+  - **A connected tool server could make her fetch a web address or read a
+    local file**, through a flaw in the MCP library. Only with a tool server
+    you had added yourself; the library is updated.
+
+- **Before that, 2026-10-21**, the scheduled pass, run twelve days late
   (it was due 9 October; I found it missing while checking these documents).
-  The next is due by **20 December 2026**.
   The libraries were clean apart from the PDF reader, and no secret was
   committed. Three things, all **fixed and shipped in 1.15.5**:
 

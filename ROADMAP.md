@@ -39,6 +39,10 @@ Everything here is in the current release. Not previews, not betas.
 them up from 1.0.1, and again on 2 November, when the 1.15.11 Mac build caught
 them up from 1.11.6.)*
 
+### New in 1.15.13
+- **New sets in Her Studio** — sixteen sets that look like real rooms through a camera (out of focus, softly lit, calm where you stand): Studio grey, Canvas, Podcast, Newsroom, Office, Study, Oak slats, Loft, Skyline, Plaster, Concrete, Brick, Lounge, Keynote, Curtain, Greenhouse. Cyber grid, Gamer den, Firefly jungle, Liquid light and the dark forest stay.
+- **The November security fixes** — a project folder's own git settings can't make her run a program; reading your GitHub stays inside your repo; the PDF reader and the MCP library are updated.
+
 ### New in 1.15.12
 - **The morning briefing waits for the morning** — she still dreams at the hour you pick, but the note, the card and the spoken stand-up wait until 6am instead of arriving at 2. A problem she slept on, or a memory she wants to check, goes to the bell at night with no popup.
 

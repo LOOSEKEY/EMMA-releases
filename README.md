@@ -125,8 +125,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.15.12, level with Windows and Linux**
-> (all five files went out together on 2 November). Press **Update** in EMMA or download fresh. Nothing you
+> download button to guess. **Macs are on 1.15.13, level with Windows and Linux**
+> (all five files went out together on 9 November). Press **Update** in EMMA or download fresh. Nothing you
 > have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -147,6 +147,15 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.13: new sets in the Studio, and the November security fixes.**
+  Sixteen of the drawn scenes behind you are replaced by sets that look like
+  real rooms seen through a camera (Studio grey, Podcast, Newsroom, Office,
+  Loft, Concrete and ten more); Cyber grid, Gamer den, Firefly jungle, Liquid
+  light and the dark forest stay. From the 9 November security scan: a project
+  folder can no longer make her run a program, reading your GitHub stays
+  inside your repo, and the PDF reader and MCP library are updated. Windows,
+  Linux and Mac on the same day, 9 November. The
+  [release notes](../../releases/tag/v1.15.13) say more.
 - **1.15.12: the morning briefing waits for the morning.** She still dreams
   at the hour you set, but no longer tells you at 2am: the note, the card and
   the spoken stand-up wait until 6am. Windows, Linux and Mac on the same day,
