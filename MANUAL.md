@@ -527,10 +527,12 @@ it to cycle:
 |---|---|
 | **Full** | She does what you ask, then tells you what she did. Fastest. If she wants to change something you *didn't* ask for, she asks first. |
 | **Ask** | Anything that changes your system stops and waits for your Allow / Deny. |
-| **Lock** | She touches nothing. Conversation only. |
+| **Lock** | She changes nothing. She can still look (read a file, list a folder, check your disk, search the web in live mode); anything that would change your system is refused. |
 
 **"Changes your system" means changes your system** — writing a file, creating a
-folder, running a command. Not a judgement about whether it's harmful.
+folder, running a command. Not a judgement about whether it's harmful. A command
+that only looks (`ls`, `cat`, a disk-space check) isn't a change and runs at
+every position; if she can't be sure a command only looks, it counts as a change.
 
 These sit **above** the dial and apply even on Full:
 
@@ -699,6 +701,14 @@ this is the order you'll meet them in on screen.
   address. **Through Tor** is slower (often 10–20 seconds a search), and they see
   a Tor address instead; pictures she finds are fetched through Tor too. It hides
   **who** is asking, not **what**: the search engine still sees the words.
+- **What a site is told.** When she opens a page the normal way, she tells the
+  site she is EMMA and which version, the way websites ask a program to (some,
+  Wikipedia among them, turn away a program that doesn't say). Nothing about
+  you or your computer goes with it. Through Tor she says what every Tor
+  Browser says instead.
+- **Never your own network.** She won't open or read a page on this computer
+  or your home network (your router's page, say), even when a website sends
+  her there.
 - **It uses the Tor you run on this computer:** the Tor service, or Tor Browser
   while it's open. *Check Tor* asks the Tor Project, through Tor, whether it's
   really working, and shows *Connected through Tor ✅*.
