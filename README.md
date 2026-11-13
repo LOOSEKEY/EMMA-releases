@@ -125,8 +125,8 @@ one assistant treating the room as one person. Not on Intel Macs; see the
 > **Apple Silicon and Intel are different files**, and your Mac can't be
 > identified from a browser — Apple Silicon still reports itself as "Intel Mac
 > OS X" — so pick the one that matches your machine rather than trusting a
-> download button to guess. **Macs are on 1.15.15, level with Windows and Linux**
-> (all five files went out together on 9 November). Press **Update** in EMMA or download fresh. Nothing you
+> download button to guess. **Macs are on 1.15.16, level with Windows and Linux**
+> (all five files went out together on 13 November). Press **Update** in EMMA or download fresh. Nothing you
 > have is deleted.
 
 > Not sure which Mac you have? **Apple menu → About This Mac.** "Chip: Apple M…"
@@ -147,6 +147,17 @@ forever, and buying later picks up exactly where your trial left off.
 
 Being straight with you, because I'd want the same:
 
+- **1.15.16: a security release, and she finds the folder you meant.** A
+  deep scan of the oldest parts of EMMA found that a few ways of writing a
+  command that *changes* something were being treated as only looking, so
+  they ran without asking on *Ask first* and *Locked*; they wait for your yes
+  now. A web page can no longer send her browser onto your home network, and
+  the folders you protect stay protected however a command spells them. None
+  of it was seen in use; [SECURITY.md](SECURITY.md) has the detail. Also: call
+  a folder by its nickname and she's handed the closest real names instead of
+  telling you it doesn't exist, and Wikipedia opens again. Windows, Linux and
+  Mac on the same day, 13 November. The
+  [release notes](../../releases/tag/v1.15.16) say more.
 - **1.15.15: free-to-use pictures only, and picture searches that don't ask
   first.** A new switch for anyone making videos: when she searches for
   pictures, only photos from Unsplash, Pexels and Pixabay, free to use even in
@@ -154,7 +165,7 @@ Being straight with you, because I'd want the same:
   out). On *Ask first* a picture search no longer stops for Approve as if it
   could change your system, and she goes by a picture's title instead of
   describing photos she hasn't seen. Windows, Linux and Mac on the same day,
-  9 November. The [release notes](../../releases/tag/v1.15.15) say more.
+  9 November.
 - **1.15.14: kid mode leaves your projects alone.** When a child is talking
   to her, EMMA no longer opens your project folders, even if the child names
   one (nothing from them reached the child before; now she doesn't read them

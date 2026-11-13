@@ -39,6 +39,11 @@ Everything here is in the current release. Not previews, not betas.
 them up from 1.0.1, and again on 2 November, when the 1.15.11 Mac build caught
 them up from 1.11.6.)*
 
+### New in 1.15.16
+- **A security release** — commands that change something no longer pass as "only looking" on *Ask first* and *Locked*; her browser can't be sent onto your home network by a web page; protected folders stay protected however a command spells them; her page reader connects only to the address it checked. Checked on Linux and Windows.
+- **She finds the folder you meant** — a folder called by its nickname comes back with the closest real names on your computer, and she opens the right one or asks.
+- **Wikipedia opens again** — it was refusing how she introduced herself.
+
 ### New in 1.15.15
 - **Free-to-use pictures only** — a switch in the search picker and Settings: when she searches for pictures, only photos from Unsplash, Pexels and Pixabay, free to use even in a video, no credit needed, each with its licence. Paid stock is left out.
 - **Picture searches don't ask first** — on *Ask first* a search for pictures no longer stops for Approve (on *Locked* it was refused); it only reads the web. And she goes by the pictures' titles instead of describing photos she hasn't seen.

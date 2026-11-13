@@ -162,10 +162,40 @@ Not vulnerabilities, but things people report and deserve a straight answer on:
   to it". Every runtime dependency audited, the
   full git history swept for committed secrets, and a reachability pass on
   every finding rather than a wall of CVE numbers.
-- **The most recent was 2026-11-09**, run early: since November the scan
-  is monthly, so the next is due by **9 December 2026**. It covered everything
-  from 1.15.5 to 1.15.12. No secret was committed. Four things, all **fixed and
-  shipped in 1.15.13**:
+- **The most recent was 2026-11-13**, a deeper pass four days after the last
+  one, so the next is due by **13 December 2026**. Little had changed in four
+  days, so it went at the oldest code on the path a hostile web page or email
+  can reach: EMMA's model and the tools she can use. No secret was committed
+  and no dependency had a known advisory. Six things, all **fixed and shipped
+  in 1.15.16** the same day. None was seen in use, and none can be reached from
+  the internet on its own: each needs a page or an email to talk EMMA into it
+  while she is reading.
+
+  - **Commands that change things passed as "only looking".** On *Ask first*
+    and *Locked* she runs a command that only reads without stopping. Several
+    ways of writing one that writes a file, deletes, or runs a program got
+    through that door: a second command after a line break, `uniq` and `sort`
+    writing a file, `find` with its delete switch in quotes. The check read
+    the command as typed; the shell rewrites it first. She now judges the
+    words the shell will really run, and anything she can't be sure of waits
+    for your yes. Checked against real commands on Linux and on Windows.
+  - **A protected folder could be read by spelling it differently.** A
+    look-only command naming `~/.ssh` with a wildcard or a variable read it.
+    The words are now resolved the way the shell would, and refused.
+  - **Her browser followed a page onto the home network.** She refused to open
+    a local address, but a page could redirect her browser to one and she read
+    what was there. She now stops such requests, and checks where a page ended
+    up before reading a word of it.
+  - **Her page reader looked a site's name up twice**, once to check it and
+    once to connect, so a site could answer "public" and then "local". It now
+    connects only to the address it checked.
+  - **One private address range wasn't treated as private** (the one phone
+    networks and Tailscale use).
+  - **Text addressed to "AI assistants"** on a page wasn't caught by the
+    filter that removes instructions hidden in web text. It is now.
+
+- **Before that, 2026-11-09**, run early, covering 1.15.5 to 1.15.12. No
+  secret was committed. Four things, all **fixed and shipped in 1.15.13**:
 
   - **A project folder could make EMMA run a program.** When you mention one
     of *Your projects* that is a git repository, she reads its newest commits.
